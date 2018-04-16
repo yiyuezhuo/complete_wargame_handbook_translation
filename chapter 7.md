@@ -133,3 +133,141 @@ Rus（俄罗人对维京人的称呼）沿俄罗斯河向下，抢掠和定居�
 一条俄罗斯河向下，遭遇和处理各种你遇到的情况。编写这个游戏是我的一个揭示性的经验。我很快认识到我迸发的
 游戏设计想法超越了我的编程技术。我乐于使用BASIC，也知道怎么用peek，poke（译注：BASIC语言类似C指针的命令）
 与操作系统交互。在完成这个游戏后，我决定把变成工作留给那些对此有经验的人做。
+
+The second game I programmed was done on a dare. What brought that about was the
+appearance of the 123 spreadsheet program in 1983. I had been using the earlier VisiCalc
+spreadsheet to great effect since late 1980, but 123 was a supercharged VisiCalc with a macro
+language. The macro language was, in essence, brain damaged BASIC. I did a lot with macros,
+and still do. On a dare, I created a wargame on a spreadsheet. Actually, the first spreadsheet
+wargame was done on the CP/M version of Microsoft’s MultiPlan spreadsheet. I ended up doing
+versions of this wargame on SuperCalc, Symphony and Quattro. Someone else got it going on
+the Excel spreadsheet program. I began giving it away in 1983 and that "wargame" played a
+major role in getting the military to use spreadsheets for combat modeling. This type of computer
+wargame is not slick enough to be a commercial product, but it gets a lot of real wargaming work
+done. 
+
+我编写的第二个游戏的激励来源于123电子表格（spreadsheet）程序的出现。我之前重度使用过早期的VisiCalc
+电子表格，但123甚至是一个全面强化过的VisiCalc，包括一个宏语言。这个宏语言基本上是一个脑残
+（brain damaged）版的BASIC。我曾经和宏经常打交道，并仍然和它们打交道。在一时的冲动下，我在
+一个电子表格程序上创造了一个兵棋。实际上，第一个电子表格兵棋被实现在
+Microsoft's MultiPlan 电子表格的 CP/M版上。最终我把这个版本的兵棋到SuperCalc，Symphony与Quattro上。
+还有人把它移植到了Excel上。我从1983年开始赠送它，这个“兵棋”在将电子表格引入军事建模中
+扮演了一种重要的角色。这种类型的电脑兵棋没有规整（slick）到可以作为商业产品，但是它使得一些实际的
+兵棋工作得以完成。
+
+My third computer wargame was more polished, and recognizable. In 1985 I was asked by an old
+Army friend (Ray Macedonia, recently retired from running the Wargames Department of the
+Army War College) to create a manual wargame on tactical armored warfare. He needed it for
+the work he was doing with his new employer (AVCO, later part of Textron) on anti-tank
+weapons. So I created the manual game in a few months. They liked it so much that AVCO
+asked to have it turned into a computer wargame. They gave me a Symbolics workstation, two
+programmers and a lot of money and three months later we had it up and running. Neat game,
+full color graphics, AI and everything. 
+
+我的第三个计算机兵棋更加优雅，且富有知名度。在1985年，一个陆军的老朋友（Ray Macedonia，最近从
+管理陆军战学院兵棋部分（Wargames Department of the Army War College）的职位上退休）请求我
+做一个战术级装甲战手工兵棋。这是他的新雇主（AVCO，之后成为Textron的一部分）在反坦克武器上
+的工作上所需要的。所以我在几个月中做了一个手工兵棋。他们很喜欢它，不但如此，AVCO还请求将它
+实现为计算机兵棋。他们给了我一个Symbolics工作站，两个程序员和很多经费。三个月后，我们完成了
+它，这是一个完备的游戏，有着全彩的图像显示，AI和所有应有的东西。
+
+While I had never done a computer wargame like that before, I already knew how to spec
+(writing out the specifications for the programmer) out a project for programmers, as I had been
+doing that since the early 1970s and through the 1980s was usually supervising one or more
+teams of programmers doing financial modeling programs. In 1989 I got involved with the
+GEnie computer network and ended up agreeing to design a multi-player (over 300 players)
+game of the Hundred Years War. The programming was done on a mainframe computer and all
+the players got together via their PC and a telephone call (through a modem). 
+
+尽管我在之前从没有以这样的方式完成过一个电脑兵棋，但那时我已有在项目中对程序员说明要求
+（写面向程序员的详细说明书）的经验，因为我在1970年代早期和整个80年代通常都在监督一个或多个
+程序员团队编写金融建模程序。在1989年，GEnie电脑网络与我沟通，并决定设计一个多人在线（超过300个玩家）
+的百年战争游戏。编程在一个大型计算机上进行，而所有玩家通过他们的PC和拨号上网聚合起来。
+
+That game went into alpha testing in 1991 and went online for paying customers in 1992. In
+1991 I was approached by 360 Pacific (publisher of many computer wargames, including the
+best seller Harpoon) about doing a computer wargame on the naval war in the Pacific. I agreed,
+and the spec was done by October, 1991 with programming to continue through 1992. 
+
+这游戏在1991年进入alpha测试，并最终上线于1992年。在1991年，360 Pacific（很多电脑兵棋的出版商，
+包括畅销的Harpoon）联系我做一个太平洋上的水面战的电脑兵棋。我同意，它的说明在1991年10月被完成，
+而它的编程工作则持续了整个1992年。
+
+It is from the above perspective that I will describe how one should go about designing a
+computer wargame. Some of the material presented here is from the lectures I have been giving
+to military wargame designers for the past dozen years. That will just broaden your knowledge of
+designing computer wargames a bit more. 
+
+我将依据上面谈的内容描述如何设计一个电脑兵棋。在这里出现的一些内容是从我过去十几年间
+给军事兵棋设计师课程中拿来的。你将从中学到更大设计电脑兵棋知识。
+
+Note that we are talking about designing, not programming, a computer wargame. Actually
+writing the program code for a computer wargame is a whole different matter. The programming
+techniques are not only very arcane (and largely understandable only by programmers) but
+change substantially from year to year as computers and programming tools become more
+powerful and, well, different. Designing computer wargames consists of principles and
+techniques that are less subject to change. 
+
+注意我们正在谈论如何设计而不是如何编程一个计算机兵棋。实际上编写一个计算机兵棋的代码几乎是
+一件完全不同的事。编程技术不只是晦涩的（通常只能被程序员所理解），而且在随时间不断发生
+巨大的改变，同时计算机和编程工具也变得更加强大与面目陌生。设计一个电脑兵棋所需的原理和技术
+却并没有发生多大的变化。
+
+##The Spec
+Keep in mind that a computer does what you tell it to do not what you want it to do. Unlike
+people (some people, anyway) you can't just tell a computer what you want done and expect your
+request to be carried out. Computers require explicit instructions. These are called computer
+programs, or computer software. The terms program and software are often used
+interchangeably. 
+
+## 说明
+讲这句话记住：电脑只做你叫它去做的事，而不能做你想让它做得事。不像人（一些人，大概），
+你不能只是告诉电脑你想要什么然后期待你的请求会被贯彻。电脑要求明确的指示，它们被称为
+计算机程序，或者计算机软件。术语“程序”（program）和“软件”（software）经常被混用。
+
+Programmers make their living by turning someone else’s need for a computer to do something
+into a program that will make a computer do what is requested. The programmer, however,
+requires precise (or at least unambiguous) directions from the user of the program. In this case
+the user giving direction is the game designer. These directions are delivered in the form of a
+"specification" or "spec." 
+
+程序员所干的事基本就是将其他人让电脑做什么事的需求转化为一个可以让电脑这么做的程序。程序员，
+无论如何，至少需要用户提供精确的（或至少没有歧义）对程序的描述。在这里，给出描述的用户就是
+游戏设计师。这些描述以“说明”（"specification" or "spec" ）的形式给出。
+
+Specs come in many different forms. On one extreme you have many pages of flow charts
+(boxes of different shape connected by solid and dotted lines) showing which data goes where
+and does what. These flow charts are accompanied by equally voluminous instructions on how to
+set up data files (lists of information), what formulas to use and how the processed data should
+look when it is presented to the user (on the computer screen or printer). On the other extreme
+you have some verbal instructions accompanied by a few notes scribbled on a piece of paper. My
+approach to a spec is somewhere in the middle, as I have found that the flow chart approach gets
+ignored (at least a lot of detail gets ignored) by the programmers while the other extreme leaves
+the programmer confused and inclined to invent whatever he needs and hope that it's what the
+user meant. 
+
+说明有很多形式。在一个极端，你给出大量的流程图（一些被实虚线连接的框），它们展示了数据如何流动与用于做什么。
+与流程图有同样规模的还有关于如何初始化数据文件（一些信息的列表），用什么公式，被处理过的数据如何
+被显示给用户（在电脑屏幕或者打印机）的指示。在另一个极端，你给出一些口头的说明，以及几张草稿纸上的
+潦草注释。我个人的的说明方式介于两者之间。我注意到流程图方式经常被程序员忽略（至少是很多细节被忽略），
+而另一个方式中，程序员被含糊的指示所迷惑和带偏，只得搞出他自认为适合用户的东西。
+
+Naturally, I'm going to push my own personal version of what I think a spec should be, if only
+because it's a system I have used successfully for many years with dozens of different
+programmers. I count my approach a success because most of the programs worked well and
+most of the programmers are either still working for me or at least return my phone calls. What
+we are describing here is a spec for a computer wargame, any computer wargame.
+
+自然地，我将会论述我个人认为的说明应当有的样子，
+只不过因为这是一套我在那么多年间与很多程序员成功合作的系统。
+我觉得这个方法还是成功的，因为那些程序仍然运行的很好，而参与的程序员要么还在为我工作，
+要么至少会接我打的电话。我们在这里将描述的说明可以用于所有计算机兵棋。
+
+The spec is divided into three parts. 
+
+说明被分为三个部分。
+
+### Input/Output
+
+### 输入/输出
+
