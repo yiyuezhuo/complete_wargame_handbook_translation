@@ -271,3 +271,419 @@ The spec is divided into three parts.
 
 ### 输入/输出
 
+First comes the I/O (input/output). In plain English, this means what the user sees on the screen
+(output) and what commands the user can give to the program to obtain a desired result (input).
+This is often called the "look and feel" of a program. The easiest way to prepare this is to do a
+mock up on the computer screen. These days, one of the many "paint" programs are used to,
+literally, draw ("paint") the various proposed screens. Some years ago I used a program called
+Demo (clever name, eh?) to build screens. The advantage the Demo program had was that you
+could make the controls on the screen active, to bring up additional screens and similar things. I 
+stopped using Demo when I realized that for my purposes (my programmers didn't need THAT
+much direction), a much simpler method would suffice. So I just typed up what the input and
+output screens would look like. Games use more complex screens, often with lifelike terrain,
+vehicles or people on them. These don't have to be shown realistically, a simple notation will do.
+The important thing is to let the programmer know what will generally go where on the screen. 
+
+首先让我们讨论 I/O (input/output(输入/输出))。简单的来说，这意味着用户在屏幕上看到的东西（输出）
+与用户为获取想要的结果给程序的指令（输入）。这经常被称为程序的“界面外观”。规划它的最简单的方法
+就是在电脑屏幕上笔画。最近，有很多绘图程序被用来画出所想要的界面。几年前我用过一个叫做Demo
+（不是一个很聪明的名字吗？）的程序来构建界面。Demo程序的主要好处在于你可以控制窗口活动，以构造
+更丰富的界面和类似的东西。当我意识到我的程序员其实并不需要那么细致的指导时，我停止了使用Demo并
+转而使用更简单的方法——我只是在电脑打出界面看起来应该是什么样子的描述。游戏使用更复杂的界面，
+通常有着栩栩如生的地形，车辆和人。它们不是必须以现实主义的风格显示出来，一个简单的符号也行。
+重要的事是让我们的程序员知道在屏幕上的什么东西将会到什么地方去。
+
+When you think about it (it's a good idea to think while specing a program), there are not that
+many screens involved in most games. There might be a lot of different graphics put on the
+screen, but this is just popping a new picture on to the same screen. Yes, that's one of the secrets
+of computer wargame design, move and vary a small number of items to make it look like a
+whole lot. Just like real life. 
+
+当你考虑I/O的时候，你必须意识到在大多数兵棋中并不需要看上去需要的那么多数量的界面。
+大多数界面都是由一个界面为基础加上一些图像生成的。使得，这是计算机兵棋设计的一个奥秘，
+移动和变化类型数量很有限的东西让它看起来很多样，就像现实生活一样。
+
+## Databases
+
+## 数据库
+
+The foundation of any automated model are its databases. There are several database types which
+must be used in a computer wargame. Their use is similar to the use of this data in a manual
+wargame. 
+
+大多数自动化模型的最基础部分是它的数据库。电脑兵棋中有很多必须的数据库类型。它们的使用类似于
+手动兵棋中对这些数据的使用：
+
+* Terrain- The terrain database can safely follow the conventions used in the manual
+model, even to the extent of using the same cell structure and terrain information used in
+each cell. There is rarely any justification for the extreme detail found in many digitized
+terrain systems.
+* Order of Battle- List of units to be used in the model and the capabilities they need for
+interaction with the other elements of the model. Unlike a manual wargame, you can
+safely use a lot more data because the computer has a lot of capacity to crunch numbers
+without even breathing hard.
+* Attrition Tables- What happens to weapons and targets when weapons are used. This is
+the combat results tables (CRTs). Computer games can use more complex and multiple
+CRTs.
+* Terrain Effects Tables- Effects of terrain on units. Effects can be more complex and
+detailed than in manual games.
+* Victory Conditions Tables- Goals of units or groups of units.
+* Supply Tables- Supply holdings and consumption for various units.
+* Doctrine (AI) Tables- Artificial Intelligence Capability. Rules for unit behavior. SOP's
+for combat and movement. Tables for command control and panic for various units.
+Leadership behavior, etc.
+* Other items- Any other items that the user feels are needed for the model.
+* Scenario Tables- Specify which of the above items are to be combined into a particular
+battle situation. Preferably kept in a library (on the computers hard disk) that the user has
+easy access to with an editor and report generator. 
+
+* 地形- 地形数据库完全可以按照手工兵棋的传统来写，
+甚至维持使用相同的格子结构和相同地形对这些格子的效果。并没有什么理由给地形系统引入过多的细节。
+* 战斗序列（OOB）-模型中将用到的单位的列表，应当写出它们的与模型中其他要素交互的方式。
+并不像手工兵棋，你可以放心的使用更多的数据因为电脑很容易处理海量数据而不至其使人面对这些数据一样头痛。
+* 损耗表-当装备使用时，装备和攻击目标将发生什么。这主要是战斗结果表（CRT），
+电脑兵棋使用更复杂和更多的战斗结果表相比于手工兵棋。
+* 地形效果表-地形对单位的效果。地形可以比在手工兵棋的更复杂和富有细节。
+* 胜利条件表-控制单位所要达成的目标。
+* 补给表-各种单位所持有和消耗的补给量。
+* 教条（Doctrine）(AI)表-人工智能功能。单位行为规则。关于移动和战斗的标准操作程序（SOP）。
+描述命令控制和各种单位恐慌的表格。指挥行为等。
+* 其他东西-任何用户觉得对于模型需要的东西。
+* 剧本表-将上面的东西与所要表示的战斗局势所粘合起来。最后在用户容易找到的地方放上剧本编辑器和
+战斗报告生成器。
+
+## Internal Model Procedures
+
+## 内部模型过程
+
+Otherwise known as algorithms in computerspeak. The manual model does not translate directly
+to an automated version. Some adjustments and design modifications must be used. 
+
+* Positioning on terrain- Generally use x,y coordinates system. This is easier to
+implement on a computer and will give you roughly the same accuracy as the hex based
+manual models.
+
+
+不同于计算机语境下的算法，手工模型不能直接被转化为自动化版本。一些修改和设计上的修改是必须的。
+
+* 区域定位方式-通常使用x,y坐标系。这个在计算机上容易实现，且拥有与手工模型的六角格系统类似的精确性。
+
+
+
+* Combat activity- Follow a sequence of play very similar to that used in the manual
+model. Higher speed and automatic operation of a computerized wargame combine to
+give appearance of simultaneous activity. Operations generally take place in alternating
+fractions of a second (for each phase in the sequence of play). 
+
+1. Detect- Use sensors to determine if enemy forces are present and/or within range of
+weapons.
+
+2. Check for Damage- Can be enemy caused or from operational causes. If Damaged,
+Physical Effects- Degradation of system performance. Psychological Effects- Modify
+troops will to continue operations.
+
+3. Fire or Flee- System analyzes situation. If logic, or psychological effects, dictate, system
+withdraws from combat. Otherwise, continue.
+
+4. Record actions in "Diary" Database for report generation.
+
+5. Repeat Above- Continue until end of time period allotted for operations, or victory
+conditions specify ending operations. 
+
+* 战斗操作- 遵循一个与手工模型中十分类似的顺序操作过程，
+但由于计算机的操作速度很快所以使得它像是同时完成的一样。每个阶段的操作通常使用一秒的几分之一。
+
+1. 侦查- 使用传感器判定是否敌方出现，以及是否在武器射程中。
+
+2. 检查损伤-可以是被敌人造成的或者操作造成的。如果损伤了，物理效果- 系统效能的下降。
+精神损伤- 影响单位继续战斗的意愿。
+
+3. 射击或逃跑- 系统分析战况。 单位将会撤退，如果被命令/受到精神打击或自行判断应当撤退。
+否则将继续战斗。
+
+4. 记录各种行动到 “日志”数据库中以便之后生成报告。
+
+5. 报告上面的内容- 循环执行上面的过程直到结束时间或者胜利条件被满足。
+
+* Victory calculation- Done continuously and with great accuracy, although user may
+want to see probability of victory at certain points in the run.
+* Scenario Deployment- Much more rapid than in the manual model. A good user
+interface allows the player to rapidly explore many aspects of the game with great ease of
+use and accuracy.
+* Scenario Generation- Using an electronic library of scenario building blocks (maps, unit
+organizations, doctrinal SOP's, etc.) the user can quickly build new scenarios or edit
+existing ones. The edit function also allows building blocks to be created or edited.
+
+* 胜利情况结算- 被连续而精确的结算，尽管用户可能想要看到在推演过程的特定时间点的胜利概率。
+
+* 剧本布置- 计算机布置的比手工游戏快得多。一个好的用户接口使得用户可以
+快速简单地探索游戏的各个层面。
+
+* 剧本生成- 通过使用事先定义的剧本积木（地图，单位结构，AI等），用户可以快速的构建剧本或
+修改剧本。同时积木本身也应该可以被穿件和修改。
+
+* User Reports- These can also be edited as to format by the user. The principle items a
+user would generally require would be,
+
+1. OB Status- Starting and finishing status of units.
+
+2. Terrain View- Which terrain configuration was used (Large/small scale via zoom.
+
+3. Victory Status-What the player is allowed to know, given intelligence constraints and
+other factors, about how close either side is to victory.
+
+4. I/O Routines- How to handle interaction between model and user. The user must be able
+to easily modify the following program instructions. This is done by setting up the
+routines in table format and programmed to prevent the user from doing anything that
+would crash the system. If the user does anything unintentionally silly, the system will
+simply display these actions on the screen, allowing changes to be made and their results
+observed until the user is satisfied.
+
+* 用户报告- 它们也能被用户编辑和格式化。一个报告通常应有以下元素：
+
+1. OB状态- 单位的初始和末尾的状态。
+
+2. 地形视图- 使用了大比例尺还是小比例尺的地图放缩比。
+
+3. 胜利状况- 在玩家所被允许知道的信息内，告之玩家接近胜利的程度。
+
+4. I/O 程序- 如何处理模型和用户之间的交互。用户必须能控制程序接下来的走向。
+我们应当用限制玩家去做破坏系统的事情。如果玩家做出预期之外的行为，系统将把他做得事展示出来，
+让他可以改变他的行为并显示结果直到玩家满意。
+
+5. Movement-A combination of, historical movement capabilities, based on field tests and
+experience. SOP's (Standard Operating Procedure) for movement, right out of the book.
+Limiting factors, primarily psychological factors that don't make it into the field manuals
+or peace time soldiers knowledge.
+
+6. Combat- Similar to movement. In this case applies to the servicing of weapons.
+
+7. Intelligence- How much information of their own and enemy force
+
+8. does each side have at start and during each intelligence cycle time period. This time
+period is based on how long it historically took for new information to reach the
+commander and be acted upon.
+
+9. Other- As needed. 
+
+5. 移动- 包含根据现场测试和经验得到的历史移动能力，移动的标准操作程序（right out of the book?本书内容外？）
+限制因素，例如精神因素之类的不在战场手册或不为和平时期的战士所知的东西。
+
+6. 战斗- 类似于移动。包含装备维修内容。
+
+7. 智能- 知道多少关于它们自己和敌方的信息。
+
+8. 在每个智能循环时间期报告相关信息。这个时间长度决定于在历史上新消息到达指挥官以及做出反应所要消耗的时间。
+
+9. 其他所需要的。
+
+## User Documentation
+The Players Manual- The instructions for actually playing the game should be imbedded within
+the game via a "help" system. Printed instructions should do little more than list which keys do
+what or give an overview of the menu system. Help should be context sensitive (when you
+invoke help, it first brings up a help screen relevant to where the player is in the game.)
+
+## 用户文档
+
+玩家手册- 玩这个游戏的指导应该被内嵌仅游戏的“帮助”系统中。指导的打印版应当不做超过列举哪些按键可以做什么
+以及给出菜单的概览外的事。帮助应该是上下文敏感的（当你启动帮助，
+它应该打开一个与玩家在游戏中的状态相关的帮助窗口）
+
+Hypertext Historical System- It's increasingly popular to have a context sensitive historical
+manual built into the system. When invoked, the system brings up historical data relevant to
+where the player is in the game. The "hypertext" refers to a system whereby key words on the
+screen are highlighted to serve as a command (when the cursor is placed over them and
+activated) to pop up another screen relevant to that key word. 
+
+超文本历史系统- 设置一个上下文敏感的内建历史手册是一个日益流行的做法。当启动时，系统显示一个历史数据
+，其与玩家正在游戏的地方有关。“超文本”意指一个这样的系统——一些关键字被高亮，以表示其是一个命令（
+当鼠标放到上面的并点击的时候），其可以打开另一个与这个关键字相关联的窗口。
+
+## Quality Control
+
+Testing- Keystroke emulators are useful to automatically run the system through an extensive
+suite of hypothetical user operations. Some of these test programs will also capture the screens
+and other results to a file where this test data will be compared to what should have happened
+and flag error conditions.
+
+Double Team- A system I often use, which is expensive, is to have two teams of programmers
+overlapping (and even duplicating) each other on a project. This greatly reduces the chances of
+the project being late, or sloppy. I doubt if game publishers can ever afford this, but I thought it
+worth mention. It works.
+
+Compile the Source Yourself- Learn to use a code analyzer, etc. This is a programmer function,
+but if you are overseeing a project, it's a good way to keep on top of things. You can make
+changes to data in the program (to correct something) recompile and see if that fixes it. Only
+programmers should change code and sometimes even changing data will cause a program to
+fail. 
+
+## 质量控制
+
+测试- 用按键模拟器去模拟假定的用户的按键操作是操作的。有些这种测试程序还能记录屏幕状态和其他数据
+到一个文件中，然后这份测试数据可以与它被期望的样子所比较以发现错误。
+
+两个团队- 我经常使用的一个昂贵的系统，那就是我有两队做几乎相同事情的程序员。这极大地减少了
+项目被延误，程序员偷懒的现象。我怀疑游戏出版商是否能够负担的了这个成本。但是我想它值得被提到，
+因为它是有用的。
+
+自己编译源代码- 学习使用代码分析器之类的东西。这是一个程序员的工具，但是如果你正在监督一个项目，
+你可以通过这个方法在顶层进行操作。你可以对程序的数据进行修改（以调整某些东西），重新编译它
+并且看看这是否解决了问题。而只有程序员应当修改代码，甚至有时修改数据都会导致程序无法运行。
+
+## Artificial Intelligence (AI)
+
+These are the routines that enable the computer to operate as a worthy opponent for a human
+player. These AI routines are not as complicated as they might appear.
+
+AI routines need not take up a lot of space in the program. It is possible to get powerful AI
+routines into as little as 2,000 bytes ("characters," or "2K" in computerspeak).
+
+Doctrine is what drives AI, doctrine is the standard procedures that armed forces use when in
+combat. Every armed force has a doctrine. Some doctrines are more efficient than others, but
+that's something you have to dig up in your research.
+
+## 人工智能（AI）
+
+有一些方法可以让电脑成为可以与人类玩家匹敌的对手。这些方法并不一定十分复杂。
+
+AI不需要占用程序的许多空间。以少于2kb的方式就可以得到一个强大的AI。
+
+教条式驱动AI的东西，教条式一些武装单位在战斗中使用的东西，每个武装单位都有一个教条。一些
+教条比其他的更有效，但是这是你必须在研究中去发现的东西。
+
+There's also the problems of "Theory versus Practice" in doctrine. What the doctrine says is not
+always what the troops do. You have to do more research to find out how the troops deviated
+from their doctrine, to what extent and how often. 
+
+For the commander, combat is a rather simple process: at least as far as decision making goes.
+There is often imperfect information. That is, the commander is often not sure of the status of his
+own troops and is even less well informed about the enemy. Thus the commander usually makes
+simple decisions. To mix things up and keep the human player on his toes, you should also use a
+random selection from two or more possible moves by the AI led side.
+
+Where AI becomes complex is when you have AI measure its sides situation against the human
+players. This routine is driven by the victory conditions. The measurement is a combination of
+the combat strength of friendly and enemy units, the "value" of their current position and the
+"value" of enemy positions. Normally, the AI would select the highest value enemy positions to
+go after, but not always. By randomly selecting one of the most valuable enemy positions, the AI
+player gives the human player the impression that some real thought is going on. If nothing else,
+it makes the AI side unpredictable, and thus dangerous.
+
+Creating the AI routines is a game in itself. You'll simply have to practice. It's not so hard. I did
+many successful manual AI systems (for paper wargames) before I did my first computerized
+systems. With the experience gained on the paper games, I had no trouble at all with the
+computerized AI. Your mileage may differ 
+
+教条也有一些“理论与实践”的矛盾。教条所所说的并不是军队所做的。你必须做更多的研究去搞明白
+军队如何脱离教条，什么程度以及如何频繁。
+
+对于指挥官，战斗倒是一个简单的过程：直到要做决定时。信息经常是不完全的，指挥官经常不确切知道他自己的
+部队的状态，且更不清楚敌方的状态。故而指挥官通常做出愚蠢的决定。为了让人类玩家感觉自己在与人类对战，
+你应当让AI在控制他的军队时在可能的几个行动中的决定中也引入随机要素。
+
+当AI要估计它面对人类玩家的局面优劣状况时情况变得复杂起来。这个估计围绕胜利条件进行，
+包括计算敌我双方单位的强度和它们所占据位置的“价值”。一般来说，AI会选择最高价值的敌方位置进攻，
+但并不总是如此。通过随机选择一些最有价值的敌方目标，AI玩家会给人类玩家一种它的确在思考的感觉。
+如果不是这样的话，AI会产生不可预料的行为，这不是人类玩家想要的。
+
+设计一个AI本身就是一个游戏。你必须实践，这并不是很难。我做过很多成功的手工（桌面）兵棋系统的AI
+在我做我的第一个计算机化AI之前。在有了从桌面游戏的经验后，做电脑AI毫无压力。你也不会差到哪里去。
+
+##The Computer Wargame Development Team
+First, there's the designer. Actually, before the designer there's the publisher, who has to agree to
+put up the money and distribute the final product. The publisher generally gets no respect and
+less recognition. While I've designed over a hundred games, I've published nearly four hundred.
+Designing is generally fun, publishing is customarily hard. That said, once the designer has
+delivered a spec that makes some kind of sense to the programmer, the programmer has to turn it
+into a computer program, the software, the game you can play.
+
+In my experience, it is best to use one programmer, plus support staff. The more programmers
+are used the more programmer time is wasted in programmers keeping tabs on each other.
+Modular programming is not practical as with this approach much of the system design is done
+during code development. Programmer must be diligent, willing to work 6-7 days a week, leap
+tall buildings at a single bound, etc. 
+
+## 计算机兵棋开发团队
+
+首先，有一个设计师。当然在设计师前更有出版商，其同意付钱和出版最终产品。出版商通常不会得到什么
+尊重和知名度。我本人设计了100多个游戏的同时，还出版了将近400个。设计通常是快乐的，出版则通常是
+困难的。一旦设计师写出一个说明给程序员，程序员则将其转化为一个电脑程序，即你玩的那个游戏。
+
+在我的经验中，使用一个程序员加一个支持人员是坠吼的。越多的程序员被使用，则越多的程序员时间被浪费
+在维持彼此的沟通上。模块化编程并不像这个方法一样具有实践意义，大多数设计设计是在代码实际开发过程中
+被确定的。程序员必须勤奋，有一周工作6-7周的意愿，能够克服困难等。
+
+### Support Staff
+* Designer- Whoever designed the manual game, or drew up the spec without a full blown
+manual game. The designers job is to insure that the programmer doesn't get lost while
+implementing the spec. It's best that the designer be kept in the process as the
+programming goes forward. There's always the chance that the programmer may try to
+turn the game into his design (either on purpose or by accident), a development that
+rarely works out very well.
+
+* Development System Experts- To help programmer with quick solutions to technical
+programming problems. These people give advice when asked, they don't write code. In
+the Hundred Years War game this consisted of the folks who ran the GEnie mainframe
+computers and the world wide communications system over which players would connect
+with each other as they played the game. In Victory at Sea, the lead expert was Gordon
+Walton, who led the earlier Harpoon project for the publisher, had designed and
+programmed some wargames himself, and could solve a lot of problems by simply
+pointing where they were and what the easiest solution was.
+
+### 支持人员
+
+* 设计师- 可以是设计手工游戏的，也可以是没有完整的手工游戏下编写说明的人。设计师的职责是
+保证程序员不会在实现说明的过程中迷失方向。设计师应当在编程工作推进时紧跟进度。由于总是有可能
+程序员会尝试将游戏转变为他的设计思路（不管是有意还是无意的），当这发生时，基本不会做出好产品。
+
+* 系统开发专家- 给予程序员编程技术问题上的快速解答。这些人在被咨询时做出答复，但他们自己不写代码。
+在百年战争中，这些人包括运行GEnie大型机和玩家互相通信用的联网系统的工作人员。在海上雄风中，
+首席专家是Gordon Walton,他曾领导之前的Harpoon项目，他为自己设计和编程了很多兵棋，也可以轻松点出
+问题所在和解决方法。
+
+* Chief Testing User- Keeps everyone honest by testing system every step of the way.
+Does nothing but test and make a general pest of himself. Sometimes the designer takes
+on this task, sometimes it's someone working out of the publishers offices. Generally, this
+person is in charge of testing and keeps track of bugs as they appear and checks to see
+that they were taken care of. A currently popular title for this job is "Quality Control
+Manager." Sounds better than "Chief Pest."
+
+* Researcher- Digs up additional operational data not already present, but often implicit,
+in the manual model. The computer wargame can handle more detail and it is often useful
+for it to do so. In both Hundred Years War and Victory at Sea, Al Nofi was the principal
+researcher. 
+
+* Programmer Assistant- Handles routine tasks for programmer (common data entry
+tasks, system maintenance, order the pizza and jolt cola, do the paperwork, etc.).
+
+* 首席测试用户（Chief Testing User）- 通过测试系统的每个步骤确保每个人尽忠职守。
+他专职测试和让自己变成团队里的讨厌鬼。有时设计师自己做这个工作，有时这个人来自出版商。
+一般来说，这个人负责测试，追踪BUG并检查它们是否被妥善的解决。当前对这个职务的一个流行的称谓是
+“质量控制经理”，这听上去比“首席讨厌鬼”（Chief Pest）强。
+
+* 研究者- 挖掘在手工模型没有显示出现，但是隐含的数据。电脑兵棋可以处理更多的细节，从而利用上这些数据
+是有用的。在百年战争和海上雄风中，Al Nofi 是首席研究者。
+
+* 程序员助理- 处理程序员的日常事务（普通数据录入，系统维护，订购披萨和摇晃可乐，做文书工作等）。
+
+
+*  Project Manager/Expediter- Keeps management at bay, solves project related problems
+quickly. Hand holder, ass kicker, cheerleader, etc. This is usually a management
+representative who reports directly to the publisher. Often has to yell at and argue with
+publisher also. For some reason, I like this particular job.
+
+In the commercial computer wargames industry it is currently fashionable to use job titles
+borrowed from the movie business. Most of these companies are in California, although largely
+northern California. Lifestyle envy? Anyway, the head of a computer game project is the
+"producer," the chief programmer is the "director." I have not confirmed this, but the sound
+specialists may now be called "Foley editor." Given that all the "actors" are electronic, where
+does that leave the casting couch?
+
+* 项目经理/稽查人- 确保管理正确的执行，快速解决项目相关问题。项目的协商者，督促者，鼓励者等。
+他通常是直接向出版商汇报的管理代表。但也经常与出版商争论。由于某些原因，我喜欢这个工作。
+
+在商业电脑兵棋工业，现在有一个时尚，即借用电影产业的术语。大多数公司都在加利福尼亚，尽管大多数在
+北加利福尼亚。这是一种对其生活方式的向往吗？无论如何，电脑游戏项目的头头被称为“制片人”（producer），
+而首席程序员被称为“导演”（director），我没有去验证这一点，但似乎音效专家被称作“Foley editor”(音效师)
+考虑到所有的“演员”都是电子的，“潜规则”（casting couch）该到哪里进行？
+
