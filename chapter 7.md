@@ -11,7 +11,7 @@
 * Hundred Years War
 * Computer Wargame Design Tips for the Military Designer
 
-# 设计电脑兵棋
+# 设计电脑游戏
 * 概览
 * 说明
 * 用户文档
@@ -685,5 +685,417 @@ does that leave the casting couch?
 在商业电脑兵棋工业，现在有一个时尚，即借用电影产业的术语。大多数公司都在加利福尼亚，尽管大多数在
 北加利福尼亚。这是一种对其生活方式的向往吗？无论如何，电脑游戏项目的头头被称为“制片人”（producer），
 而首席程序员被称为“导演”（director），我没有去验证这一点，但似乎音效专家被称作“Foley editor”(音效师)
-考虑到所有的“演员”都是电子的，“潜规则”（casting couch）该到哪里进行？
+考虑到所有的“演员”都是电子的，该怎么实施“潜规则”（casting couch）？
+ 
+## Appropriate, and Other, Hardware for Computer Wargames
 
+* IBM PC (and clones). First introduced in 1981, this machine does not have the best
+combination of features, but it can do the job. Uses the Intel 16 bit 8088 or 8086
+processor. Wide array of add-on components make the IBM PC series the most flexible
+machine available. Widely available, there are over sixty million installed world wide.
+Standard machine in most organizations. Widest selection of software. Most major new
+software first comes out in an IBM PC version. Large number of different games. The
+original (1981) IBM PC had twice the throughput of older 8 bit machines (Apple, CP/M,
+Commodore 64, etc.) Now considered a low end machine. Can be boosted much higher
+with add-ons. About half the PCs in the world are of this type. I still have a 1983 Compaq
+(a portable clone of the original IBM PC) which I keep as a spare. I've added a hard disk
+and a high density disk drive. Nine years old and still going. Gets turned on four or five
+times a year and still works. 
+
+## 开发计算机兵棋的适用和不适用的硬件
+
+* IBM PC（与仿制机）。在1981年发布，这个机器没有提供最佳的功能，但倒也能用来干活。
+它使用Intel 16 bit 8088或8086处理器。大量的附加组件使得IBM PC系列得以成为使用最灵活的机器。
+它使用广泛，在全世界上已有高达六千万台。它是大多数公司和组织的标准机器，也是软件的目标市场，
+主流软件首先会发布IBM PC版，其中包括大量的游戏。原版（1981）IBM 速度两倍于
+老式八位机（Apple，CP/M，Commodore 64等）。这些现在被认为是低端机器的东西仍然可以被附加组件所
+加速。世界上近半数量的PC都属于此类。我现在仍有一台1983的Compaq（一种原版IBM PC的便携仿制机）
+作为备用机。我自己给它加上一个一个硬盘和一个高密度磁盘驱动器（high density disk drive）。
+过了九年时间仍然可以运行，事实上它一年会被开四到五次。
+
+* IBM AT type- Introduced in 1984. Also known as the ISA (Industry Standard
+Architecture) type. Three to ten times the throughput of the original PC. Can be boosted
+even higher with add-ons. Based on the Intel 16 bit 80286 microprocessor. In 1991, the
+baseline machine for many new computer wargames.
+* 386 machines- Introduced in 1986. Fifteen to thirty times the speed of an original PC.
+Based on the Intel i386 32 bit microprocessor. Standard machine of the early 1990s.
+* 486 machines- Introduced in 1989. Thirty to seventy times the speed of an original PC.
+Based on the Intel i486 32 bit microprocessor. Standard machine of the mid 1990s.
+* 586 machines- Introduced in 1993. Sixty to over a hundred times the speed of an original
+PC. Plus this machine will have much more powerful video capabilities, enabling it to
+create movies ("full action video") on the computer screen. Based on the Intel i586 32 bit
+microprocessor. Standard machine of the mid to late 1990s.
+* The Clones-Offer same capabilities as IBM models at lower prices. Some clone models
+also out perform IBM machines at lower price. Compaq was the first major clone, in
+1983. Others followed, pushing prices lower and performance higher each year. Major
+clone maker PCs considered as reliable (if not more so) than IBM. 
+
+* IBM AT型- 1984年发布。也被称为ISA（Industry Standard Architecture，工业标准结构）。
+ 比原版PC快三到五倍。并可以被附加组件加速的更快。基于Intel 16位80286微处理器。是
+ 在1991年的大多数新电脑兵棋的基准配置。
+* 386机- 1986年发布。比原版PC快十五到三十倍。基于Intel i386 32位微处理器。在90年代早期的标准机器。
+* 486机- 1989年发布。比原版PC快三十到七十倍。是90年代中期的标准机器。
+* 586机- 1993年发布。比原版PC快60到100倍。而且这个机子有更强的图形能力，从而可以进行过场
+的实时演算。基于Intel i586 32位微处理器，是90年代中后期的标准机器。
+* 仿制机提供了比IBM的型号相差无几的性能，同时价格更低。1983年的Compad是第一个流行的仿制机。
+这些仿制机在竞争中拉低了价格，提高了性能。大型的仿制机厂商所生产的PC被认为比IBM生产的还可靠。
+
+* Macintosh- The Mac II series is equal to the 386 and high end AT machines, but costs a
+third more. Graphics about the same as IBM EGA and VGA modes. Original MAC and
+MAC SE a cut above XT in speed, but more expensive and not numerous enough to
+support widely distributed software. Later Mac models matched Intel microprocessor
+machines (IBM and clones). Many games running on IBM machines are not available for
+the MAC.
+* Low Cost Machines- Apple II and Commodore 64/128 have limited power, but still
+widely available. No longer any new games for Apple II, some for the Commodore.
+Amiga- Excellent hardware capabilities, but not a major factor in the US market (most
+sales are in Europe). Good selection of software, but increasingly distant third after the 
+IBM and Mac. Atari ST- Similar to the Amiga, but not as technically advanced. Also sold
+widely in Europe, but less and less in the US. The ST may survive not survive long in the
+US market. 
+
+Life at the Front
+
+To give you some more insight on how computer wargames are designed, I include here some
+material on the two computer wargames I was working on as this book was being written. 
+
+* Macintosh- Mac II 系列可等同于386和更高的AT机器，但要贵三分之一。图形能力类似于IBM EGA和VGA模式。
+原版MAC和MAC SE在速度上远高于XT，但更昂贵，且不支持很多流行的软件。后来的Mac与Intel微处理器机器
+（IBM与仿制机）兼容（match）。很多运行在IBM机上的游戏不能运行在MAC上。
+* 低价机- Apple II与 Commodore 64/128性能较差，但仍然广泛存在。不再有新的游戏面向Apple II，而有
+一小部分面向Commodore。Amiga- 有着很好的硬件，但是其在美国市场并不是主要部分（其多数销售在欧洲），
+在软件上有很多选项，但是在IBM和MAC后位居第三。Atari ST-类似于Amiga，但是技术上比其落后。
+同样在欧洲上销售很多，但在美国却卖的很差。ST也许不能在美国市场生存多久了。
+
+实战经验
+
+为了给你一些电脑兵棋是怎么被设计的一些直觉，我将我参与的两个电脑兵棋的材料放进这了。
+
+## Victory at Sea
+This is a game on naval warfare in the Pacific during World War II. In effect, it's a strategic
+game of the entire war in the Pacific with the option to drop down at any time and fight it out
+ship to ship (or, more likely, aircraft to ship). It's the first of a series of games. Additional disks
+will be published later to cover other theaters of the World War II naval war.
+
+Below is an extract from the introduction to the Victory at Sea spec, delivered on October 15th,
+1991. 
+
+## 海上雄风
+这是个关于二战太平洋海战的游戏。在这个游戏中，你可以在整场太平洋战争的任何时点进入打海空战。
+这是这个系列的第一个游戏，增补内容将在之后出版以覆盖二战的其他海战情况。
+
+下面是从海上雄风说明的介绍部分选出的一部分内容，其在1991年10月15日写成。
+
+### Notes on Game Components
+
+####The Map Displays
+
+At the moment you have a list of ports and instructions to scan any Pacific region map into your
+paint program. Then implement latitude and longitude coordinates to overlay the posts list onto
+this map. Because a degree of longitude varies as the cosine of latitude, the length of a degree of
+latitude varies from 69 miles at the equator to zero at the poles. We don't go quite that far, but do
+reach two thirds of the way to the north pole (60 degrees north), meaning the degree of latitude
+in under 50 miles that far up. The map will have to be adjusted. That should be no problem as
+you will have the 140 principal location listed in terms of latitude and longitude. We can supply
+more as needed, although we don't want to crowd the map. We counted over 500 atolls and
+islands capable of supporting some kind of garrison (many at great expense in shipping, as even
+water would have to be brought in to some of the drier ones). Some of these were actually
+garrisoned by the Japanese (Tarawa). Once you have the map sorted out electronically, send it to
+me and we'll indicate the "atoll clusters." I thought it better to leave that complication for last. It
+will make some programmers life easier. 
+
+### 关于游戏要素的注释
+
+#### 地图显示
+
+当前，你有一个港口的列表，以及一些关于如何把太平洋区域扫描进你的绘图程序部分的指导文件。
+接下来你应该实现纬度坐标系以将港口映射到地图上。纬线的一度经度长度随着纬度的余弦而变化，如从
+赤道的69英里到南北极的0英里。我们的地图并不会覆盖到极点，但是会覆盖北半球的三分之二（到北纬60度处），
+这意味着在那里的一度长度将小于50英里(meaning the degree of latitude in under 50 miles that far up).。地图必须被修正。
+你将要把140个以经纬度表示的地点布置在地图上，如果有必要还会有更多，尽管我们并不像地图显得太拥挤。
+我们还统计了500个珊瑚岛（atolls），它们能够放置一些守备队（其中大多数在运输上都很昂贵，
+甚至水都要专门运输上去）。它们中一些被日军（Tarawa）守备。一旦你电子化地图完成，请把它发给我，
+我们将标出“珊瑚岛群”（atoll clusters）。我觉得把这种麻烦事放到最后再做最好。
+这可以减轻程序员的工作量。
+
+###Interface
+
+The interface Gordon and I worked out was earlier keyed to routines in the game. This has to be
+updated and I will do this in the next week. There's more than enough stuff for each existing
+screen mockup.
+
+### 接口
+
+Gordon和我设计的接口在之前已经被写入了游戏。我将在下一周更新它。目前关于界面原型的资料已经足够了。
+
+
+### Databases
+The databases are complete, although we'll update them right down to the wire as we uncover
+new stuff. Nothing radical, but there's always something. As all the databases are in spreadsheet
+files, we can put them in any form you want for uploading into the source. I do that a lot. I don't
+like it, but I've gotten pretty good at it. 
+
+### 数据库
+数据库已经做完了，尽管如果我们想要挖掘新的东西的话会立即更新它。总会有些虽不十分重要，但可以加进去的东西。
+所有的数据库是以电子表格的方式存储，我们可以将它们转换成任何适合显示到屏幕上的形式。我经常做这个，
+尽管我并不喜欢，但是我的确十分擅长此道。
+
+### Algorithms
+Over 95% of the needed algorithms are done. Some of the key ones have been tested and proofed
+using a monte carlo system I've developed. However, it requires a bit of coding and screwing
+around to get them into a format where the monte carlo testing will work. You know what monte
+carlo is? If not, it's a model that tests an algorithm or, more often in my case, a series of
+algorithms over thousands of iterations and gives a reliable picture of what the system will do
+over many iterations. My system produces graphs as well as summary stats. I can then go back
+and tweak it until I get it to do what needs to be done. I will continue to test the game algorithms
+this way until they are cast in code, at which time we should monte carlo them again. The naval
+surface combat routines have gone through over 6,000 iterations like that. But many of the
+routines will not be fully testable until they are in code. The systems are set up so that I have a
+lot of numbers I can change to bring the system into the proper balance. Once you start writing
+code, give me initial executables with as much data in external tables so that I can tweak. I can
+use a hex editor to change ASCII data in a binary executable or overlay. Changing binary
+directly is a bitch. Could also use some monte carlo modeling capability, mainly the ability to
+have x number of iterations of a situations with both sides on AI and loss stats sent to an ASCII
+file in tabular format for analysis. 
+
+### 算法
+超过95%的算法已经被完成了。其中那些关键的部分已经被测试并以我开发的蒙特卡洛程序验证了其正确性。
+运行这些蒙特卡洛检验需要写一些代码将一些东西转换成恰当的格式。你知道蒙特卡洛是什么吗？
+如果不知道，在我经常处于的情况中，它是一个模型，其可以检验以数千次迭代来检验算法，并显出
+系统在这些迭代中工作状态。看到这些反馈后我可以再去调整数据直到达到我想要的效果。
+我将继续以这个方式调试游戏算法直到它们被编码为止，在那之前我们也需要最后蒙特卡洛验证一次。
+海战模块已经被以这样的方式迭代了6000次。但是大多数弄快并不能被这些测试直到它们被编码完成。
+我这有很多可以调整的参数，这些参数会被调成使得游戏处于恰当的平衡状态。一旦你开始编码，
+给我一个可执行程序以及外部表格保存的数据，以便让我可以调试。尽管我可以使用十六进制编辑器
+直接修改二进制可执行文件中的ASCII数据，但这么直接改二进制数据是令人恶心的。你也应当使用一些
+蒙特卡洛建模技术，其中特别有用的是对一个情景进行x次迭代，并将AI和损失数据存到一个表格形式的ASCII
+文件以便分析。
+
+### Artificial Intelligence
+The keys to realistic combat AI are hidden information and randomness. If you have that, you
+can employ quite simple routines. As Clauswitz and Sun Tzu point out, even simple plans are
+difficult to execute in combat. The Artificial Intelligence data is presented in narrative form with
+the probabilities imbedded in the description of the routines. I'm still having some problem with
+the strategic AI, but nothing that a little more application won't solve. 
+
+### 人工智能
+实现看起来真实的战斗AI的关键是信息隐藏和随机性。如果你实现了这些，那么你就可以比较简单的实现AI。
+正如克劳塞维茨和孙子指出的，在战斗中，即使是非常简单的计划也难以执行。AI的数据以一些操作的概率
+所表示。在策略AI上我仍然有一些问题没有解决，但没有什么特别难对付的部分。
+
+### General Advisory
+This is the first time in nearly 20 years that I've had to deliver a spec to programmers I've never
+met. I usually do the programmer hiring, so I know what they are capable of and what they prefer
+to get in the form of a spec. It also helps that my programmers know I sign the payroll and bonus
+checks. In any event, I'm delivering the AI stuff in a pretty generic format so that the
+programmers can get a good sense of what it is going to do and then get back to me with
+whatever alternate format they might prefer. It won't take long to reformat it once I know the
+preferred format.
+
+### 全面咨询
+这是我二十多年第一次向从来没有见过的程序员写说明。一般来说我会亲自选择雇佣的程序员人选，所以我
+知道他们想要什么格式的说明。另一方面，程序员知道是由我亲自来发工资将近也是有帮助的。无论如何，
+我在传达AI相关的事宜时会使用一种相当宽泛的方式，从而程序员可以了解到他们大致上要做什么，然后
+向我要求以他们更喜欢的格式编写的说明。一旦我知道他们更喜欢什么格式，将现有说明改写成那个格式并不困难。
+
+### Footnote feature
+We can cobble those together from notes, but for a full blown version we'll need a codicil on the
+contract to clarify the book contract Al and I are now negotiating with my publisher. The big
+version would, in effect, be a book on a disk and would be a great selling point that would add
+little to the production costs (an extra disk) and nothing to development (the bits that are already
+going into the FootNote feature would simply be larger). Tom says he's amenable to signing the
+agreement needed to protect the book copyright. 
+
+### 笔记作为卖点
+我们可以把设计笔记汇总起来编本书，不过这需要在合约上加上关于这本书的条款，对此Al和我正在和出版商讨论此事。
+这个书将存在一个磁盘上，它将成为一个有意义的卖点而并不会太过增加生产成本（一个额外的磁盘），也不会
+增加开发成本（已经实现了这些笔记的要求）。Tom说他已经同意签署保护这个书的版权的协议。
+
+### Communication
+
+Until you figure out exactly how you're going to code this thing, you'll have a lot of queries.
+Since financial and military models don't mix, you won't be able to get a hold of me when I'm
+downtown (material here deleted as I don't want too many people to have an easy time tracking
+me down when I'm trying to get work done). Otherwise, leave a message on the answering
+machine. I will email confirmations on all phone discussions of spec changes, but do it via email
+as much as possible. Normally, I check email twice a day: between 4-8 AM and 4-7 PM Eastern
+time (1-5 AM and 1-4 PM Western time). If you alert me that you will be throwing a lot of
+queries at me, I can usually arrange to check mail between 11 AM-2 PM Eastern time (8-11 AM
+Western time). In most cases, I take care of email queries immediately (especially when I'm at
+home, where all the computer records and printed research material is available). This in over 80
+percent of the cases you will have an answer in under six hours. On those I can't answer
+immediately, I usually pass on to Al Nofi (ANOFI on GEnie) and he usually gets back in 24
+hours. I keep copies of all incoming and outgoing email and keep it indexed, so I can find
+anything within seconds. One helluva organized sumbitch, ain't I?
+
+### 沟通
+
+在你完全搞明白到底怎么编码这些东西之前，你必须进行大量的询问。由于商业和军事模型不应该混合起来，
+你不应当在我在（划掉）的地方（这里的内容被删掉了，以免当我想用这些时间办公时，太多人追踪我，）
+的时候联系我。其他时候，在电话应答机（answering machine）上留一条信息。我会发电子邮件确认
+所有关于说明内容改变的电话讨论，说明本身也应当尽可能以电子邮件的方式进行。通常一天中我会检查两次
+电子邮件：在东部时间上午4-8点与在下午4-7点（西部时间上午1-5点，下午1-4点）。如果你提示我你将会向我
+提很多问题，我可以在东部时间上午11点到下午2点（西部时间上午8-11点）也检查邮件。在大多数情况下，
+我会立即回复电子邮件询问（特别是当我在家里的时候，我家里有着全部的数据资料和研究资料）。
+在80%的情况中你可以在六小时内获得一个答复。在我不能立即回答的情况下，我会传给Al Nofi(ANOFI on GEnie)
+，他通常会在24小时内回来。我备份了所有发出和收到的邮件并进行了索引，所谓我可以立即找到我想找到的邮件。
+看起来我真是个一个热衷于整理的怪物。
+
+### Spec Files
+
+Files (with one exception, two versions of each, .WK1 is 123 spreadsheet version and .ASC is
+IBM ASCII version with CR/LF at the end of each 72 character line):
+* VASSPEC.NN- This note.
+* VASGAME- Game procedures. The game rules. Has a functioning menu system if you
+have a spreadsheet compatible with 123 macros (I used Quattro Pro in 123 mode).
+* VASSHIPS- The ship stats. This was larger until we took out the German, Italian and
+most of the French and British ships (the latter two nations did have some ships in the
+Pacific). The game information is on the left hand side. To the right is historical
+information, some of which is used to calculate game values so has to stay in place.
+* VASDIV- The ground and air units.
+* VASPORTS- The map information as well as capabilities of ports and bases.
+* VASAIR- Not really needed by the codemakers, just us showing off. We had to compile
+this one in order to come up with a dozen or so numbers for "average" aircraft stats by
+year for each side.
+* VASGUYS- The leaders, and all their stats.
+
+### 说明的各个文件
+
+每个文件，除了一个例外外都有两个格式，一个是`.WK1`为123电子表格格式而`.ASC`为IBM ASCII格式，其
+每72个字符有一个回车。文件列表如下：
+
+* `VASSPEC.NN`- 这个注释。
+* `VASGAME`- 游戏程序。游戏规则。如果你的电子表格软件兼容123宏还可有一个菜单系统
+（我使用123模式的Quattro pro）。
+* `VASSHIPS`- 舰艇数值。这个文件现在还有点太大了，之后我会拿掉德国，意大利和大多数发过和英国
+的舰艇（后两个国家还是有一些舰艇在太平洋）。游戏信息存在左边，右边是历史信息，有些信息会被用来
+计算游戏数值，所以不要修改它。
+* `VASDIV`- 地面和空中单位。
+* `VASPORTS`- 地图信息与港口与基地承载能力。
+* `VASAIR`- 程序员并不真的需要这个文翰，它只是我们用来展示的。我们编辑了这个文件来讨论
+双方空军在各年的“平均”数值。
+* `VASGUYS`- 双方的将领与它们的数值。
+
+* Implementation Sequence (as I see it)
+...Strategic Display
+...Unit List
+...Strategic Movement
+...Tactical Display
+...Tactical Movement and Combat
+...Strategic Combat
+...Strategic AI
+...Tactical AI
+...Leadership 
+...Other
+
+* 实现顺序（在我看来）
+...战略展示
+...单位列表
+...战略移动
+...战术显示
+...战术移动和战斗
+...战略战斗
+...战略AI
+...战术AI
+...指挥能力
+...其他
+
+
+* Program Sequence
+...Load main executable
+...Player chooses scenario option
+...Program initializes scenario and begins play
+...Player input
+...Change production
+...Reroute supply
+...Movement orders
+
+* 程序执行顺序
+...载入主程序
+...玩家选择剧本
+...程序初始化剧本
+...玩家输入
+...生产变化
+...补给线变动
+...移动命令
+
+* Computer Procedures
+...Strategic Search
+...Tactical Search
+...Strategic Move
+...Tactical Move
+...Strategic (Aggregated) Combat
+...Tactical (detailed) Combat
+...Logistics
+...Strategy Selection
+...Tactics Selection
+...Etc 
+
+I used the above to guide my priorities in conditioning the enclosed material for delivery. Let me
+know how it's supposed to be so I can shift gears accordingly.
+
+* 电脑程序
+...战略搜索
+...战术搜索
+...战略移动
+...战术移动
+...战略（集成）战斗
+...战术（细节）战斗
+...后勤
+...战略选择
+...战术选择
+...等等
+
+我使用上面的列表来指导我在资料传递上的优先级。让我知道你想要什么从而我可以做对应的调整。
+
+* Resolution
+...One day Strategic
+...One Hour Operational
+...30 Sec tactical
+
+A footnote on this project. While the official start date was July 15th, it was largely delayed for
+six weeks because a few days after signing the contract my co-pilot, Al Nofi, had to have
+emergency eye surgery. His eyesight survived, but it was not until early September that he could
+get into the research big time. You always have to make allowances for disasters. 
+
+* 战斗尺度
+...天级别战略
+...小时级别行动
+...30秒战术
+
+关于这个项目的脚注。尽管官方的开始时间之前是7月15日，但是它已经被大幅延误了六周因为之前，在签署合约后
+我的合作伙伴，Al Nofi突然要做一个眼部手术。他的视力最终得以保留，但是在在九月前他不能再投入到
+大规模研究中。人的命运啊就是不可意料，你总要考虑到灾难的行程提前做好余量准备。
+
+
+## 百年战争
+
+As this book was being written, the Hundred Years War game is in alpha test. This game is one
+aspect of computerized wargames that is just now coming into its own and this is the use of
+modems for multiplayer games via telephone linked computers. For nearly ten years, computer
+networks such as Compuserve and GEnie there have offered multiplayer games, but none of
+these have been history based (or, at best, only vaguely so). To remedy this situation, I signed a
+contract with GE to design a multiplayer (300 players) game of the Hundred Years War to be
+played on their GEnie system. Al Nofi (research) and Dan Masterson (programming) will
+comprise the rest of the team that will recreate 14th and 15th century England and France (plus
+Italy, Spain, parts of Germany, Scotland, Ireland and sundry other adjacent areas). The game will
+cover economics, religion and politics in addition to the purely military aspects. 
+
+在这本书正在写的时候，百年战争游戏正在进行alpha测试中。这个新式电脑兵棋使用了调制解调机来连结
+各个电脑以实现多人游戏。在近十年中，电脑网络，如Compuserve何GEnoie已经搞出了很多多人游戏，
+但是它们中没有一个是基于历史的（或者说，用好话讲，只有空洞的背景）。为了缓解这个形势，
+我与GE签订了合同去设计一个关于百年战争的多人（300玩家）游戏，基于GEnie系统。Al Nofi(研究)与
+Dan Masterson(编程)将构成团队的剩余部分。这个团队致力于重现14和15世纪的英格兰和法兰西（加上意大利，
+西班牙，一部分德国，苏格兰，爱尔兰以及其他近邻的区域）。除了主要的军事部分以外，这个游戏还覆盖了
+经济，宗教和政治部分。
+
+As a player, your objective is to insure the growth, prosperity and survival of your family line
+(each day of real time equals three months of game time). You may start out the game as
+anything from an impoverished Gascon noble to a mighty earl of England. Your degree of
+victory is rated on how much you increase what you started with during the century or so it takes
+England and France to settle their dynastic, military and economic differences. The game allows
+players to operate on two levels, either as a free wheeling adventurer, living only for battle,
+tournaments or the hunt (a rather common attitude in those times), and/or as an ambitious and
+able administrator of his estates and participant in the affairs of state. The latter course is more
+rewarding in the long run, but the former can be more fun for the mash and bash set. There's a
+little of that it all of us. 
