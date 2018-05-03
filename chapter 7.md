@@ -977,80 +977,137 @@ year for each side.
 * `VASGUYS`- 双方的将领与它们的数值。
 
 * Implementation Sequence (as I see it)
+
 ...Strategic Display
+
 ...Unit List
+
 ...Strategic Movement
+
 ...Tactical Display
+
 ...Tactical Movement and Combat
+
 ...Strategic Combat
+
 ...Strategic AI
+
 ...Tactical AI
+
 ...Leadership 
+
 ...Other
 
 * 实现顺序（在我看来）
+
 ...战略展示
+
 ...单位列表
+
 ...战略移动
+
 ...战术显示
+
 ...战术移动和战斗
+
 ...战略战斗
+
 ...战略AI
+
 ...战术AI
+
 ...指挥能力
+
 ...其他
 
 
 * Program Sequence
+
 ...Load main executable
+
 ...Player chooses scenario option
+
 ...Program initializes scenario and begins play
+
 ...Player input
+
 ...Change production
+
 ...Reroute supply
+
 ...Movement orders
 
 * 程序执行顺序
+
 ...载入主程序
+
 ...玩家选择剧本
+
 ...程序初始化剧本
+
 ...玩家输入
+
 ...生产变化
+
 ...补给线变动
+
 ...移动命令
 
 * Computer Procedures
+
 ...Strategic Search
+
 ...Tactical Search
+
 ...Strategic Move
+
 ...Tactical Move
+
 ...Strategic (Aggregated) Combat
+
 ...Tactical (detailed) Combat
+
 ...Logistics
+
 ...Strategy Selection
+
 ...Tactics Selection
+
 ...Etc 
 
 I used the above to guide my priorities in conditioning the enclosed material for delivery. Let me
 know how it's supposed to be so I can shift gears accordingly.
 
 * 电脑程序
+
 ...战略搜索
+
 ...战术搜索
+
 ...战略移动
+
 ...战术移动
+
 ...战略（集成）战斗
+
 ...战术（细节）战斗
+
 ...后勤
+
 ...战略选择
+
 ...战术选择
+
 ...等等
 
 我使用上面的列表来指导我在资料传递上的优先级。让我知道你想要什么从而我可以做对应的调整。
 
 * Resolution
+
 ...One day Strategic
+
 ...One Hour Operational
+
 ...30 Sec tactical
 
 A footnote on this project. While the official start date was July 15th, it was largely delayed for
@@ -1059,8 +1116,11 @@ emergency eye surgery. His eyesight survived, but it was not until early Septemb
 get into the research big time. You always have to make allowances for disasters. 
 
 * 战斗尺度
+
 ...天级别战略
+
 ...小时级别行动
+
 ...30秒战术
 
 关于这个项目的脚注。尽管官方的开始时间之前是7月15日，但是它已经被大幅延误了六周因为之前，在签署合约后
@@ -1099,3 +1159,1885 @@ tournaments or the hunt (a rather common attitude in those times), and/or as an 
 able administrator of his estates and participant in the affairs of state. The latter course is more
 rewarding in the long run, but the former can be more fun for the mash and bash set. There's a
 little of that it all of us. 
+
+作为玩家，你的目标是保证你家族的成长，繁荣和生存（现实世界一天对应游戏时间三个月）。你可以以一个
+贫穷的Gascon贵族或者强大的英格兰伯爵开始游戏。你的胜利程度取决于在这个世纪中你从你的初始地位提升了多少，
+或者造成了英格兰和法兰西多大的王朝，军事和经济差异。游戏允许玩家在两个层面上行动，作为一个到处游荡
+的冒险家，只为战斗，竞技赛和狩猎而生（在这个时代中很多人采用的行为方式），或者作为一个野心勃勃而
+富有能力的管理者，管理他的资产，并参与国家事务。后一种行为方式在长期来看受到的奖励更多，但前者
+也许更加有趣。我们中两类人都有一点。
+
+In this game the computer is used in areas where it does the most good. The medieval economic
+system is run by the computer. Medieval economies were fairly complex. Although most of the
+population was farming, about ten percent was not and was instead trading and producing a
+variety of manufactured goods that could be bought and sold over wide areas. There was money
+about, a bureaucracy and a heavily armed nobility. At any given time, at least 1-2 percent of the
+population was in arms. Most of these troops were mercenaries and they were either paid or you
+suffered their depredations as brigands. Many mercenaries turned to brigandage once large
+armies were demobilized, 
+
+[[vas illos]]
+
+creating a constant state of conflict during several periods. As the game goes on, brigand bands
+(run by the computer) will become an increasing threat to your fiscal, and physical, well being. 
+
+在这个游戏中，电脑被用在被适合它的地方。中世纪经济系统被计算机运营。中世纪经济非常复杂，尽管
+大多数人口都在务农但越有10%的人口在贸易，生产手工艺品，并将这些产品带到世界的各个区域。很多钱
+流向了官僚和武装贵族。在任何时间，至少有1%-2%的人口处于武装状态。这些军事势力中的很多
+是雇佣兵，他们要么被你雇佣要么你将会被他们掠夺。大多数雇佣兵会在大军被解散时成为这样的盗匪。
+
+[[vas illos]]
+
+造成了一个长期的冲突和动乱的时代在这个时间。当游戏进程推进时，盗匪（电脑控制）将变成对你的钱袋，
+幸福和性命的越来越大的威胁。
+
+Taxes were raised, somewhat inefficiently and often with such vigor that rebellion resulted. The
+brigand depredations also get the common folk riled up. It's bad enough when they refuse to pay
+their taxes, but if you're a real bad actor, they'll come after your head. 
+
+If you decide to spend all your time fighting in wars and tournaments, your fiefs will "run
+themselves," although less efficiently. In other words, without your personal attention, your
+bailiffs will be less rigorous and honest. Your wife and children may develop excessive spending
+habits and, in general, your assets will waste away. 
+
+税收以比较低效的方式收集，而且经常伴随着叛乱带来的影响。盗匪的掠夺也会让普通群众烦躁不安。
+当他们拒绝交税时，情况已经变得足够糟糕，但如果你是个真正差劲的演员，他们会来取你项上人头。
+
+如果你决定将你全部的时间用在战斗和骑士竞技上，你的领地将以较低的效率“自行运行”。换句话说，
+脱离了你个人的关注，你的总管的严格和诚实将有所下降，你的妻子和孩子将养成花销过高的生活习惯，
+一般来说，这将造成你财产的浪费。
+
+You can borrow and lend money, or buy and sell fiefs. Fiefs are the basic economic unit of the
+game and there are about 800 of them. The "fief file" is itself an interesting historical document,
+containing data dredged up from numerous sources and containing traditional "fiefs"
+(agricultural areas) as well as towns and religious facilities (church owned fiefs with
+monasteries, etc.). There is, for example, a fief in France called Condom, run by a player who
+will be known as the Sire de Condom. There's also another Welch fief called something worse,
+but it's in Gaelic. Hey, we just call them as we see them. But you can see where the French got
+some of their historical traits from. 
+
+Play the game and you'll quickly discovered that even the largest cities had fewer than 100,000
+citizens within its walls. Less than five percent of the population lived in walled towns and cities,
+most of the remainder lived in small villages surrounded by farmland and pastures. 
+
+你可以借入，贷出资金或者购买或出售领地。“领地”是游戏中的基本经济单位，一共差不多有800个。
+“领地文件”本身就是一种令人感兴趣的历史文件，其包含了大量混淆来源扒出来的数据。传统的领地是
+农业区域，但也包含城镇和宗教设施（教堂中教士们控制的封地）。作为例子，法兰西有一个领地叫做
+Condom（避孕套），它的玩家控制者也许应该被称为Sire de Condom(避孕套爵士)。还有个在Gaelic的
+叫Welch（赖皮）的封地也许更糟。唉，我们这么叫它只是因为它们确实叫这个名字。也许你可以从这里看出
+法国人是从哪获得他们的一些历史传统的。
+
+玩这个游戏后你也许马上回发现甚至最大的城市都只有少于100000的市民。少于10%的人口生活在有墙的城镇，城市中。
+大多数其他人生活在被农田和牧场包围的小镇中。
+
+About two percent of the population belonged to the nobility or a nobles household. This group
+included many of the troops. Thus of the thirty million (pre-plague) population in the area
+covered by the game, only a few hundred thousand men were fighters. The three hundred players
+occupy one of three ranks. Every player is at least a "lesser noble" controlling one or more fiefs.
+Three dozen players are "magnates," or overlords of several lesser nobles and themselves the
+holders of more fiefs than a lesser noble. One player is the king of England and one really
+unfortunate wretch is the king of France. 
+
+To start the game off in the proper spirit, the English players (about one third the total) are
+allowed a week to discuss things among themselves and elect those of their number deemed most
+suitable to be magnates and the king. This represents the superior cohesiveness of the English
+government, even though they did not have elections as such. Those players who chose to be
+French (or were forced to be French if all the English slots were taken) are randomly assigned as
+lesser nobles, magnates and king. This maximizes the chances of the wrong person getting into a
+key position. 
+
+大约有2%的人口属于贵族阶级或者贵族家庭。这个群体包含了很多团体。游戏涉及的区域有大概三千万人口（瘟疫前）
+，只有几十万男人是战斗人员。三百个玩家占据着三个等级。每个玩家至少是一个“小贵族”（“lesser noble”），
+其控制了一个或多个空地。36个玩家是“大贵族”（magnates），它们是一些小贵族的领主，本身也控制着
+比小贵族更多的领地。一个玩家是英格兰国王而另一个不幸的卑鄙之人则为法兰西国王。
+
+为了使得游戏以合适的精神开始，英国玩家（占总量中的三分之一）被允许在一周之内讨论并选举出他们认为最合适
+的大贵族和国王的人选。这表明了英国政府更高的凝聚力，尽管历史上并没有这样的选举。选择加入法国一方
+（或因为英国人选占满而被迫选择法国）的玩家则被随机指派其作为小贵族，大贵族和国王。这最大化了
+错误的人占据关键位置的概率。
+
+While combat is the final arbiter of events, there are other ways to get things done. After all,
+battles are only a forceful way of obtaining a treaty. The English king wants to become the
+French king and to do so he must control enough French territory to make his coronation as
+French king convincing. There is a legal system built into the game, covering both civil and
+church matters. You can be declared an outlaw or excommunicated. You can even be tried and
+executed. There's a Pope (actually, more than one during this period), heresy and the ever
+popular Black Death (which will ultimately destroy half the population over several outbreaks). 
+
+尽管战斗是很多事情的最终裁决者，也存在着一些其他的方式解决它们。基本上，战斗只是一种得到条约
+的强制手段。英国国王想要成为法国国王，所以他必须控制足够的发过领土来使得他对法国王位的宣称
+令人信服。游戏中有一个法律系统，包含民法和宗教法。有一个教皇（当然，在整段时间有不止一位），
+异端与黑死病（它最终在数次爆发中消灭了一半的人口）。
+
+Money plays a large role in the game. Although several currencies were used in this period, we
+invented a new one, the ducat (which was actually the name of an Italian currency) so that you
+wouldn't have to deal with all the different exchange rates. By way of example, 600 ducats
+equals one English Pound and 135 ducats equals one French Livre, and so on. One ducat also
+equals one US dollar (1992 vintage). Money is important in this period. Troops were the biggest 
+expense. The feudal levy could still be called out, but only for local defense and only for a
+limited period of time. On average, a mercenary soldier cost about 2,000 ducats per turn (a
+season of three months). Most armies in this period contained 5-10,000 men, which meant 10-20
+million ducats per turn just for the troops. The king of England only had that much income per
+turn (in the best of times) and there were other expenses (household, maintenance of
+fortifications, bribes and payments to officials, etc.). The king had several thousand people on his
+payroll and even a magnate had several hundred servants and soldiers to support (and an income
+of up to several million ducats per turn). You can borrow money, but basically the English kept
+the war going for so long because they were better soldiers, their ships controlled the English
+Channel (most of the time) and they were able to constantly plunder French fiefs. Thus the object
+of taking your army into the field was not battle, but plunder. Sort of like a game of Monopoly
+with edged weapons. 
+
+钱在这个游戏中扮演了重要角色，尽管当时有多种不同的货币在被使用。我们炮制了一个新的，
+所谓的达克特（ducat，它曾经是意大利货币的名字），从而你不用去烦恼不同的换算率。作为例子，600达克特
+等于1英镑，135达克特等于1法国里弗（Livre）。1达克特也等于1美元（1992出产（vintage）
+（译：vintage这个词指葡萄酒的出产时间，如82年拉菲之类的））。钱在这个时间段很重要，军队开销是重要部分。
+封建征召兵（levy）仍然可以被召集，但只能用于地区局部防御且只能使用有限的时间。平均来说，
+一个雇佣军士兵每回合（一个季度）要消耗2000达克特。大多数这个时候的军团包含5000-10000人，这意味着
+1-2千万达克特每回合的支出。英格兰王每个回合也只有这个数目的收入（在他最好的时候），而同时他又有其他
+的开销（家庭支付，要塞维护，腐败与给官员的工资等）。国王亲自支付数千人的工资，而大贵族也要维护数百人的
+从者和士兵（他们每回合有数百万的收入）。你可以借钱。英国可以在战争中坚持那么长时间，因为他们拥有
+更强的战士，他们的船控制着英吉利海峡（大多数时间），他们还能持续的掠夺法国的领地。
+从而将你的军队开到战场的目标不是战斗，而是掠夺，看上去像是在玩流血版大富翁游戏（game of Monopoly）。
+
+Using a remote computer does not waste the capabilities of your PC. For players with IBM
+compatible machines and Macintoshes there is a program you can download from GEnie. This
+program, (a Graphic Front End or GFE) will incorporate a datacomm program to connect with
+GEnie (more specifically, the Hundred Years War game) and have an editor for writing
+messages to other players and the graphics capability to display game activities in more detail.
+Players with other PC types can still play just by connecting with GEnie, but will not have access
+to all the amenities in the GFE. The GFE costs nothing (except the connect time to download it, a
+few bucks). 
+
+使用远程计算机并不会浪费你的PC的配置。对于使用与IBM兼容的机器与Macintoshes电脑的玩家，
+你可以从GEnie下载一个程序，该程序（一个图形前端（Graphic Front End,GFE））可以使用一个datacomm
+程序去连接GEnie（更清楚地说，百年战争游戏），并且可以拥有一个对其他玩家写消息的编辑器，
+而图形方面则可以显示游戏种更多的细节。使用其他PC类型的玩家仍然可以通过连接GEnie来游玩，但是
+不能使用GFE的全部功能。GFE是免费的（除了连接并下载它的费用，几块钱吧）
+
+When you first connect with this game via GEnie you immediately know you're not in Kansas
+any more. If it's you first time, you're asked if you want to join the game. If you answer yes you
+receive a screen full of information on who your character is ("you are William de Clinton, the
+Baron of Huntington in Cambridgeshire, England, etc.," or "You are the Captal de Buch, lord of
+the fortifications guarding the port of Buch on the Gascon coast and the owner of three fiefs,
+etc.") and what your resources are (other fiefs owned, annual income, etc.) as well as personal
+information (age, state of health, wife, kids, state of your fortifications, troops under your
+control, claims on other players fiefs, etc.). 
+
+当你首次通过GEnie连接游戏时，你就会理解知道你并不在Kansas之类的地方。如果这是你第一次进入，
+你会被询问是否想要加入游戏，如果回答是，你就会接到一屏幕信息，它告诉你你的角色是什么（“你是
+William de Clinton，Huntington in Cambridgeshire，England的男爵”，或者“你是Captal de Buch，
+守备Buch on Gascon海岸港口的要塞的领主，并拥有三块领地。”）以及你的资源有什么（“其他拥有的领地，
+年收入等”），以及个人信息（年龄，健康数值，妻子，孩子，你的要塞的状态，你控制的军队，对
+其他玩家领地的宣称等）。
+
+You can sign on and do nothing and your character's life will go on. In this case you would be
+the medieval equivalent of a couch potato. Taxes are collected and spent in your estate, dishonest
+officials will embezzle most of the surplus and life will go on with you doing little more than
+observing. Note that you play through the current eldest male of the family your character
+belongs to. When the eldest male dies, the next eldest male descendent takes over. If none is
+available, the line dies and you're out of the game. Among other things, you have to look after
+the wife and kiddies (which involves some interesting and obvious activities not normally found
+in wargames, but essential to medieval military affairs). 
+
+你可以在注册后什么都不干，而你的角色依然会继续生活下去。在这个情况中，你的角色基本等价于现代的
+沙发土豆（couch potato，即除了躺在沙发上看电视什么都不干的人）。税收被征收上来并用在你的资产中，
+不诚实的执事将偷掉其中的大部分剩余而生活将继续，而你除了观察外什么都不干。注意你会扮演你家族中
+最年长者，当这位长者去世时，下一个长者将接替其位置。如果没有合适的长者连任，则家族系谱断绝，游戏结束。
+除此之外，你还必须关注你的妻子和孩子（这涉及一些在一般兵棋中很难见到的有趣而且重要的事情，但是
+在中世纪军事事务却是很重要的。）
+
+However, there is much to do and this is the virtue of an online computer game. The key here is
+the multiple players and the ease of communication and interaction. Multiplayer games are
+usually more enjoyable than two player encounters, yet solitaire play is the most common
+because of the difficulty in getting the players together. Online games eliminate these problems.
+Whenever you get on you can send and receive messages. You can also talk with other players
+who are on at the same time and join together for tournaments (jousting, duels, etc.), hunting or
+conspiracies or affairs of state (there was often little difference between the two). This form of
+real time of communication, in a time when it took three weeks to ride from one end of France to
+another, is justified by the three month length of the game "turns" (one day of real time). Players
+may allocate their 90 days more productively, performing such drudgery as managing their fiefs
+or training with arms. But true to the period, they may spend most (or all) of their time out
+hunting and fighting. Naturally, the more ambitious (and probably the older) players will more
+readily adapt to building their power through management and diplomacy. The important thing is
+that up to three hundred individuals in one historically based game will make for an interesting
+experience. Should some bloody minded sixteen year old find him (or her) self king of France,
+surrounded by a few equally rapacious nobles and faced with a thirty-five year old tax
+accountant, management consultant or college professor playing the king of England. 
+
+网上电脑游戏的优点之一就是易于玩家的交流和交互。多人游戏通常比双人游戏更有意思，但是在大多数情况下
+难以实现，因为很难集齐各个玩家。网上游戏解决了这个困难，无论你在哪，都可以接到和发送消息。
+你也可以与其他在线的玩家对话，并一同参与竞赛（骑马长枪比武，决斗之类的），狩猎，阴谋或者国家事务
+（这两者之间并没有很大的差别）。在一个从法兰西一端到另一端要花三周时间的时代，之所以存在这种即时沟通能力，
+可以被实际上一回合的时间长达三个月（对应一天真实时间）来解释。玩家也许会更有效的分配他的90天，
+如卖力地管理他的领地或者练习武艺。但实际上在这段时间，他们很可能花了大多数（如果不是全部）时间
+去用于狩猎和打仗。自然地，越有野心的玩家（也许同样越老的玩家）将倾向于构建他们的权势，通过管理和
+外交。重要的是300个在基于历史的游戏的玩家将创造一个有趣的体验。想想一个嗜血的十六岁少年（或少女）
+也许会发现它作为法王，报一群同样贪婪的贵族所包围，同时还要面对扮演英王的三十五岁的税务顾问，
+管理咨询或者大学教授的情景。
+
+Well, this game will be fun just to watch. And you will be able to watch. For example, we can
+have play by play descriptions.
+
+Battles during the period were infrequent (perhaps one or two a month of real time, or one or two
+every seven years of game time). However, you could usually see them coming (money and
+mercenaries had to be collected, negotiations conducted, etc.), so we will announce them and
+enable any interested GEnie users to view the action in terminal mode. "Hundred Years War:
+Witness the Battle of Rouen at 9 PM, February 3rd, 1993." The "Heralds" (sysops) will give play
+by play commentary, battle maps (o's and x's) plus participant interviews, pre and post battle
+commentary and the like. Everything but tailgate parties. Sort of like a football game with edged
+weapons, no timeouts and no referees (and very few rules). 
+
+当然，这个游戏仅仅是看上去就很有趣的样子。你也的确可以看看，通过以下口头描述当一会云玩家。
+
+战役在这个时间段并不是很频繁（也许一个现实月里有一两次，或者说每7个游戏年中有1,2次）。
+尽管你可以看到它们发生的进程（经费被收集，雇佣兵被召集，谈判等），所以我们将公告它们并且
+让感兴趣的GEnie用户可以在终端模式里看到他们的行动。“百年战争：见证Rouen战役，
+发生于1993年2月3日下午9点”。“传令官”（管理员）会给出详细的报告和评论，包括战斗地图（XO来表示），
+加上参与者的采访，战斗前和战斗后的评论之类的。有所有东西除了车尾聚会（taillgate parties）
+（译：指看外出看体育比赛的一种聚会）。有点像流血的足球比赛，只是没有时间限制和裁判（以及很少一点规则）。
+
+"Here we are folks, outside the French city of Rouen in the year of our Lord 1376, where the
+Duke of Normandy and the Count of Artois have marshalled their forces to settle a dispute over
+who shall be the Duke of Brittany. The Normans have a contingent of English troops under the
+Earl of Bedford and are the current favorites. The six thousand Norman troops and eleven
+thousand French troops are arrayed and combat is expected to commence in about fifteen
+minutes at 9:40 PM EST. First, however, we have a live interview with his lordship, the
+Constable of France, the Count of Artois. Tell us, Count, how do you expect to overcome those
+English longbowmen?" And so on... 
+
+“这里是吃瓜群众，正在法兰西城市Rouen外，现在是自我们的主诞生以来的1376年。在这里，
+诺曼底公爵和Artois公爵统领着他们的军队准备解决一场关于谁将成为布列塔尼公爵的争端。
+诺曼人拥有一支由Bedford伯爵指挥的英格兰分遣队，是当前的种子选手。六千诺曼人和一万一千
+法兰西军队的战斗准备即将十五分钟后的东部时间下午9:40开始。我们将直播采访这位大人，
+法兰西治安官（Constable，译：法兰西五大官员头衔之一），Artois伯爵。告诉我们，伯爵大人，
+你将打算如何对付英国人的长弓兵？”之类的。。。
+
+More frequently, there will be tournaments. These involve all sorts of individual combat,
+including jousting. The joust will be handled like the familiar vehicle simulators computer games
+are famous for. Our version will have dozens of players from all over the country lining up
+electronically to come thundering down the lists in real time for fame, glory and (game) money.
+We're also working on a system whereby other players can watch the action, and perhaps even
+make bets (with ducats only) on the action (another bit of historical realism). Note that jousts
+were also a popular way to settle sieges. Real (not blunted) weapons were used and the fight was
+to the death. 
+
+出现的更多的是竞技赛。这包含各种类型的个体战斗，如骑马长枪比武（jousting）。这种决斗类似
+赛车模拟游戏。我们的版本将包含来自各地的十二个玩家，他们排在一排，为名声，荣誉，（游戏中的）金钱
+对对方发起冲锋。我们也在做一个系统，该系统可以为为其他玩家观看他们的装具，并提供一个赌博机制
+（仅能使用杜卡特），赌比武的结果（又成功了反映了中世纪历史的一个方面）。注意骑马长枪比武
+也是解决城堡围攻的一个流行的方式。不过这里使用真正的长枪而非钝器，并战至一方战死为止。
+
+Naturally, new technology costs more. Connect time for online games via the GEnie network is
+$6.00 an hour (as of 1992, billed to the nearest minute). The game is being designed so that, if
+you use the GFE, you can actively participate using only 2-3 hours a month. If the game goes a
+full century (400 days), it's going to cost you something like $200 to play the entire game. That's
+fifty cents a day. Not cheap, but not all that outrageous either. How else could you participate in
+the Hundred Years War? One of the big problems with on line games is their expense. Many 
+players find themselves spending hundreds of dollars a month on these addictive games and
+many have to drop out because they can't afford it. The Hundred Years War will be unique in
+that it will be one of the first on line games to confront this problem. The way the game is
+designed, there is no real advantage to spending hundreds of dollars a month on the game (unless
+you want to be really good at jousting, which is actually a relatively minor aspect of the period).
+Players can have a major impact while only incurring costs of no more than $20-$30 a month.
+This way, we hope to get a lot more players involved. Online gaming looks to be one of the more
+interesting new areas for historical simulations in quite some time. 
+
+自然地，使用新技术将带来更高的花费。使用GEnie网络连接游戏的费用是每小时6美元（1992年物价，按分钟计费）。
+游戏被设计为，如果你使用GFE，你每个月只需用上线2-3小时。如果这个游戏运营了整个游戏百年（现实400天），它将会
+花掉你大约200美元以玩过整场游戏。这相当于每天50年美元。不算很便宜，不过也没有那么贵。你还能怎么参与
+这个游戏呢。线上游戏的一个问题就是它的话费。有些成瘾网上游戏玩家发现他们在游戏上每月花了数百美元，
+从而其中很多人因为负担不起而被迫中途退出。百年战争的独特之处在于它将成为第一个试图解决这个
+问题的线上游戏。游戏的设计方式使得每月在游戏中花掉数百美元并不会使你获得太大优势（除非你
+花费很多去试图精通骑马长枪比武，中世纪中倒也的确经常发生类似的事），玩家仅需花费20-30美元美元就可
+造成很大的影响。通过这个方式，我们希望使得更多玩家参与。网络游戏看起来是历史模拟游戏可以大展身手
+的崭新领域。
+
+But why just talk about it when we can walk you through a few activities of the actual game
+(alpha version) in late 1991. I was playing Louis II, Count of Flanders. What follows is what
+actually appeared on my computer screen as I connected to GEnie and entered the Hundred
+Years War game. Brief notes explaining what I'm doing will appear interspersed with the game
+related material. 
+
+[[production note: my comments appear in brackets. Computer material should appear in
+different type face, I suggest sans serif]] 
+
+
+但是为什么我们要仅仅是抽象地谈论他们，当我们可以的确带你见识这个游戏在1991末的alpha版本的样子呢？
+下面的内容将是我连接到GEnie并在我屏幕上显示的游戏内容，我将扮演Louis II，Flanders伯爵。
+游戏中的一些内容将被以注释的形式解释。
+
+[[我的注释将标在方括号中。电脑显示的东西应该不同的样式出现，我建议使用无衬线字体（译：即每个字母
+单独显示，衬线字体的显示会考虑上下文）]]
+
+```
+** Thank you for choosing GEnie **
+
+The Consumer Information Service from General Electric
+Copyright (C), 1992
+
+GEnie Logon at: 05:46 EST on: 921107
+Last Access at: 21:47 EST on: 921107
+
+No letters waiting.
+
+GEnie Announcements (FREE)
+
+1. NEW FCC COST INCREASE THREATENS COMPUTER SERVICES......*FCC
+2. NEW NEW NEW The 1992 Version GEnie Satin Jacket.......*ORDER
+3. New Area Codes in California and Maryland.............. 
+4. If you love Soap Operas, check out the >free< RTCin....SHOWBIZ
+5. Subscribe now to DUNGEONS & DRAGONS(tm) games..........TSR
+6. November issue the Caribbean Travel Roundup is here....TIS
+7. Win MICROSOFT SOLUTION software at FREE RTC............HOSB
+8. RTCs, Mickey's Birthday................................FLORIDA
+9. RECHARGER Magazine RTC on the..........................PSRT
+10. Computer Football League opens.........................SCORPIA
+11. Speak with a Technical Support Supervisor..............CHIPSOFT
+12. LIVE from LEIPZIG......................................GERMANY
+13. Mid-Week football fun. Call the plays for Texas A&M....QB1
+14. Play the weekly Fantasy Football Pool and win $$.......FF
+15. Upload contest wins FREE time, Usenet news in..........UNIX
+
+Enter #, <H>elp, or <CR> to continue?Move 945
+```
+
+
+```
+** 感谢您使用GEnie **
+
+信息服务有通用电气提供
+Copyright (C), 1992
+
+GEnie登入: 05:46 EST on: 921107
+最后访问: 21:47 EST on: 921107
+
+没有邮件
+
+GEnie公告 (免费)
+
+1. 新的联邦通信委员会（FCC）支出威胁计算机服务......*FCC
+2. 最新出品,GEnie 1992年版缎纹夹克（Satin Jacket）.......*ORDER
+3. 加利福尼亚与马里兰州的新区号（Area Code）.............. 
+4. 如果你喜欢肥皂剧, 请看>免费的< RTCin....SHOWBIZ
+5. 现在订购龙与地下城(tm)游戏..........TSR
+6. 这里看11月加勒比海旅游概览....TIS
+7. 免费赢取微软解决方案软件 RTC............HOSB
+8. 米奇的生日的RTC ................................FLORIDA
+9. 充电（RECHARGER）杂志RTC在这儿 ..........................PSRT
+10. 计算机足球联盟成立.........................SCORPIA
+11. 与技术支持主管谈笑风生..............CHIPSOFT
+12. 来自莱比锡的LIVE......................................GERMANY
+13. 周中足球粉丝们，去德克萨斯A&M玩吧....QB1
+14. 参加幻想足球赛发大财.......FF
+15. 上传竞赛获取免费时间,Usenet大新闻..........UNIX
+
+
+输入 #, <H>elp, 或 <CR> 继续?Move 945
+```
+
+[The first thing you see is GEnie ID and promotional material. You are not charged for looking
+at that. I entered the command "Move 945" and that took me to the Hundred Years War (HYW)
+game. The GFE would take you there automatically.]
+
+[首先你会看到的东西是GEnie ID和这些广告内容。你不是必须看这些东西，我输入命令“Move 945”进入
+百年战争（HYM）游戏。GFE程序则会自动进入游戏。]
+
+```
+The game and its RT are a GEnie VALUE ($6 an hour) Service
+
+WELCOME TO THE HUNDRED YEARS WAR MULTIPLAYER ONLINE GAME
+
+The game is on page 945, the HYW RT is on page 946. Weekly Real Time
+Conferences on Saturday, 4 PM Eastern Time in the games Interactive Court.
+Plenty of files on the game in the file library (page 946). Plenty of good
+advice and companionship in the HYW RT (page 946). Plenty of mayhem and
+adventure in the game (page 945).
+
+HYW Staff, and their GEnie email IDs
+
+Designed by Jim Dunnigan: HYW$
+System development by Dan Masterson: HYW$
+Research by Al Nofi: HYW$
+Player assistance provided by the Heralds:
+Herald of England- Darrell L. Killpack: FROTZ
+Herald of England- Mark O. Kinkead: M.KINKEAD
+Herald of France- Barbara Byro: BYRO
+Herald of France- Robert B. Kasten: R.KASTEN1
+Herald of the Others- Daniel H. Scheltema: D.SCHELTEMA
+Master of the Archives- Charles R. Townsley: C.TOWNSLEY
+Master of the Peerage- Richard A. Edwards: R.EDWARDS26
+Master of the Scrivners- Dave Zincavage: JDZ3
+
+Help is always available in the HYW RT (page 946)
+
+GEnie Page 945
+
+Hundred Years War (tm) by DENO
+
+1. Personal Affairs
+2. Travel
+3. Hunting, Combat and Dirty Deeds
+4. Official Acts
+5. The Herald
+6. Scoreboard
+7. Instructions
+8. Join Hundred Years War
+9. HYW RoundTable
+10. Send FEEDBACK to DENO
+
+Enter #, <P>revious, or <H>elp?1
+
+```
+
+```
+这个游戏和它的RT（译：类似论坛）由GEnie VALUE(每小时6美元)服务提供
+
+欢迎来到百年战争多人在线游戏
+
+这个游戏在945页，HYW RT在946页。周实时会议在东部时间星期六下午4点于游戏交互法庭召开。
+大量关于游戏的文件可见于文件图书馆（946页），大量关于在HYW RT的沟通建议见于946页。
+大量的混乱和冒险见于游戏（945页）。
+
+HYW工作人员，和他们的GEnie邮箱地址与ID
+
+设计师 邓尼根: HYW$
+系统开发 Dan Masterson：HYW$
+研究 Al Nofi: HYW$
+玩家协助 Heralds:
+英格兰传令官- Darrell L. Killpack: FROTZ
+英格兰传令官- Mark O. Kinkead: M.KINKEAD
+法兰西传令官- Barbara Byro: BYRO
+法兰西传令官- Robert B. Kasten: R.KASTEN1
+其他区域传令官- Daniel H. Scheltema: D.SCHELTEMA
+档案管理者- Charles R. Townsley: C.TOWNSLEY
+贵族管理者- Richard A. Edwards: R.EDWARDS26
+公证管理者- Dave Zincavage: JDZ3
+
+
+
+你总可以在HYW RT（946页）上得到游戏帮助
+
+GEnie 945页
+
+百年战争（tm）DEMO版
+
+
+1. 个人事务
+2. 旅行
+3. 收敛，战斗与肮脏的勾当
+4. 官方行为
+5. 传令官
+6. 分数榜
+7. 介绍
+8. 加入百年战争
+9. HYW圆桌会议
+10. 给DEMO反馈
+
+输入 #, <P>revious, 或 <H>elp?1
+
+```
+
+[This is the main HYW menu. The first thing I want to do is go to the personal affairs menu (1) to
+see how I'm doing.]
+
+[这是HYW的主要菜单。我首先想转到个人事务菜单（1）中看看我正在干什么。]
+
+```
+1. <Fie>f Management
+2. <P>ersonal Characteristics
+3. <H>ousehold Affairs
+4. <Fa>mily Matters
+5. <Fin>ancial Activity
+6. <C>ourt
+7. <A>larum Menu
+8. <G>amble
+9. <O>nline Messages
+10. Dump Vital Financial Information
+11. Dump Vital Family Information
+12. <I>nteractive Court
+Enter #, or <ENTER> To Exit: 2
+```
+
+```
+1. <Fie>(e)文件管理
+2. <P>(ersonal) 个人特征
+3. <H>(ousehold) 家族事务
+4. <Fa>(mily) 家庭事务
+5. <Fin>(ancial)财务事务
+6. <C>(ourt) 宫廷
+7. <A>(larum)警告菜单
+8. <G>(amble)赌博
+9. <O>(nline)在线消息
+10. 删除(Dump)重要财务信息 
+11. 删除重要家庭信息
+12. <I>(nteractive)与宫廷交互
+Enter #, 或 回车 以 退出: 2
+```
+
+[Personal affairs has numerous submenus. But first I'll show you "who I am." by choosing menu
+option 2.]
+
+[个人事务有很多子菜单，但是首先我先选择菜单选项2来向你展示“我是谁”]
+
+```
+Personal Purse 877.00
+Current Location is AFC01 Luxeil
+Current Health 3 Maximum Health 3
+```
+
+<table border="1" cellpadding="2" width="695">
+  <tbody><tr>
+    <td width="140"><small><code>Management</code></small></td>
+    <td width="19"><small><code>3</code></small></td>
+    <td width="126"><small><code>Guile</code></small></td>
+    <td width="19"><small><code>1</code></small></td>
+    <td width="166"><small><code>Leadership</code></small></td>
+    <td width="45"><small><code>8</code></small></td>
+    <td width="98"><small><code>Stature</code></small></td>
+    <td width="18"><small><code>7</code></small></td>
+  </tr>
+  <tr>
+    <td width="140"><small><code>Protection</code></small></td>
+    <td width="19"><small><code>2</code></small></td>
+    <td width="126"><small><code>Endurance</code></small></td>
+    <td width="19"><small><code>8</code></small></td>
+    <td width="166"><small><code>Attack Value</code></small></td>
+    <td width="45">1</td>
+    <td width="98">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="140"><small><code>Tournament</code></small></td>
+    <td width="19"><small><code>3</code></small></td>
+    <td width="126"><small><code>Sire ID</code></small></td>
+    <td width="19"><small><code>0</code></small></td>
+    <td width="166"><small><code>Org ID</code></small></td>
+    <td width="45"><small><code>285</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+You are Heinrich V de Limbourg Your ID is 285 Your age is 46
+You are married to Alais de Limbourg.
+Sex m You Speak F1
+Wife is not Pregnant
+Court Persona Is 285
+```
+
+_______________________
+
+```
+Athlete 4
+Command 7
+Insightful of people 8
+Insightful of situations 4
+Superstitious 5
+See Titles (Y or N)? y
+ Fief ID Fief Name Rank
+1. HLG01 Limbourg 11 Graf
+Press <ENTER> to continue.
+```
+____________________
+
+
+
+
+```
+个人钱包 877.00
+当前位置为 AFC01 Luxeil
+当前健康值 3 最大健康值 3
+```
+
+<table border="1" cellpadding="2" width="695">
+  <tbody><tr>
+    <td width="140"><small><code>管理</code></small></td>
+    <td width="19"><small><code>3</code></small></td>
+    <td width="126"><small><code>狡诈</code></small></td>
+    <td width="19"><small><code>1</code></small></td>
+    <td width="166"><small><code>领导力</code></small></td>
+    <td width="45"><small><code>8</code></small></td>
+    <td width="98"><small><code>声望</code></small></td>
+    <td width="18"><small><code>7</code></small></td>
+  </tr>
+  <tr>
+    <td width="140"><small><code>保护</code></small></td>
+    <td width="19"><small><code>2</code></small></td>
+    <td width="126"><small><code>忍耐（Endurance）</code></small></td>
+    <td width="19"><small><code>8</code></small></td>
+    <td width="166"><small><code>攻击值</code></small></td>
+    <td width="45">1</td>
+    <td width="98">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="140"><small><code>竞技赛</code></small></td>
+    <td width="19"><small><code>3</code></small></td>
+    <td width="126"><small><code>Sire ID</code></small></td>
+    <td width="19"><small><code>0</code></small></td>
+    <td width="166"><small><code>Org ID</code></small></td>
+    <td width="45"><small><code>285</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+你是Limbourg的Heinrich V,你的ID是285。你的年龄是46岁。
+你娶了Limbourg的Alais
+性别 男 你说F1语
+妻子没有怀孕
+宫廷角色（Court Persona）为285
+```
+
+_______________________
+
+```
+运动能力 4
+战斗能力 7
+对人类的洞察力 8
+对形势的洞察力 4
+迷信 5
+看头衔 (Y or N)? y
+ 领地ID  领地名  等级
+1. HLG01  Limbourg  11 伯爵
+按 回合 以 继续.
+```
+____________________
+
+
+[If it looks like something out of out of a Role Playing Game (RPG), it is, as HYW is a RPG,
+albeit one played on a vast scale and historically accurate. I describe my character as a dirty old
+man, but more on that later.]
+
+[Back at the Personal Affairs Menu, I go to check out my financial situation. As in real life,
+money drives this game.]
+
+[如果这个游戏看上去像角色扮演游戏（RPG），其实吧，百年战争就是个RPG，不过是在一个广阔的历史尺度
+与精度的世界中。我将我的角色描述为一个肮脏的老男人，之后会介绍更多。]
+
+[回到个人事务菜单中，我转而检查自己的财务情况。就像在现实生活中一样，钱驱动着整个游戏。]
+
+```
+Financial Activity
+
+1. <S>ummary of all Holdings
+2. <I>ndividual Fief Status
+3. <F>iefs Owned List
+4. <C>urrent Finances
+5. <P>ayments to Other Players
+6. <B>uy and Sell Fiefs
+7. Hire and Fire <N>PCs
+8. Hire <T>roops
+9. <E>xit
+
+Enter # 3
+```
+[Lets check out my fiefs, the source of a feudal lords wealth.]
+
+```
+Fief ID Fief Name Trsry Kp Lvl Surp Llty Bail Mngr AT Status
+1. HLG01 Limbourg 6 5.79 -35 9.0 392 0 N Calm
+
+
+Choose Fief 1 to 1, <E> Followed by Fief # to Examine, <P>revious Page,
+or <ENTER> TO Quit: 1
+
+Fall Of 1340 90.0 Days Left
+
+Current Fief HLG01 Limbourg
+Loyalty 9.00 Surplus -35.00 Treasury Balance 6.23 Status Calm
+Bailiff ID 392
+Auto Transfer Flag Is Off, Surplus Will Not Be Transfered To Purse
+
+Personal Purse 877.00
+```
+
+```
+财务事务
+
+1. <S>(ummary)私有资产汇总
+2. <I>(ndividual)个人体领地状况
+3. <F>(iefs)所拥有领地列表
+4. <C>(urrent)当前财务
+5. <P>(ayments)给其他玩家的支付
+6. <B>(uy)买卖领地
+7. 雇佣与解雇<N>PCs
+8. 征召<T>武装
+9. <E>xit
+
+输入 # 3
+```
+[让我们看看我的领地，封建领主财务的来源]
+
+```
+   领地ID 领地名称 价值 城堡等级 结余 Llty Bail Mngr AT 状态
+1. HLG01  Limbourg 6    5.79   -35  9.0  392  0    N  安宁的
+
+输入 1跳转到领地1, <E>后跟领地序号对该领地检查, <P>以调回上一页,
+或 回车退出: 1
+
+1340 秋季 剩余90.0天
+
+当前领地： HLG01 Limbourg
+忠诚 9.00 总结余 -35.00 收入 6.23 状态 安宁的
+Bailiff ID 392
+自动转移标记为关闭状态，从而结余不会自动结转到钱包中
+
+个人钱包 877.0
+```
+
+[The Graf de Limbourg controls one fief, with a name, and location, that still exist in modern
+Germany. This was one of the many peripheral areas included in the game. Most of the fiefs are
+in France and England.]
+
+[Limbourg伯爵控制着的这个领地，它的名字和位置在当今德国仍然存在。这个区域在游戏涉及范围的边界，
+游戏中的主要的领地还是分布在法兰西和英格兰]
+
+```
+Enter # 1
+Individual Fief Summary
+Limbourg (HLG01 ) Liege HRE:Germany Population 20.3
+Language F1 Freedom 1 Status Calm
+Your Overlord is Guy Baudet (290) Bailiff ID 392
+Fields 5.22 Industry 2.08 Weather 0.99 Trsy Bal 6.23
+Knights 28 MAA 10 Lt Cav 0 Yeomen 0 Foot 406 Rabble 8932
+```
+
+<table border="1" cellpadding="2" width="80%">
+  <tbody><tr>
+    <td><small><code>&nbsp;&nbsp; </code></small></td>
+    <td><small><code>Last Season&nbsp;&nbsp; </code></small></td>
+    <td><small><code>Crnt Season&nbsp;&nbsp; </code></small></td>
+    <td><small><code>Next Season</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>Loyalty&nbsp;&nbsp; </code></small></td>
+    <td><small><code>8.73&nbsp;&nbsp; </code></small></td>
+    <td><small><code>9.00</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>GDP&nbsp;&nbsp; </code></small></td>
+    <td><small><code>3117&nbsp;&nbsp; </code></small></td>
+    <td><small><code>3121&nbsp;&nbsp; </code></small></td>
+    <td><small><code>3138</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>1-Tax Rate&nbsp;&nbsp; </code></small></td>
+    <td><small><code>14.0%&nbsp;&nbsp; </code></small></td>
+    <td><small><code>14.0%&nbsp;&nbsp; </code></small></td>
+    <td><small><code>14.0%</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>Income&nbsp;&nbsp; </code></small></td>
+    <td><small><code>436&nbsp;&nbsp; </code></small></td>
+    <td><small><code>436&nbsp;&nbsp; </code></small></td>
+    <td><small><code>439</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>2-Officials&nbsp;&nbsp; </code></small></td>
+    <td><small><code>80&nbsp;&nbsp; </code></small></td>
+    <td><small><code>66&nbsp;&nbsp; </code></small></td>
+    <td><small><code>60</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>3-Garrison&nbsp;&nbsp; </code></small></td>
+    <td><small><code>222&nbsp;&nbsp; </code></small></td>
+    <td><small><code>182&nbsp;&nbsp; </code></small></td>
+    <td><small><code>165</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>4-Infrastructure&nbsp;&nbsp; </code></small></td>
+    <td><small><code>122&nbsp;&nbsp; </code></small></td>
+    <td><small><code>100&nbsp;&nbsp; </code></small></td>
+    <td><small><code>90</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>5-Keep (Level)&nbsp;&nbsp; </code></small></td>
+    <td><small><code>160 ( 5.64)&nbsp;&nbsp; </code></small></td>
+    <td><small><code>131 ( 5.79)&nbsp;&nbsp; </code></small></td>
+    <td><small><code>119</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>Extra Expenses&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-24&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-7</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>Total Expenses&nbsp;&nbsp; </code></small></td>
+    <td><small><code>560&nbsp;&nbsp; </code></small></td>
+    <td><small><code>471</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>Graft&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>Overlord Taxes&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>Surplus/Deficit&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-124&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-35</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+Enter 1-5 to change, or <ENTER> to Quit:
+```
+
+```
+输入 # 1
+个人领地汇总
+Limbourg (HLG01 ) 封君（Liege） HRE:德意志人口 20.3
+语言 F1 自由度 1 状态 安宁的
+你的领主是 Guy Baudet (290) Bailiff ID 392
+农田 5.22 手工业 2.08 天气 0.99 盈余 6.23
+骑士 28 武装人员（MAA） 10 轻骑兵（Lt Cav） 0 自由民（Yeomen） 0 步兵 406 暴民（Rabble） 8932
+```
+
+<table border="1" cellpadding="2" width="80%">
+  <tbody><tr>
+    <td><small><code>&nbsp;&nbsp; </code></small></td>
+    <td><small><code>上一季度&nbsp;&nbsp; </code></small></td>
+    <td><small><code>当前季度&nbsp;&nbsp; </code></small></td>
+    <td><small><code>下一季度</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>忠诚&nbsp;&nbsp; </code></small></td>
+    <td><small><code>8.73&nbsp;&nbsp; </code></small></td>
+    <td><small><code>9.00</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>GDP&nbsp;&nbsp; </code></small></td>
+    <td><small><code>3117&nbsp;&nbsp; </code></small></td>
+    <td><small><code>3121&nbsp;&nbsp; </code></small></td>
+    <td><small><code>3138</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>1-税率&nbsp;&nbsp; </code></small></td>
+    <td><small><code>14.0%&nbsp;&nbsp; </code></small></td>
+    <td><small><code>14.0%&nbsp;&nbsp; </code></small></td>
+    <td><small><code>14.0%</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>收入&nbsp;&nbsp; </code></small></td>
+    <td><small><code>436&nbsp;&nbsp; </code></small></td>
+    <td><small><code>436&nbsp;&nbsp; </code></small></td>
+    <td><small><code>439</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>2-官员&nbsp;&nbsp; </code></small></td>
+    <td><small><code>80&nbsp;&nbsp; </code></small></td>
+    <td><small><code>66&nbsp;&nbsp; </code></small></td>
+    <td><small><code>60</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>3-守备队&nbsp;&nbsp; </code></small></td>
+    <td><small><code>222&nbsp;&nbsp; </code></small></td>
+    <td><small><code>182&nbsp;&nbsp; </code></small></td>
+    <td><small><code>165</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>4-基础设施&nbsp;&nbsp; </code></small></td>
+    <td><small><code>122&nbsp;&nbsp; </code></small></td>
+    <td><small><code>100&nbsp;&nbsp; </code></small></td>
+    <td><small><code>90</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>5-城堡(等级)&nbsp;&nbsp; </code></small></td>
+    <td><small><code>160 ( 5.64)&nbsp;&nbsp; </code></small></td>
+    <td><small><code>131 ( 5.79)&nbsp;&nbsp; </code></small></td>
+    <td><small><code>119</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>额外开支&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-24&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-7</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>总开支&nbsp;&nbsp; </code></small></td>
+    <td><small><code>560&nbsp;&nbsp; </code></small></td>
+    <td><small><code>471</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>贿赂&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>领主税&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0&nbsp;&nbsp; </code></small></td>
+    <td><small><code>0</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>结余/负债&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-124&nbsp;&nbsp; </code></small></td>
+    <td><small><code>-35</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+输入 1-5 修改, 或 回车 以 退出:
+```
+
+[I'm currently taxing this fief at a high level, but I'm also investing a lot in Infrastructure (roads,
+public buildings and the like) and payments to the Garrison (the local knights and men at arms),
+which will enable me to raise taxes even higher.]
+
+[Back at the main menu, I go to the Alarum menu, to find out that has been happening in the
+game recently. Each day of real time represents 90 days (one season) of game time.]
+
+[我正在在这个领地征收较高的税收，不过我也同样在其基础设施（道路，公共建筑之类的）投入了很多。
+我在守备队（地方骑士和武装人员）维护上也投入了很多，这使得我可以高枕无忧的征收高税。]
+
+[回到主菜单，我回到警告菜单去查看最近游戏世界中发生了什么。真实世界每一天对应游戏世界90天。]
+
+```
+Alarum Menu
+
+1. <R>ead Personal History File
+2. Read <H>erald
+3. <A>ctive Player List
+4. <S>cores
+
+999. Move To Main HYW Menu
+
+Enter #, or <ENTER> To Exit: h
+
+Enter Season Of History You Want To Read
+
+1. Last Season (Summer 1340)
+2. Two Seasons Ago (Spring 1340)
+3. Three Seasons Ago (Winter 1339)
+
+Enter #, or <ENTER> To Exit: 1
+```
+
+```
+警告菜单
+
+1. <R>(ead) 阅读个人历史档案
+2. 阅读<H>(erald)传令官消息
+3. <A>(ctive)上线玩家列表
+4. <S>(cores)分数
+
+999. 移到HYM主菜单
+
+输入 #, or 回车 以 退出: h
+
+输入你想要阅读的档案所处的季度
+
+1. 上一季度 (1340夏季)
+2. 上两季度 (1340春季)
+3. 上三季度 (1339冬季)
+
+输入 #, 或 回车 以 退出: 1
+```
+
+[I look at the most recent season (yesterday in real time) and find out who was born, who died,
+who is at war, what battles were fought, keeps besieged and fiefs pillaged. Never a dull moment
+in the 14th century.]
+
+[我查看上一个季度（即真实时间的昨天）的记录看看都有谁出生，死亡，处于战争中，发生了哪些战斗，
+那些领地被围攻和劫掠。在14世纪永远不会有无趣的一天。]
+
+```
+History For Summer 1340
+
+The Freville Family (18) has had a baby boy.
+The Burys Family (46) has had a baby boy.
+The de Bohun Family (101) has had a baby boy.
+The de Camus Family (119) has had a baby girl.
+778 Catherine Berkeley died in child birth.
+The Glyn Dwr Family (195) has had a baby girl.
+658 Marie de Preaux died in child birth.
+The de Rohan Family (205) has had a baby girl.
+The du Barril Family (206) has had a baby boy.
+The Holland Family (226) has had a baby girl.
+The Douglas Family (282) has had a baby boy.
+The de Loraille Family (297) has had a baby girl.
+The de Namur Family (305) has had a baby girl.
+The Grovesner Family (239) has had a grandson.
+```
+
+```
+1340夏季纪事
+
+Freville家族(18)生了个男孩.
+Burys家族(46)生了个男孩.
+de Bohun家族(101)生了个男孩.
+de Camus 家族 (119)生了个女孩.
+778 Catherine Berkeley难产身亡.
+The Glyn Dwr 家族 (195)生了个女孩.
+658 Marie de Preaux难产身亡.
+de Rohan 家族 (205)生了个女孩.
+du Barril 家族 (206)生了个男孩.
+Holland 家族 (226)生了个女孩.
+Douglas 家族 (282)生了个男孩.
+de Loraille Family (297)生了个男孩.
+de Namur 家族 (305)生了个男孩.
+The Grovesner Family (239)生了个孙子.
+```
+
+[Because you only can stay in the game if you have an heir to replace your current character
+when it dies, marriage and children are important. Childbirth was, however, more dangerous
+then than it is today and even the wives of aristocrats were at risk.]
+
+[由于当你当前角色死亡时你必须有一个继承人替换当前角色才能继续游戏。所以结婚和生育是很重要的，
+生育在中世纪比起今天要危险的多，即使是贵族家庭的女性也常常处于难产身亡的风险中。]
+
+```
+Eudes de Burgundy (53) has died at Dijon.
+Isabelle Richemont (103) has died at Limoges.
+John de Cobham (163) has died at Maidstone.
+Simone Boccanera (287) has died at Genoa.
+Andrea Orsini (407) has died at Venice.
+Louise de Craon (687) has died at Rochefort.
+Jeanne de Laval (705) has died at La Fert.
+Margaret ap Gwain (715) has died at Montbard.
+Press <ENTER> to continue.
+Jeanne de Clare (716) has died at Llandovery.
+Annette de Gonzolles (760) has died at Llanbyther.
+Thomas de Floques (950) has died at Portsmouth.
+Alexandre de Corvino (1235) has died at Evreaux.
+Eudes du Barril (6274) has died at Perigord.
+Alain de Lyon (6315) has died at Laon.
+```
+
+```
+Eudes de Burgundy (53) 在Dijon去世.
+Isabelle Richemont (103) 在Limoges去世.
+John de Cobham (163) 在Maidstone去世.
+Simone Boccanera (287) 在Genoa去世.
+Andrea Orsini (407) 在Venice去世.
+Louise de Craon (687) 在Rochefort去世.
+Jeanne de Laval (705) 在La Fert去世.
+Margaret ap Gwain (715) 在Montbard去世.
+按 回车 以 继续.
+Jeanne de Clare (716) 在Llandovery去世.
+Annette de Gonzolles (760) 在Llanbyther去世.
+Thomas de Floques (950) 在Portsmouth去世.
+Alexandre de Corvino (1235) 在Evreaux去世.
+Eudes du Barril (6274) 在Perigord去世.
+Alain de Lyon (6315) 在Laon去世.
+```
+
+[Warfare was common, and often the forces were commanded, if only in name, by women. These
+female warriors were almost always widows who were forced to send out troops to defend their 
+interests. The women would usually hire a noted freelance commander to actually lead the
+troops in battle. Unlike most wargames, this one actually attracts a large number of female
+players.]
+
+[冲突是常见的，而且这些军队常常是被女人所统领，虽然一般是名义上的。这些女性战士通常是一些寡妇，
+她们被迫派出军队去包围她们的利益。这些女人通常雇佣一个著名的雇佣兵头领去实际指挥军队。不像大多数
+兵棋，这个游戏的确吸引了很多女性玩家。]
+
+```
+FPO03 La Roche de Poitiers 正在被 Anne Aubert (112)围攻 .
+FPO03 La Roche de Poitiers 被 Anne Aubert (112)所夺取.
+APR01 Barcelonette 正在被 Jean de Clermont (121)围攻.
+APR01 Barcelonette 被 Jean de Clermont (121) 劫掠
+APR01 Barcelonette 被 Jean de Clermont (121) 袭击
+APR01 Barcelonette 被 Jean de Clermont (121) 夺取.
+ANC02 Puget 正在被 Jean de Clermont (121) 围攻.
+Mary Elizabeth Clifford (230) 与 Robert de Nesles (764) 成婚.
+Anne Glyn Dwr (6303) 与 Roger Mowbry (1079) 成婚.
+Jean de Clermont (121) 已被绝罚.
+Blanche de Ponthieve (632) 与 Charles de Chabannes (1127) 成婚.
+Guy de Sully (82) 开始召集军队.
+Bodo Badarieux (1583) 在试图刺杀 Gautier le Roy (60) 时被捕.
+Herve Gex (3689) 在试图绑架 Jeanne le Roy (799) 时被捕.
+```
+
+[Assassination and kidnapping were considered perfectly reasonable ways to achive your goals
+in this period. They were a lot cheaper than hiring an army.]
+
+[刺杀和绑架在这个时代被认为是完全合理的达成目的的手段。它们比使用正式的武力要便宜得多。]
+
+```
+APR01 Barcelonette is being besieged by Clare Paleologo (231).
+Press <ENTER> to continue.
+Jean de Clermont (121) Has Been Outlawed
+By Philippe VI de Valois (200).
+```
+
+```
+APR01 Barcelonette 正在被 by Clare Paleologo (231) 围攻.
+按 回车 以 继续.
+Jean de Clermont (121) 被 Philippe VI de Valois (200) 宣布为不法之徒
+```
+
+[At this point in the game, the player with the Jean de Clermont decided to wage a private war.
+The French king (Philippe VI de Valois) told him to stop, as did the player playing the Pope. De
+Clermont ignored both, and in this season he was outlawed by the king and excommunicated by
+the Pope. The king and his loyal vassals raised armys and marched on de Clermonts lands in the
+south central French Forez region. Doesn't pay to mess with the king.]
+
+[在游戏的这个时间点，操纵Jean de Clearmont的玩家决定发起一场私人战争，
+另一个同时扮演法王（Philippe VI de Valois）和教皇的玩家要求他停战。De Clermont同时无视这两个要求，
+于是他同时被法王宣布为非法，被教皇绝罚。同时法王和他重视的附庸召集军队赶往Clermont的在法兰西中南部的
+Fores领地。所以不要试图激怒你的王。]
+
+```
+FCE05 Mantes was pillaged by Ame de St-Vollier (10)
+FCE05 Mantes is being besieged by Ame de St-Vollier (10).
+FCE05 Mantes was raided by Ame de St-Vollier (10)
+Eleanor de Grailly (1043) and John d'Urtino (531) were married.
+Roger de Clermont (789) was captured during a successful siege.
+Elizabeth de Clermont (6228) was captured during a successful siege.
+FCE05 Mantes was taken by Ame de St-Vollier (10).
+FCE03 Pontoise is being besieged by Ame de St-Vollier (10).
+FCE01 Clermont was raided by Thierry III de Grand Pre (252)
+FCE01 Clermont is being besieged by Philippe VI de Valois (200).
+Jean de Clermont (121)'s Garrison Defeated
+Thierry III de Grand Pre (252) During A Pillage/Raid Attempt At Clermont.
+FCE01 Clermont surrendered to Philippe VI de Valois (200)
+FCE03 Pontoise was pillaged by Philippe VI de Valois (200)
+APR01 Barcelonette is being besieged by Louise de Gonzolles (173).
+FCE03 Pontoise is being besieged by Philippe VI de Valois (200).
+FCE01 Clermont is being besieged by Thierry III de Grand Pre (252).
+Thierry III de Grand Pre (252) Defeated
+Philippe VI de Valois (200)'s Garrison During A Siege Attempt At Clermont.
+FGU12 Graves is being besieged by Jean de Grailly (126).
+Press <ENTER> to continue.
+Jean de Grailly (126) Defeated
+Foucaud de Rouchechourt (3)'s Garrison During A Siege Attempt At Graves.
+Jean de Grailly (126) Defeated
+Foucaud de Rouchechourt (3)'s Garrison During A Siege Attempt At Graves.
+Foucaud de Rouchechourt (3) was captured during a successful siege.
+Bodo Digne (3257) was captured during a successful siege.
+FGU12 Graves was taken by Jean de Grailly (126).
+FCE01 Clermont paid extortion to Thierry III de Grand Pre (252)
+Thierry III de Grand Pre (252) Defeated
+Philippe VI de Valois (200)'s Garrison During A Siege Attempt At Clermont.
+Thierry III de Grand Pre (252) Defeated
+Philippe VI de Valois (200)'s Garrison During A Siege Attempt At Clermont.
+Anne de Breche (1120) and Nicholas de Breche (186) were married.
+APR01 Barcelonette was pillaged by Alfonso XI de Castilla y Leon (8)
+APR01 Barcelonette was raided by Alfonso XI de Castilla y Leon (8)
+APR01 Barcelonette is being besieged by Alfonso XI de Castilla y Leon (8).
+APR01 Barcelonette was taken by Alfonso XI de Castilla y Leon (8).
+Elizabeth de Bertrand was caught seducing
+Bertrand du Guesclin.
+Elizabeth de Bertrand (193) and Bodo de Mauny (794) were married.
+Henry Percy was caught seducing
+Annette de Stafford.
+Press <ENTER> to continue.
+```
+
+```
+FCE05 Mantes 被Ame de St-Vollier (10) 劫掠
+FCE05 Mantes 正在被Ame de St-Vollier (10) 围攻.
+FCE05 Mantes 被Ame de St-Vollier (10)袭击
+Eleanor de Grailly (1043) 与 John d'Urtino (531) 成婚.
+Roger de Clermont (789) 在城陷后被捕.
+Elizabeth de Clermont (6228) 在城陷后被捕.
+FCE05 Mantes 被 Ame de St-Vollier (10) 所夺取.
+FCE03 Pontoise 正被 Ame de St-Vollier (10) 围攻.
+FCE01 Clermont 被 Thierry III de Grand Pre (252) 袭击
+FCE01 Clermont 正被 Philippe VI de Valois (200) 围攻.
+Jean de Clermont (121) 的守备队被击败了
+Thierry III de Grand Pre (252) 在 Clermont 对抗掠夺企图.
+FCE01 Clermont 向 Philippe VI de Valois (200) 投降
+FCE03 Pontoise 被 Philippe VI de Valois (200) 劫掠
+APR01 Barcelonette 正被 Louise de Gonzolles (173) 围攻.
+FCE03 Pontoise 正被 Philippe VI de Valois (200) 围攻.
+FCE01 Clermont 正被 Thierry III de Grand Pre (252) 围攻.
+Thierry III de Grand Pre (252) 被击败了
+Philippe VI de Valois (200)的守备队 Clermont 在对抗围攻.
+FGU12 Graves 正在被 Jean de Grailly (126) 围攻.
+按 回车 以 继续.
+Jean de Grailly (126) 被击败了
+Foucaud de Rouchechourt (3)的守备队在 Graves 对抗围攻.
+Jean de Grailly (126) 被击败了
+Foucaud de Rouchechourt (3)的守备队在 Graves 对抗围攻.
+Foucaud de Rouchechourt (3) 在城陷后被捕.
+Bodo Digne (3257) 在城陷后被捕.
+FGU12 Graves 被Jean de Grailly (126) 所夺取.
+FCE01 Clermont 支付勒索金给 Thierry III de Grand Pre (252)
+Thierry III de Grand Pre (252) 被击败
+Philippe VI de Valois (200)的守备队在 Clermont 对抗围攻.
+Thierry III de Grand Pre (252) 被击败了
+Philippe VI de Valois (200)的守备队在 Clermont 对抗围攻.
+Anne de Breche (1120) 与 Nicholas de Breche (186) 成婚.
+APR01 Barcelonette 被 Alfonso XI de Castilla y Leon (8) 劫掠
+APR01 Barcelonette 被 Alfonso XI de Castilla y Leon (8) 袭击
+APR01 Barcelonette 正在被 Alfonso XI de Castilla y Leon (8) 围攻.
+APR01 Barcelonette 被 Alfonso XI de Castilla y Leon (8) 所夺取.
+Elizabeth de Bertrand 在对 Bertrand du Guesclin 的勾引中被捕.
+Elizabeth de Bertrand (193) 与 Bodo de Mauny (794) 成婚.
+Henry Percy 在对 Annette de Stafford 的勾引中被捕.
+按 回车 以 继续.
+```
+
+[Back at the Alarum menu, I can also see who the other players are. In this game there were
+over a hundred at this time. Below is one screen full.]
+
+[回到警告菜单， 我可以看到有哪些其他玩家。在此时的游戏中有超过一百个玩家。下面是一屏内容]
+
+<table border="1" cellpadding="2" width="80%">
+  <tbody><tr>
+    <td><small><code>ID</code></small></td>
+    <td><small><code>Name</code></small></td>
+    <td>&nbsp;</td>
+    <td><small><code>E-Mail</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>1. 22</code></small></td>
+    <td><small><code>Benedict XII</code></small></td>
+    <td><small><code>Pontifex Maximus</code></small></td>
+    <td><small><code>GM</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>2. 83</code></small></td>
+    <td><small><code>Guy</code></small></td>
+    <td><small><code>Baveux</code></small></td>
+    <td><small><code>SIMUTRONICS</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>3. 222</code></small></td>
+    <td><small><code>Renard VI</code></small></td>
+    <td><small><code>de Pons</code></small></td>
+    <td><small><code>FDITIZIO</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>4. 109</code></small></td>
+    <td><small><code>Guy</code></small></td>
+    <td><small><code>d'Albon</code></small></td>
+    <td><small><code>J.JIMENEZ</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>5. 58</code></small></td>
+    <td><small><code>Gaston II</code></small></td>
+    <td><small><code>de Carcassone</code></small></td>
+    <td><small><code>CGW</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>6. 47</code></small></td>
+    <td><small><code>Edward III</code></small></td>
+    <td><small><code>Plantagenet</code></small></td>
+    <td><small><code>DIPLOMACY-1</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>7. 60</code></small></td>
+    <td><small><code>Gautier</code></small></td>
+    <td><small><code>le Roy</code></small></td>
+    <td><small><code>DIPLOMACY-3</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>8. 176</code></small></td>
+    <td><small><code>Louis</code></small></td>
+    <td><small><code>de Bourbon-LaMarche</code></small></td>
+    <td><small><code>AUSI-SUPPORT</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>9. 364</code></small></td>
+    <td><small><code>Connor</code></small></td>
+    <td><small><code>McKinnon</code></small></td>
+    <td><small><code>A</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>10. 97</code></small></td>
+    <td><small><code>Hugh</code></small></td>
+    <td><small><code>de Audley</code></small></td>
+    <td><small><code>FROTZ</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>11. 288</code></small></td>
+    <td><small><code>Personne I</code></small></td>
+    <td><small><code>Inconnu</code></small></td>
+    <td><small><code>M.WIELENGA2</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>12. 46</code></small></td>
+    <td><small><code>Edward</code></small></td>
+    <td><small><code>Burys</code></small></td>
+    <td><small><code>J.BRANDT7</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>13. 157</code></small></td>
+    <td><small><code>Juana II</code></small></td>
+    <td><small><code>de Navarra</code></small></td>
+    <td><small><code>B.HUNTER7</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>14. 12</code></small></td>
+    <td><small><code>Anger</code></small></td>
+    <td><small><code>de Montault</code></small></td>
+    <td><small><code>J.CUMMINS</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>15. 164</code></small></td>
+    <td><small><code>John</code></small></td>
+    <td><small><code>Mowbry</code></small></td>
+    <td><small><code>W.HART9</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+Choose Character 1 to 15, <N>ext Page, or <ENTER> TO Quit: 
+```
+
+<table border="1" cellpadding="2" width="80%">
+  <tbody><tr>
+    <td><small><code>ID</code></small></td>
+    <td><small><code>Name</code></small></td>
+    <td>&nbsp;</td>
+    <td><small><code>E-Mail</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>1. 22</code></small></td>
+    <td><small><code>Benedict XII</code></small></td>
+    <td><small><code>Pontifex Maximus</code></small></td>
+    <td><small><code>GM</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>2. 83</code></small></td>
+    <td><small><code>Guy</code></small></td>
+    <td><small><code>Baveux</code></small></td>
+    <td><small><code>SIMUTRONICS</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>3. 222</code></small></td>
+    <td><small><code>Renard VI</code></small></td>
+    <td><small><code>de Pons</code></small></td>
+    <td><small><code>FDITIZIO</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>4. 109</code></small></td>
+    <td><small><code>Guy</code></small></td>
+    <td><small><code>d'Albon</code></small></td>
+    <td><small><code>J.JIMENEZ</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>5. 58</code></small></td>
+    <td><small><code>Gaston II</code></small></td>
+    <td><small><code>de Carcassone</code></small></td>
+    <td><small><code>CGW</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>6. 47</code></small></td>
+    <td><small><code>Edward III</code></small></td>
+    <td><small><code>Plantagenet</code></small></td>
+    <td><small><code>DIPLOMACY-1</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>7. 60</code></small></td>
+    <td><small><code>Gautier</code></small></td>
+    <td><small><code>le Roy</code></small></td>
+    <td><small><code>DIPLOMACY-3</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>8. 176</code></small></td>
+    <td><small><code>Louis</code></small></td>
+    <td><small><code>de Bourbon-LaMarche</code></small></td>
+    <td><small><code>AUSI-SUPPORT</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>9. 364</code></small></td>
+    <td><small><code>Connor</code></small></td>
+    <td><small><code>McKinnon</code></small></td>
+    <td><small><code>A</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>10. 97</code></small></td>
+    <td><small><code>Hugh</code></small></td>
+    <td><small><code>de Audley</code></small></td>
+    <td><small><code>FROTZ</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>11. 288</code></small></td>
+    <td><small><code>Personne I</code></small></td>
+    <td><small><code>Inconnu</code></small></td>
+    <td><small><code>M.WIELENGA2</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>12. 46</code></small></td>
+    <td><small><code>Edward</code></small></td>
+    <td><small><code>Burys</code></small></td>
+    <td><small><code>J.BRANDT7</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>13. 157</code></small></td>
+    <td><small><code>Juana II</code></small></td>
+    <td><small><code>de Navarra</code></small></td>
+    <td><small><code>B.HUNTER7</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>14. 12</code></small></td>
+    <td><small><code>Anger</code></small></td>
+    <td><small><code>de Montault</code></small></td>
+    <td><small><code>J.CUMMINS</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>15. 164</code></small></td>
+    <td><small><code>John</code></small></td>
+    <td><small><code>Mowbry</code></small></td>
+    <td><small><code>W.HART9</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+Choose Character 1 to 15, <N>ext Page, or <ENTER> TO Quit: 
+使用字符1-15进行选择， <N>下一页 或者 回车 以 退出:
+```
+
+[Back at the main menu, I go to the Travel Menu.]
+
+[回到主菜单, 进入旅行菜单.]
+
+```
+TRAVEL MENU
+
+Fall Of 1340 86.0 Days Left
+
+       -------7-Northwest--------   -------9-Northeast--------
+       - AFC02 Vesoul 1.0-          - AFC01 Luxeil 1.0-
+----------4-West----------   Current Fief     ----------6-East------
+AFC05 Pesmes 1.0-            AFC04 Besancon   AFC03 Clerval 1.0-
+       -------1-Southwest--------   -------3-Southeast--------
+       - AFC07 Salins 1.0-          - AFC06 Pontarlie 1.0-
+
+You Are Outside The Keep No Army Present In Fief
+
+Choose Number Of Direction You Wish To Move, or
+
+2. <Exa>mine Fief             5. <V>isit Court and Enter Keep
+8. <Po>rt Movement            10. <A>rmies in Fief
+11. <Ent>er Keep              12. <Exi>t Keep
+13. <L>ist Those Outside Keep 14. <C>ombat\Dirty Deeds Menu
+15. <F>ief Management         16. <Pe>rsonal Affairs Menu
+17. Army <M>anagement         18. <O>nline Messages
+
+Enter #, or <ENTER> To Exit: v
+```
+
+```
+旅行菜单
+
+1340秋季  剩余86.0天
+
+       -------7-西北--------   -------9-东北--------
+       - AFC02 Vesoul 1.0-     - AFC01 Luxeil 1.0-
+----------4-西----------   当前领地         ----------6-东------
+AFC05 Pesmes 1.0-          AFC04 Besancon   AFC03 Clerval 1.0-
+       -------1-西南--------   -------3-东南--------
+       - AFC07 Salins 1.0-     - AFC06 Pontarlie 1.0-
+
+你正在城堡外面。这个领地当前没有军队。
+
+选择一个数字前往你想去的方向，或者
+
+2. <Exa>mine Fief             5. <V>isit Court and Enter Keep
+8. <Po>rt Movement            10. <A>rmies in Fief
+11. <Ent>er Keep              12. <Exi>t Keep
+13. <L>ist Those Outside Keep 14. <C>ombat\Dirty Deeds Menu
+15. <F>ief Management         16. <Pe>rsonal Affairs Menu
+17. Army <M>anagement         18. <O>nline Messages
+
+2. <Exa>(mine)检查领地        5. <V>(isit)进入城堡并访问宫廷
+8. <Po>(rt) 港口移动          10. <A>(rmies)领地里的军团
+11. <Ent>(er) Keep 进入城堡   14. <Exi>(t) 离开城堡
+13. <L>ist 列出城堡外的人     14. <C>(ombat)战斗/肮脏勾当菜单
+15. <F>(ief) 领地管理         16. <Pe>(rsonal) 个人事务菜单
+17. 军团 <M>(nagement)管理    18. <O>(nline)在线消息
+
+输入 #, 或 回车 以 退出: v
+```
+
+[The travel menu is an easy way to move around Europe. Note the use of the six sided "hexagon"
+technique to regulate movement. Just like many manual games, and many computer wargames
+also. The Travel Menu also allows access to nearly all the other features of the game. I decide to
+visit the court of the fief I am already in.]
+
+[I choose to "attend court" To see who is hanging around the local lords chateau. Most of the
+characters here are NPCs (Non Player Characters). ]
+
+[旅行菜单让你可以在欧洲轻松移动。注意这里使用了六角格来进行移动，像很多手工,电脑兵棋一样。在旅行菜单
+也可以直接调用游戏提供的其他选项。我选择进入我正待着的领地的宫廷中。]
+
+[我选择“进入宫廷”来看看地方领主的城堡。大多数在这的角色都是NPC（即不是玩家控制的角色）]。
+
+```
+Court
+
+Fall Of 1340 86.0 Days Left
+
+Fief AFC04 Besancon
+The Owner Is Jeanne II de Bourgogne (156) Who Is Active.
+Province Franche-Comte Kingdom HRE:Arles
+The Overlord is Jeanne II de Bourgogne (156)
+```
+
+<table border="1" cellpadding="2" width="80%">
+  <tbody><tr>
+    <td><strong><small><code>ID</code></small></strong></td>
+    <td><strong><small><code>Name</code></small></strong></td>
+    <td><strong><small><code>Org</code></small></strong></td>
+    <td><strong><small><code>Sex</code></small></strong></td>
+    <td><strong><small><code>Type</code></small></strong></td>
+    <td><strong><small><code>Comp</code></small></strong></td>
+  </tr>
+  <tr>
+    <td><small><code>1. 156</code></small></td>
+    <td><small><code>Jeanne II de Bourgogne</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>PLYR*</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>2. 465</code></small></td>
+    <td><small><code>Thomas de Beauchamp</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>3. 475</code></small></td>
+    <td><small><code>Alais de Limbourg</code></small></td>
+    <td><small><code>285</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+    <td><small><code>YES</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>4. 499</code></small></td>
+    <td><small><code>Philippe de Bourgogne</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>5. 915</code></small></td>
+    <td><small><code>Robert de Savoy</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>6. 939</code></small></td>
+    <td><small><code>Clare de Savoy</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>7. 1015</code></small></td>
+    <td><small><code>Ame de Savoy</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>8. 1611</code></small></td>
+    <td><small><code>Roger Baiona</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>9. 2038</code></small></td>
+    <td><small><code>Bernard Bourg</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>10. 2719</code></small></td>
+    <td><small><code>Sean Chateau-Renault</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>11. 2753</code></small></td>
+    <td><small><code>Bernard Chaumont</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+Choose Character 1 to 11, <E> Followed By # To Examine, <N>ext Page,
+or <Q>uit: 6
+```
+
+```
+宫廷
+
+1340秋季  剩余86.0天
+
+Fief AFC04 Besancon
+主人是 Jeanne II de Bourgogne (156) 他正在线.
+Province Franche-Comte Kingdom HRE:Arles
+领主是 Jeanne II de Bourgogne (156)
+```
+
+<table border="1" cellpadding="2" width="80%">
+  <tbody><tr>
+    <td><strong><small><code>ID</code></small></strong></td>
+    <td><strong><small><code>名字</code></small></strong></td>
+    <td><strong><small><code>组织</code></small></strong></td>
+    <td><strong><small><code>性别</code></small></strong></td>
+    <td><strong><small><code>类型</code></small></strong></td>
+    <td><strong><small><code>Comp</code></small></strong></td>
+  </tr>
+  <tr>
+    <td><small><code>1. 156</code></small></td>
+    <td><small><code>Jeanne II de Bourgogne</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>PLYR*</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>2. 465</code></small></td>
+    <td><small><code>Thomas de Beauchamp</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>3. 475</code></small></td>
+    <td><small><code>Alais de Limbourg</code></small></td>
+    <td><small><code>285</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+    <td><small><code>YES</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>4. 499</code></small></td>
+    <td><small><code>Philippe de Bourgogne</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>5. 915</code></small></td>
+    <td><small><code>Robert de Savoy</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>6. 939</code></small></td>
+    <td><small><code>Clare de Savoy</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>7. 1015</code></small></td>
+    <td><small><code>Ame de Savoy</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>F</code></small></td>
+    <td><small><code>FMLY</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>8. 1611</code></small></td>
+    <td><small><code>Roger Baiona</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>9. 2038</code></small></td>
+    <td><small><code>Bernard Bourg</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>10. 2719</code></small></td>
+    <td><small><code>Sean Chateau-Renault</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+  <tr>
+    <td><small><code>11. 2753</code></small></td>
+    <td><small><code>Bernard Chaumont</code></small></td>
+    <td><small><code>156</code></small></td>
+    <td><small><code>M</code></small></td>
+    <td><small><code>NPC</code></small></td>
+  </tr>
+</tbody></table>
+
+```
+输入 1-11 选择角色, <E> 后接 # 以进行检查, <N>(ext) 跳转下一页,
+或 <Q>(uit)退出: 6
+```
+
+[Well, well, it seems I have come upon the family of the owner. There is Jeanne II de Bourgogne,
+obviously the widow who now runs the place. The others belonging to "Org(anization)" 156 are
+her children and Thomas de Beauchamp must be the husband of one of her daughters. I think I'll
+get to know one of the daughters.]
+
+[吼啊，看起来我跑到主人家里了。这位Jeanne II de Bourgogne显然作为寡妇统治着这里。其他属于“组织”156
+的是她的孩子，而Thomas de Beauchamp则为她一个女儿的丈夫，我想我要去了解一下她几个女儿中的一个。]
+
+```
+This is Clare de Savoy (939) who is Married.
+She is Not Pregnant
+Current Health 5 Maximum Health 5
+Age 21 Sex f Language F2 Loyalty 3
+Management 8 Guile 4 Leadership 1 Stature 1.0
+Protection 1 Endurance 3 Attack Value 2
+Tournament 3 Sire ID 177 Org Id 156
+ Berserker 1
+ Collector 4
+ Evil Eye 7
+ Insightful of people 9
+ Insightful of Self 2
+ Keepmaster 1
+ Siegecraft 6
+ Sorcery 6
+Press <ENTER> to continue.
+```
+
+```
+这位是 Clare de Savoy (939) 她已经结婚了.
+她没有怀孕
+当前健康值 5 最大健康值 5
+年龄 21 性别 f 语言 F2 忠诚 3
+管理 8 狡诈 4 领导力 1 声望 1.0
+保护 1 忍耐 3 攻击值 2
+竞技 3 Sire ID 177 Org Id 156
+ 狂战士 1
+ 收集者 4
+ 邪眼 7
+ 对人类的洞察力 9
+ 对自我的洞察力 2
+ 城堡管理 1
+ 攻城 6
+ 巫术 6
+按 回车 以 继续.
+```
+
+[Hmmm, young Clare is certainly a piece of work, Great manager, lousy leader and a taste for
+the occult. A married witch, let's see if we can get acquainted....]
+
+[Emmm, 年轻的Clare是一个这样的人。她是很好的管理者，恶心（lousy）的领导者，以及喜爱超自然的东西。
+一个已婚的女巫，让我们看看我们能不能进一步了解她。。]
+
+```
+Current Character: 939 Clare de Savoy
+
+1. <E>xamine Character
+2. <H>ire NPC
+3. <S>educe
+4. <A>dd To Traveling Companions
+5. <R>emove As Traveling Companion
+6. <ENTER> To Quit
+
+ Enter # 3
+ 
+Sire, what type of lady do you take me for!
+Press <ENTER> to continue.
+Seduction Takes One Day.
+Year: 1340 Season: Fall Days Left: 85.0
+Press <ENTER> to continue.
+```
+
+```
+当前选定角色: 939 Clare de Savoy
+
+1. <E>(xamine) 检视该角色
+2. <H>(ire) 雇佣NPC
+3. <S>(educe) 勾引
+4. <A>(dd) 将其加入旅行同伴
+5. <R>(emove) 将其移除出旅行同伴
+6. 回车 以 退出
+
+ 输入 # 3
+ 
+大人，你给我找了个怎样的小姐啊！
+输入 回车 以继续
+勾引花掉一天
+1340年 秋季 剩余85天
+输入 回车 以 继续
+```
+
+[Hmmm, these young wives can be unpredictable. But let's try again.]
+
+[Emmmm, 这些年轻的有妇之夫的态度啊，就是不可预料，让我们再试一次。]
+
+```
+Enter # 3
+Let us steal away to a place of peace and quiet...
+Press <ENTER> to continue.
+Seduction Takes One Day.
+Year: 1340 Season: Fall Days Left: 81.0
+Press <ENTER> to continue.
+```
+
+```
+输入 # 3
+让我们偷偷找一个僻静的地方...
+输入 回车 以 继续.
+勾引花掉了一天.
+1340年秋季 剩余81.0
+输入 回车 以 继续.
+```
+
+[Ahhh, much better. Chivalry lives, in the shadows. Hanky panky was included as a game
+function because it was quite common in the 14th century. In fact, you can't have a realistic
+game of the Hundred Years War without adultery. It seems that a major problem the French had
+was the ruling family, the Valois. At this point in time the Valois were "genetically challenged."
+As the game simulates the passing of characteristics by both parents to their children, it would
+have taken several generations of outstanding Valois wives to breed all the bad characteristics
+out of the line. France could not wait that long. One of the French kings half way through the
+game was totally loopy and his wife was receptive to the attentions of other nobles. This resulted
+in a Valois heir that was not a Valois (the queen publicly admitted as much.) France noted that
+the illegitimate Valois was a much smoother article than the genuine Valois and accepted the
+bastard heir. This did much to turn things around for the French.]
+
+[吼啊。骑士精神总是活在如此的阴影之下。游戏中包括做这样的苟且之事的功能因为这种事在14世纪的确常见。
+事实上，你不能在一个号称真实的百年战争游戏中不包含通奸内容。似乎法兰西最大的问题就是它的通知家族，
+Valois。这个时间点Valois是“基因上出现了偏差”，正如游戏设计使得父母的特性会遗传给子女，
+Valois家族也将会需要几代优秀的夫人来把劣等基因移除出去。法兰西不能等待那么久，
+一位法王在游戏时间的一半都处于精神错乱中，从而他的妻子就引起了各个贵族的注意。这导致了Valois的继承人
+其实并不是Valois的种（王后公开承认这一点），法兰西觉得这个非法的Valois比真正的Valois更合适，
+并接受这个野种作为继承人。这个跟法兰西的命运有很大的关系。]
+
+[Back at the Travel Menu, I go to the Army Management Menu, I proceed to hire some troops by
+Recruiting in the Current Fief. This I can do immediately by offering local troops money to
+follow my banner. This cannot gather many troops, but when you need some soldiers in a hurry,
+this is the way to go. Gathering a large army, the "Call to Arms," takes several months and
+everyone knows about it.]
+
+[回到旅行菜单，进入军队管理菜单，我通过在当前领地征兵来组建军队。我可以通过给当地军事团体一些钱
+来让它们立即追随我的旗帜。这个方法并不能招到很多军队，但是当你需要迅速招到一些战士时是有用的。
+召集大军需要使用“战斗动员”（Call to Arms）]，这将消耗几个月并且被所有人知道。
+
+```
+Army Management
+
+1. <C>all To Arms
+2. <R>ecruit In Current Fief
+3. <A>rmy Status
+4. <D>isband Army
+5. <M>uster Out
+6. <S>tanding Order
+7. <T>ransfer Troops
+8. <P>ick Up Troops Responding To Call To Arms
+9. Assemble <F>leet
+999. Move To Main HYW Menu
+
+Enter #, or <ENTER> To Exit: r
+
+Purse: 877.00 Kducats
+
+Soldiers cost 1 Kducats Per Soldier Per Season.
+You must, also, pay a 1 Kducat recruiting fee.
+How many soldiers do you wish to hire: 200
+You recruited:
+ 16 Knights
+ 7 Men At Arms
+ 0 Yeomen
+177 Foot
+Your recruiting took 3 days.
+
+Year: 1340 Season: Fall Days Left: 76.0
+
+Press <ENTER> to continue.
+```
