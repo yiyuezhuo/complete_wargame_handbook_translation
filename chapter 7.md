@@ -37,12 +37,14 @@ counterparts languish unplayed by gamers with increasingly less time for games.
 
 ## 概览
 
-计算机上的兵棋上目前可以说是毁誉参半。计算机所用的“介质”，与手工游戏中所用的纸和纸板（cardboard）
-有着本质的不同。在桌面上运行的很好的东西在计算机上运行的好。计算机的能力通常没有被相关的计算机化
-的兵棋所充分挖掘。而那些聚焦计算机优势的则通常变成车辆模拟器那样的东西。这是有意义的，因为计算机
-可以轻松解决模拟飞机，舰船和AFV（Armored Fighting Vehicle(装甲战斗车辆)，坦克之类的）所需海量计算。
-手工游戏在车辆模拟上有着很多问题，所以计算机化的车辆模拟在此解决了这些问题，特别是考虑到它们的手工
-对应产品正被越发少空闲时间的玩家所抛弃的情况下。
+计算机上的兵棋上目前可以说是毁誉参半。计算机所用的“介质”，
+与手工游戏中所用的纸和纸板（cardboard）有着本质的不同。
+在桌面上运作的很好的东西不一定在计算机上运作地同样好。
+计算机的能力通常没有被相关的计算机化的兵棋所充分挖掘。
+而那些聚焦计算机优势的作品则通常变成车辆模拟器那样的东西。这是有意义的，因为计算机可以轻松解决模拟飞机，
+舰船和AFV（Armored Fighting Vehicle(装甲战斗车辆)，坦克之类的）所需海量计算。
+手工游戏在车辆模拟上有着很多问题，而计算机化的车辆模拟在此解决了这些问题，
+特别是考虑到它们的手工对应产品正被越发少空闲时间的玩家所抛弃的情况下。
 
 Computerized versions of non-simulator military situations is still an evolving area.
 Programmers have been designing computer wargames for over twenty years. Game designers
@@ -62,17 +64,18 @@ someone who deserves to be mentioned. You know who you are, including the foreig
 there are still a lot of neophyte game designers who may be great (or sometimes dreadful)
 programmers turning out painfully inadequate games. 
 
-计算机化的非模拟军事的市场情况仍然是个发展中的领域。程序员在二十年间正在不断的设计计算机兵棋。
+计算机化的非模拟向军事的市场情况仍然是个发展中的领域。程序员在二十年间正在不断的设计计算机兵棋。
 游戏设计师在同样的时间则没怎么为计算机兵棋出力。大量的计算机兵棋曾是（很大程度上现在也是）
 被对游戏设计并不了解的程序员所设计，这已经变成了一个大问题。游戏设计和编程时两种不同的技能，
-尽管有一些概念的重叠。很多手工兵棋玩家是程序员。但是很少有程序员一开始是游戏设计师，且很少有
-开始是游戏设计师的过去是程序员。这已经导致多数计算机兵棋是被更精通编程而不是游戏设计的人所设计的。
-这已经导致了很多诡异的计算机兵棋的产生。尽管玩家既已为这些蹩脚的游戏付出了很多成本
+尽管有一些概念的重叠。很多手工兵棋玩家是程序员。但是很少有程序员一开始是游戏设计师，
+且很少有开始是游戏设计师的过去是程序员。这已经导致多数计算机兵棋是被更精通编程而不是游戏设计的人所设计的。
+这已经导致了很多奇怪的计算机兵棋的产生。尽管玩家既已为这些蹩脚的游戏付出了很多成本
 （主要指对游戏蹩脚的恼火而不是费用），这些经验也帮助那些在游戏设计有着天赋的程序员脱颖而出。
-Chris Crawford 与 Gary Grigsby 是这些新生代设计师里最值得提到的两位。有很多人和他们有着和这两位
-水平接近的人（我不会列举出他们的名字，以免我没留神忘记其中一些值得提到的人。你知道你是谁，
-包括外国人。）。尽管存在这些人，但依然存在大量的新手游戏设计者，他们的编程技术也许很强（有时糟透了）
-，但他们还是被证明在生产恼人的，不合适的游戏。
+Chris Crawford 与 Gary Grigsby 是这些新生代设计师里最值得提到的两位。
+有很多人和他们有着和这两位水平接近的人
+（我不会列举出他们的名字，以免我没留神忘记其中一些值得提到的人。你知道你是谁，包括外国人。）。
+尽管存在这些人，但依然存在大量的新手游戏设计者，他们的编程技术也许很强（有时糟透了）
+，但他们还是被证明仍在制造恼人的，不合适的游戏。
 
 Thus the first thing you must consider when creating a computer wargame is are you going to do
 the designing and programming or only one of these chores. This is not a trivial decision. A
@@ -89,17 +92,18 @@ designer is rare because that combination is extraordinary.
 
 当你想要创造一个计算机兵棋时，首要要考虑的事情就是你将同时做设计和编程还是两者之一。
 这不是一个平凡的问题。一个超级程序员也许只是一个平庸（或惰怠）的游戏设计者，然后他就会造出，
-在最好的情况下，一个界面看起来很漂亮但是在游戏性和历史性上价值有限的游戏。一个好的游戏设计者，
-即使他是个不那么称职的程序员，也不会跑那么偏。第三个解决方案，即有一个好的游戏设计者与一个或多个
-好的程序员合作通常会得到的产品，只要沟通问题能被解决。这种团队组织方式正在变得普遍，特别是考虑到
-当前的计算机兵棋变得越发复杂，使得越来越多的专家被招进服务
-（对于编程来说，图像，界面，声音和文档）的情况，增加一个游戏设计师到团队来说并不是一个负担而显然是一个
-增益。最后一个解决方案，有一个人兼有程序员和游戏设计师的天赋，考虑到这种兼具如此的非凡，所以十分罕见。
+从好了讲，一个界面看起来很漂亮但是在游戏性和历史性上价值有限的游戏。一个好的游戏设计者，
+即使他是个不那么称职的程序员，也不会跑那么偏。第三个解决方案，
+即有一个好的游戏设计者与一个或多个好的程序员合作通常可以得到的产品，
+如果沟通问题能被解决。这种团队组织方式正在变得普遍，特别是考虑到当前的计算机兵棋变得越发复杂，
+使得越来越多的专家被招进服务（对于编程来说，图像，界面，声音和文档）的情况，
+增加一个游戏设计师到团队来说并不是负担而显然是有益的。最后一个解决方案，
+有一个人兼有程序员和游戏设计师的天赋，考虑到这种兼具是如此的非凡，所以不太能指望它发生。
 
 Before we get into the nuts and bolts of this, I ought to present my own credentials. This will put
 what I say here in perspective. 
 
-在我们开始具体细节之前，我将谈谈自己的经验，这将帮助形成对后面内容的正确认识。
+在开始具体细节之前，我将谈谈自己的经验，这将帮助形成对后面内容的正确认识。
 
 I've designed five computer wargames. For three of them, I did the design, someone else did the
 programming. The first one I programmed myself. It was an experiment, which was just as well.
@@ -115,12 +119,13 @@ applications in BASIC, a language I learned in 1978. The Rus game was about the 
 invasion of Russia in the ninth and tenth centuries. 
 
 我已经设计了5个计算机兵棋。对于它们中的3个，我做了设计工作，其他的则做了编程工作。其中第一个是我自己编程的。
-作为一个实验，它并不是那么糟，但是离可出版的水平还有差距。它被称为 “Rus” ，是用 Microsoft Basic（在
-一个TRS80 Mod I 机器上）于1981年编写的，从而我能够对编写计算机兵棋是怎么回事有个概念。我在编程上
-有一些背景知识——我曾经在1970年左右学过COBOL和RPG II的基本内容，还学过HP第一代可编程计算器的
-原生语言（primitive language）。COBOL与RPG II 都是糟糕的语言，尽管我可以使用运行这两个语言的微型计算机，
-我的编程知识止步于阅读程序员们给我写的程序清单。在我在1978年学过BASIC语言后，我已经做过一些的商业应用
-使用这个种语言。Rus游戏是关于在9和10世纪维京人对俄罗斯的入侵的。
+作为一个实验，它并不是那么糟，但是离可出版的水平还有差距。它被称为 “Rus” ，是用 Microsoft Basic
+（在一个TRS80 Mod I 机器上）于1981年编写的，它让我能够对编写计算机兵棋是怎么回事有个概念。
+我在编程上有一些背景知识——我曾经在1970年左右学过COBOL和RPG II的基本内容，
+还学过HP第一代可编程计算器的原生语言（primitive language）。COBOL与RPG II 都是糟糕的语言，
+尽管我会使用运行这两个语言的微型计算机，我的编程知识止步于阅读程序员们给我写的程序清单。
+在我在1978年学过BASIC语言后，我已经使用这种语言做过一些的商业应用。
+Rus游戏是关于在9和10世纪维京人对俄罗斯的入侵的。
 
 The Rus (as the Russians called the Vikings) advanced down Russian rivers, plundering and
 settling as they went. So in my game you proceeded down one of the Russian rivers,
@@ -129,10 +134,11 @@ I quickly learned that my game design ideas rapidly outstripped my programming s
 comfortable in BASIC, and I knew what peeks and pokes could do within the operating system.
 After finishing the game, I decided to leave programming to those with a knack with it. 
 
-Rus（俄罗人对维京人的称呼）沿俄罗斯河向下，抢掠和定居它们一路经过的地方。所以在我的游戏中，你也沿其中
-一条俄罗斯河向下，遭遇和处理各种你遇到的情况。编写这个游戏是我的一个揭示性的经验。我很快认识到我迸发的
-游戏设计想法超越了我的编程技术。我乐于使用BASIC，也知道怎么用peek，poke（译注：BASIC语言类似C指针的命令）
-与操作系统交互。在完成这个游戏后，我决定把变成工作留给那些对此有经验的人做。
+Rus（俄罗人对维京人的称呼）沿俄罗斯河向下，抢掠和定居它们一路经过的地方。所以在我的游戏中，
+你也沿其中一条俄罗斯河向下，遭遇和处理各种你遇到的情况。编写这个游戏是我的一个揭示性的体验。
+从中我很快认识到我迸发的游戏设计想法往往超越了我的编程技术。我乐于使用BASIC，
+也知道怎么用peek，poke（译注：BASIC语言类似C指针的命令）与操作系统交互。但在完成这个游戏后，
+我决定把变成编程工作留给那些对此有经验的人做。
 
 The second game I programmed was done on a dare. What brought that about was the
 appearance of the 123 spreadsheet program in 1983. I had been using the earlier VisiCalc
@@ -146,14 +152,15 @@ major role in getting the military to use spreadsheets for combat modeling. This
 wargame is not slick enough to be a commercial product, but it gets a lot of real wargaming work
 done. 
 
-我编写的第二个游戏的激励来源于123电子表格（spreadsheet）程序的出现。我之前重度使用过早期的VisiCalc
-电子表格，但123甚至是一个全面强化过的VisiCalc，包括一个宏语言。这个宏语言基本上是一个脑残
-（brain damaged）版的BASIC。我曾经和宏经常打交道，并仍然和它们打交道。在一时的冲动下，我在
-一个电子表格程序上创造了一个兵棋。实际上，第一个电子表格兵棋被实现在
-Microsoft's MultiPlan 电子表格的 CP/M版上。最终我把这个版本的兵棋到SuperCalc，Symphony与Quattro上。
-还有人把它移植到了Excel上。我从1983年开始赠送它，这个“兵棋”在将电子表格引入军事建模中
-扮演了一种重要的角色。这种类型的电脑兵棋没有规整（slick）到可以作为商业产品，但是它使得一些实际的
-兵棋工作得以完成。
+我编写的第二个游戏的激励来源于123电子表格（spreadsheet）程序的出现。
+我之前重度使用过早期的VisiCalc电子表格，但123则是一个全面强化过的VisiCalc，包括一个宏语言。
+这个宏语言基本上是一个脑残（brain damaged）版的BASIC。我曾经和宏经常打交道，并仍然和它们打交道。
+在一时的冲动下，我在一个电子表格程序上创造了一个兵棋。实际上，
+第一个电子表格兵棋被实现在Microsoft's MultiPlan 电子表格的 CP/M版上。
+最终我把这个版本的兵棋到SuperCalc，Symphony与Quattro上。
+还有人把它移植到了Excel上。我从1983年开始赠送它，
+这个“兵棋”在将电子表格引入军事建模中扮演了一种重要的角色。
+这种类型的电脑兵棋没有规整（slick）到可以作为商业产品，但是它使得一些有意义的兵棋工作得以完成。
 
 My third computer wargame was more polished, and recognizable. In 1985 I was asked by an old
 Army friend (Ray Macedonia, recently retired from running the Wargames Department of the
@@ -164,12 +171,13 @@ asked to have it turned into a computer wargame. They gave me a Symbolics workst
 programmers and a lot of money and three months later we had it up and running. Neat game,
 full color graphics, AI and everything. 
 
-我的第三个计算机兵棋更加优雅，且富有知名度。在1985年，一个陆军的老朋友（Ray Macedonia，最近从
-管理陆军战学院兵棋部分（Wargames Department of the Army War College）的职位上退休）请求我
-做一个战术级装甲战手工兵棋。这是他的新雇主（AVCO，之后成为Textron的一部分）在反坦克武器上
-的工作上所需要的。所以我在几个月中做了一个手工兵棋。他们很喜欢它，不但如此，AVCO还请求将它
-实现为计算机兵棋。他们给了我一个Symbolics工作站，两个程序员和很多经费。三个月后，我们完成了
-它，这是一个完备的游戏，有着全彩的图像显示，AI和所有应有的东西。
+我的第三个计算机兵棋更加优雅，且富有知名度。在1985年，一个陆军的老朋友
+（Ray Macedonia，最近从管理陆军战学院兵棋（Wargames Department of the Army War College）的职位上退休）
+请求我做一个战术级装甲战手工兵棋。
+这是他的新雇主（AVCO，之后成为Textron的一部分）在反坦克武器上的工作上所需要的。
+所以我在几个月中做了一个手工兵棋。他们很喜欢它，不但如此，AVCO还请求将它实现为计算机兵棋。
+他们给了我一个Symbolics工作站，两个程序员和很多经费。三个月后，我们完成了它，
+这是一个完成度很高的游戏，有着全彩的图像显示，AI和所有应有的东西。
 
 While I had never done a computer wargame like that before, I already knew how to spec
 (writing out the specifications for the programmer) out a project for programmers, as I had been
@@ -180,9 +188,10 @@ game of the Hundred Years War. The programming was done on a mainframe computer 
 the players got together via their PC and a telephone call (through a modem). 
 
 尽管我在之前从没有以这样的方式完成过一个电脑兵棋，但那时我已有在项目中对程序员说明要求
-（写面向程序员的详细说明书）的经验，因为我在1970年代早期和整个80年代通常都在监督一个或多个
-程序员团队编写金融建模程序。在1989年，GEnie电脑网络与我沟通，并决定设计一个多人在线（超过300个玩家）
-的百年战争游戏。编程在一个大型计算机上进行，而所有玩家通过他们的PC和拨号上网聚合起来。
+（spec,写面向程序员的详细说明书）的经验，因为我在1970年代早期和整个80年代通常都在管理一个或多个
+程序员团队编写金融建模程序。在1989年，GEnie电脑网络与我沟通，
+并决定设计一个多人在线（超过300个玩家）的百年战争游戏。编程在一个大型计算机上进行，
+而所有玩家通过他们的PC以拨号上网连接起来。
 
 That game went into alpha testing in 1991 and went online for paying customers in 1992. In
 1991 I was approached by 360 Pacific (publisher of many computer wargames, including the
@@ -190,7 +199,7 @@ best seller Harpoon) about doing a computer wargame on the naval war in the Paci
 and the spec was done by October, 1991 with programming to continue through 1992. 
 
 这游戏在1991年进入alpha测试，并最终上线于1992年。在1991年，360 Pacific（很多电脑兵棋的出版商，
-包括畅销的Harpoon）联系我做一个太平洋上的水面战的电脑兵棋。我同意，它的说明在1991年10月被完成，
+包括畅销的Harpoon）联系我做一个太平洋海战的电脑兵棋。我同意了，它的说明在1991年10月被完成，
 而它的编程工作则持续了整个1992年。
 
 It is from the above perspective that I will describe how one should go about designing a
@@ -199,7 +208,7 @@ to military wargame designers for the past dozen years. That will just broaden y
 designing computer wargames a bit more. 
 
 我将依据上面谈的内容描述如何设计一个电脑兵棋。在这里出现的一些内容是从我过去十几年间
-给军事兵棋设计师课程中拿来的。你将从中学到更大设计电脑兵棋知识。
+给军事兵棋设计师课程中拿来的。你将从中学到更多的设计电脑兵棋知识。
 
 Note that we are talking about designing, not programming, a computer wargame. Actually
 writing the program code for a computer wargame is a whole different matter. The programming
@@ -208,12 +217,14 @@ change substantially from year to year as computers and programming tools become
 powerful and, well, different. Designing computer wargames consists of principles and
 techniques that are less subject to change. 
 
-注意我们正在谈论如何设计而不是如何编程一个计算机兵棋。实际上编写一个计算机兵棋的代码几乎是
-一件完全不同的事。编程技术不只是晦涩的（通常只能被程序员所理解），而且在随时间不断发生
-巨大的改变，同时计算机和编程工具也变得更加强大与面目陌生。设计一个电脑兵棋所需的原理和技术
-却并没有发生多大的变化。
+注意我们正在谈论如何设计而不是如何编写一个计算机兵棋的代码。
+实际上编写一个计算机兵棋的代码几乎是一件完全不同的事。编程技术不只是晦涩的
+（通常只能被程序员所理解），而且在随时间不断发生巨大的改变，
+从而计算机和编程工具也变得更加强大与面目陌生。
+而设计一个电脑兵棋所需的原理和技术却并没有发生多大的变化。
 
-##The Spec
+## The Spec
+
 Keep in mind that a computer does what you tell it to do not what you want it to do. Unlike
 people (some people, anyway) you can't just tell a computer what you want done and expect your
 request to be carried out. Computers require explicit instructions. These are called computer
@@ -221,9 +232,10 @@ programs, or computer software. The terms program and software are often used
 interchangeably. 
 
 ## 说明
-讲这句话记住：电脑只做你叫它去做的事，而不能做你想让它做得事。不像人（一些人，大概），
-你不能只是告诉电脑你想要什么然后期待你的请求会被贯彻。电脑要求明确的指示，它们被称为
-计算机程序，或者计算机软件。术语“程序”（program）和“软件”（software）经常被混用。
+
+将这句话记住：电脑只做你叫它去做的事，而不能做你想让它做得事。不像人（一些人，大概），
+你不能只是告诉电脑你想要什么然后期待你的请求会被贯彻。电脑要求明确的指示，
+它们被称为计算机程序，或者计算机软件。术语“程序”（program）和“软件”（software）经常被混用。
 
 Programmers make their living by turning someone else’s need for a computer to do something
 into a program that will make a computer do what is requested. The programmer, however,
@@ -232,8 +244,8 @@ the user giving direction is the game designer. These directions are delivered i
 "specification" or "spec." 
 
 程序员所干的事基本就是将其他人让电脑做什么事的需求转化为一个可以让电脑这么做的程序。程序员，
-无论如何，至少需要用户提供精确的（或至少没有歧义）对程序的描述。在这里，给出描述的用户就是
-游戏设计师。这些描述以“说明”（"specification" or "spec" ）的形式给出。
+无论如何，至少需要用户提供精确的（或至少没有歧义）对程序的描述。在这里，
+给出描述的用户就是游戏设计师。这些描述以“说明”（"specification" or "spec" ）的形式给出。
 
 Specs come in many different forms. On one extreme you have many pages of flow charts
 (boxes of different shape connected by solid and dotted lines) showing which data goes where
@@ -246,11 +258,12 @@ ignored (at least a lot of detail gets ignored) by the programmers while the oth
 the programmer confused and inclined to invent whatever he needs and hope that it's what the
 user meant. 
 
-说明有很多形式。在一个极端，你给出大量的流程图（一些被实虚线连接的框），它们展示了数据如何流动与用于做什么。
-与流程图有同样规模的还有关于如何初始化数据文件（一些信息的列表），用什么公式，被处理过的数据如何
-被显示给用户（在电脑屏幕或者打印机）的指示。在另一个极端，你给出一些口头的说明，以及几张草稿纸上的
-潦草注释。我个人的的说明方式介于两者之间。我注意到流程图方式经常被程序员忽略（至少是很多细节被忽略），
-而另一个方式中，程序员被含糊的指示所迷惑和带偏，只得搞出他自认为适合用户的东西。
+说明有很多形式。在一个极端，你给出大量的流程图（一些被实虚线连接的框），
+它们展示了数据如何流动与用于做什么。与流程图有同样规模的还有关于如何初始化数据文件（一些信息的列表），
+用什么公式，被处理过的数据如何被显示给用户（于电脑屏幕或者打印机）的指示。在另一个极端，
+你给出一些口头的说明，以及几张草稿纸上的潦草注释。我个人使用的说明方式介于两者之间。
+特别是当我注意到流程图方式经常直接被程序员忽略（至少是很多细节被忽略），
+而另一个极端中，程序员被含糊的指示所迷惑和带偏，只得搞出他自认为适合用户的东西。
 
 Naturally, I'm going to push my own personal version of what I think a spec should be, if only
 because it's a system I have used successfully for many years with dozens of different
@@ -259,8 +272,8 @@ most of the programmers are either still working for me or at least return my ph
 we are describing here is a spec for a computer wargame, any computer wargame.
 
 自然地，我将会论述我个人认为的说明应当有的样子，
-只不过因为这是一套我在那么多年间与很多程序员成功合作的系统。
-我觉得这个方法还是成功的，因为那些程序仍然运行的很好，而参与的程序员要么还在为我工作，
+只不过因为这是一套我在那么多年间与很多程序员成功合作的操作方式。
+我觉得这个方法还是成功的，因为作为它结果的程序仍然运行的很好，而参与的程序员要么还在为我工作，
 要么至少会接我打的电话。我们在这里将描述的说明可以用于所有计算机兵棋。
 
 The spec is divided into three parts. 
@@ -284,14 +297,15 @@ output screens would look like. Games use more complex screens, often with lifel
 vehicles or people on them. These don't have to be shown realistically, a simple notation will do.
 The important thing is to let the programmer know what will generally go where on the screen. 
 
-首先让我们讨论 I/O (input/output(输入/输出))。简单的来说，这意味着用户在屏幕上看到的东西（输出）
-与用户为获取想要的结果给程序的指令（输入）。这经常被称为程序的“界面外观”。规划它的最简单的方法
-就是在电脑屏幕上笔画。最近，有很多绘图程序被用来画出所想要的界面。几年前我用过一个叫做Demo
-（不是一个很聪明的名字吗？）的程序来构建界面。Demo程序的主要好处在于你可以控制窗口活动，以构造
-更丰富的界面和类似的东西。当我意识到我的程序员其实并不需要那么细致的指导时，我停止了使用Demo并
-转而使用更简单的方法——我只是在电脑打出界面看起来应该是什么样子的描述。游戏使用更复杂的界面，
-通常有着栩栩如生的地形，车辆和人。它们不是必须以现实主义的风格显示出来，一个简单的符号也行。
-重要的事是让我们的程序员知道在屏幕上的什么东西将会到什么地方去。
+首先让我们讨论 I/O (input/output(输入/输出))。简单的来说，
+这意味着用户在屏幕上看到的东西（输出）与用户为获取想要的结果给程序的指令（输入）。
+这经常被称为程序的“界面外观”。规划它的最简单的方法就是在电脑屏幕前笔画。
+最近，有很多绘图程序被用来画出所想要的界面。几年前我用过一个叫做Demo（不是一个很聪明的名字吗？）
+的程序来构建界面。Demo程序的主要好处在于你可以控制窗口活动，以构造更丰富的界面和类似的东西。
+当我意识到我的程序员其实并不需要那么细致的指导时，
+我停止了使用Demo并转而使用更简单的方法——我只是在文本里描述界面看起来应该是什么样子的描述。
+游戏使用更复杂的界面，通常有着生动的地貌，车辆和人。它们不是必须以现实主义的风格显示出来，
+一个简单的符号也行。重要的事是让我们的程序员知道在屏幕上会有什么东西，将到什么地方去。
 
 When you think about it (it's a good idea to think while specing a program), there are not that
 many screens involved in most games. There might be a lot of different graphics put on the
@@ -311,8 +325,8 @@ The foundation of any automated model are its databases. There are several datab
 must be used in a computer wargame. Their use is similar to the use of this data in a manual
 wargame. 
 
-大多数自动化模型的最基础部分是它的数据库。电脑兵棋中有很多必须的数据库类型。它们的使用类似于
-手动兵棋中对这些数据的使用：
+大多数自动化模型的最基础部分是它的数据库。电脑兵棋中有很多必备的数据库类型。
+它们的使用方式类似于手工兵棋中对这些数据的使用方式：
 
 * Terrain- The terrain database can safely follow the conventions used in the manual
 model, even to the extent of using the same cell structure and terrain information used in
@@ -338,19 +352,19 @@ battle situation. Preferably kept in a library (on the computers hard disk) that
 easy access to with an editor and report generator. 
 
 * 地形- 地形数据库完全可以按照手工兵棋的传统来写，
-甚至维持使用相同的格子结构和相同地形对这些格子的效果。并没有什么理由给地形系统引入过多的细节。
+甚至沿用相同的格子结构和相同地形对这些格子的效果。并没有什么理由给地形系统引入过多的细节。
 * 战斗序列（OOB）-模型中将用到的单位的列表，应当写出它们的与模型中其他要素交互的方式。
 并不像手工兵棋，你可以放心的使用更多的数据因为电脑很容易处理海量数据而不至其使人面对这些数据一样头痛。
-* 损耗表-当装备使用时，装备和攻击目标将发生什么。这主要是战斗结果表（CRT），
+* 损耗表-当装备使用时，装备和攻击目标将发生什么。这主要可以表示为战斗结果表（CRT），
 电脑兵棋使用更复杂和更多的战斗结果表相比于手工兵棋。
 * 地形效果表-地形对单位的效果。地形可以比在手工兵棋的更复杂和富有细节。
 * 胜利条件表-控制单位所要达成的目标。
 * 补给表-各种单位所持有和消耗的补给量。
 * 教条（Doctrine）(AI)表-人工智能功能。单位行为规则。关于移动和战斗的标准操作程序（SOP）。
-描述命令控制和各种单位恐慌的表格。指挥行为等。
-* 其他东西-任何用户觉得对于模型需要的东西。
-* 剧本表-将上面的东西与所要表示的战斗局势所粘合起来。最后在用户容易找到的地方放上剧本编辑器和
-战斗报告生成器。
+描述命令控制，各种单位恐慌的表格，指挥行为等。
+* 其他东西-任何用户觉得对于模型所需要的东西。
+* 剧本表-将上面的东西与所要表示的战斗形势所粘合起来。
+最后在用户容易找到的地方放上剧本编辑器和战斗报告生成器。
 
 ## Internal Model Procedures
 
@@ -367,8 +381,6 @@ manual models.
 不同于计算机语境下的算法，手工模型不能直接被转化为自动化版本。一些修改和设计上的修改是必须的。
 
 * 区域定位方式-通常使用x,y坐标系。这个在计算机上容易实现，且拥有与手工模型的六角格系统类似的精确性。
-
-
 
 * Combat activity- Follow a sequence of play very similar to that used in the manual
 model. Higher speed and automatic operation of a computerized wargame combine to
@@ -391,14 +403,14 @@ withdraws from combat. Otherwise, continue.
 conditions specify ending operations. 
 
 * 战斗操作- 遵循一个与手工模型中十分类似的顺序操作过程，
-但由于计算机的操作速度很快所以使得它像是同时完成的一样。每个阶段的操作通常使用一秒的几分之一。
+但由于计算机的操作速度很快所以使得它像是同时并行完成的一样。每个阶段的操作通常只需要几分之一秒。
 
 1. 侦查- 使用传感器判定是否敌方出现，以及是否在武器射程中。
 
-2. 检查损伤-可以是被敌人造成的或者操作造成的。如果损伤了，物理效果- 系统效能的下降。
-精神损伤- 影响单位继续战斗的意愿。
+2. 检查损伤-可以是被敌人造成的或者操作造成的。如果损伤了，考虑损伤的物理影响- 系统效能的下降。
+精神影响- 影响单位继续战斗的意愿。
 
-3. 射击或逃跑- 系统分析战况。 单位将会撤退，如果被命令/受到精神打击或自行判断应当撤退。
+3. 射击或逃跑- 系统地分析战况。 单位将会撤退，如果被命令/受到精神打击或自行判断应当撤退。
 否则将继续战斗。
 
 4. 记录各种行动到 “日志”数据库中以便之后生成报告。
@@ -416,11 +428,11 @@ existing ones. The edit function also allows building blocks to be created or ed
 
 * 胜利情况结算- 被连续而精确的结算，尽管用户可能想要看到在推演过程的特定时间点的胜利概率。
 
-* 剧本布置- 计算机布置的比手工游戏快得多。一个好的用户接口使得用户可以
-快速简单地探索游戏的各个层面。
+* 剧本布置- 计算机布置的比手工游戏快得多。
+一个好的用户接口使得用户可以快速简单地查看游戏的各个方面。
 
-* 剧本生成- 通过使用事先定义的剧本积木（地图，单位结构，AI等），用户可以快速的构建剧本或
-修改剧本。同时积木本身也应该可以被穿件和修改。
+* 剧本生成- 通过使用事先定义的剧本组件（地图，单位结构，AI等），
+用户可以快速的构建剧本或修改剧本。同时组件本身也应该可以被新建和修改。
 
 * User Reports- These can also be edited as to format by the user. The principle items a
 user would generally require would be,
@@ -439,18 +451,6 @@ would crash the system. If the user does anything unintentionally silly, the sys
 simply display these actions on the screen, allowing changes to be made and their results
 observed until the user is satisfied.
 
-* 用户报告- 它们也能被用户编辑和格式化。一个报告通常应有以下元素：
-
-1. OB状态- 单位的初始和末尾的状态。
-
-2. 地形视图- 使用了大比例尺还是小比例尺的地图放缩比。
-
-3. 胜利状况- 在玩家所被允许知道的信息内，告之玩家接近胜利的程度。
-
-4. I/O 程序- 如何处理模型和用户之间的交互。用户必须能控制程序接下来的走向。
-我们应当用限制玩家去做破坏系统的事情。如果玩家做出预期之外的行为，系统将把他做得事展示出来，
-让他可以改变他的行为并显示结果直到玩家满意。
-
 5. Movement-A combination of, historical movement capabilities, based on field tests and
 experience. SOP's (Standard Operating Procedure) for movement, right out of the book.
 Limiting factors, primarily psychological factors that don't make it into the field manuals
@@ -466,18 +466,33 @@ commander and be acted upon.
 
 9. Other- As needed. 
 
+
+* 用户报告- 它们也能被用户编辑和格式化。一个报告通常应有以下元素：
+
+1. OB状态- 单位的初始和末尾的状态。
+
+2. 地形视图- 使用了大比例尺还是小比例尺的地图放缩比。
+
+3. 胜利状况- 在玩家所被允许知道的信息范围内，告之玩家接近胜利的程度。
+
+4. I/O 程序- 如何处理模型和用户之间的交互。用户必须能控制程序接下来的走向。
+我们应当用限制玩家去做破坏系统的事情。如果玩家做出预期之外的行为，系统将把他做的事展示出来，
+让他可以改变他的想法并持续反馈直到玩家满意。
+
 5. 移动- 包含根据现场测试和经验得到的历史移动能力，移动的标准操作程序（right out of the book?本书内容外？）
-限制因素，例如精神因素之类的不在战场手册或不为和平时期的战士所知的东西。
+限制因素，例如精神因素之类的不会在战场手册手册，或不为和平时期的战士所知的东西。
 
 6. 战斗- 类似于移动。包含装备维修内容。
 
 7. 智能- 知道多少关于它们自己和敌方的信息。
 
-8. 在每个智能循环时间期报告相关信息。这个时间长度决定于在历史上新消息到达指挥官以及做出反应所要消耗的时间。
+8. 在每个智能循环时间期报告相关信息。
+这个时间长度决定于在历史上新消息到达指挥官以及做出反应所要消耗的时间。
 
 9. 其他所需要的。
 
 ## User Documentation
+
 The Players Manual- The instructions for actually playing the game should be imbedded within
 the game via a "help" system. Printed instructions should do little more than list which keys do
 what or give an overview of the menu system. Help should be context sensitive (when you
@@ -495,9 +510,9 @@ where the player is in the game. The "hypertext" refers to a system whereby key 
 screen are highlighted to serve as a command (when the cursor is placed over them and
 activated) to pop up another screen relevant to that key word. 
 
-超文本历史系统- 设置一个上下文敏感的内建历史手册是一个日益流行的做法。当启动时，系统显示一个历史数据
-，其与玩家正在游戏的地方有关。“超文本”意指一个这样的系统——一些关键字被高亮，以表示其是一个命令（
-当鼠标放到上面的并点击的时候），其可以打开另一个与这个关键字相关联的窗口。
+超文本历史系统- 设置一个与上下文相关的内建历史手册是一个日益流行的做法。当启动时，系统显示一个历史数据，
+其与玩家正在游戏的地方有关。“超文本”意指一个这样的系统——一些关键字被高亮，以表示其是一个命令
+（当鼠标放到上面的并点击的时候），其可以打开另一个与这个关键字相关联的窗口。
 
 ## Quality Control
 
@@ -519,16 +534,16 @@ fail.
 
 ## 质量控制
 
-测试- 用按键模拟器去模拟假定的用户的按键操作是操作的。有些这种测试程序还能记录屏幕状态和其他数据
-到一个文件中，然后这份测试数据可以与它被期望的样子所比较以发现错误。
+测试- 用按键模拟器去模拟假想的用户的按键操作。有些这种测试程序还能记录屏幕状态和其他数据到一个文件中，
+然后这份测试数据可以与它被期望的样子比较以发现错误。
 
-两个团队- 我经常使用的一个昂贵的系统，那就是我有两队做几乎相同事情的程序员。这极大地减少了
-项目被延误，程序员偷懒的现象。我怀疑游戏出版商是否能够负担的了这个成本。但是我想它值得被提到，
-因为它是有用的。
+两个团队- 我经常使用的一个昂贵的系统，那就是我有两队做几乎相同事情的程序员。
+这极大地减少了项目被延误，程序员偷懒的现象。当然我怀疑相关游戏出版商是否能够负担的了这个成本。
+但是我想它值得被提到，因为它的确是有用的。
 
-自己编译源代码- 学习使用代码分析器之类的东西。这是一个程序员的工具，但是如果你正在监督一个项目，
-你可以通过这个方法在顶层进行操作。你可以对程序的数据进行修改（以调整某些东西），重新编译它
-并且看看这是否解决了问题。而只有程序员应当修改代码，甚至有时修改数据都会导致程序无法运行。
+自己编译源代码- 学习使用代码分析器之类的东西。这是一个程序员的工具，但是如果你正在管理一个项目，
+你可以通过这个方法在顶层进行操作。你可以对程序的数据进行修改（以调整某些东西），
+重新编译它并且看看这是否解决了问题。而只有程序员应当修改代码，甚至有时修改数据都会导致程序无法运行。
 
 ## Artificial Intelligence (AI)
 
@@ -548,8 +563,8 @@ that's something you have to dig up in your research.
 
 AI不需要占用程序的许多空间。以少于2kb的方式就可以得到一个强大的AI。
 
-教条式驱动AI的东西，教条式一些武装单位在战斗中使用的东西，每个武装单位都有一个教条。一些
-教条比其他的更有效，但是这是你必须在研究中去发现的东西。
+教条是驱动AI的东西，一些武装单位在战斗中使用的东西，每个武装单位都有一个教条。
+一些教条比其他的更有效，但是这是你必须在研究中去发现的东西。
 
 There's also the problems of "Theory versus Practice" in doctrine. What the doctrine says is not
 always what the troops do. You have to do more research to find out how the troops deviated
@@ -574,22 +589,25 @@ many successful manual AI systems (for paper wargames) before I did my first com
 systems. With the experience gained on the paper games, I had no trouble at all with the
 computerized AI. Your mileage may differ 
 
-教条也有一些“理论与实践”的矛盾。教条所所说的并不是军队所做的。你必须做更多的研究去搞明白
-军队如何脱离教条，什么程度以及如何频繁。
+教条也有一些“理论与实践”的矛盾。教条所所说的并不是军队所做的。
+你必须做更多的研究去搞明白为何军队有时看上去没有按教条行动，如何脱离，力度以及频繁程度。
 
-对于指挥官，战斗倒是一个简单的过程：直到要做决定时。信息经常是不完全的，指挥官经常不确切知道他自己的
-部队的状态，且更不清楚敌方的状态。故而指挥官通常做出愚蠢的决定。为了让人类玩家感觉自己在与人类对战，
+对于指挥官，战斗倒是一个简单的过程：直到要做决定时。信息经常是不完全的，
+指挥官经常不确切知道他自己的部队的状态，且更不清楚敌方的状态。
+故而指挥官通常做出愚蠢的决定。为了让人类玩家感觉自己在与人类对战，
 你应当让AI在控制他的军队时在可能的几个行动中的决定中也引入随机要素。
 
 当AI要估计它面对人类玩家的局面优劣状况时情况变得复杂起来。这个估计围绕胜利条件进行，
-包括计算敌我双方单位的强度和它们所占据位置的“价值”。一般来说，AI会选择最高价值的敌方位置进攻，
+这包括计算敌我双方单位的强度和它们所占据位置的“价值”。一般来说，AI会选择最高价值的敌方位置进攻，
 但并不总是如此。通过随机选择一些最有价值的敌方目标，AI玩家会给人类玩家一种它的确在思考的感觉。
 如果不是这样的话，AI会产生不可预料的行为，这不是人类玩家想要的。
 
-设计一个AI本身就是一个游戏。你必须实践，这并不是很难。我做过很多成功的手工（桌面）兵棋系统的AI
-在我做我的第一个计算机化AI之前。在有了从桌面游戏的经验后，做电脑AI毫无压力。你也不会差到哪里去。
+设计一个AI本身就是一个游戏。你必须实践，这并不是很难。
+在我做我的第一个计算机化AI之前，我就已经做过很多成功的手工（桌面）兵棋系统的AI。
+在有了从桌面游戏的经验后，做电脑AI毫无压力。你也不会差到哪里去。
 
-##The Computer Wargame Development Team
+## The Computer Wargame Development Team
+
 First, there's the designer. Actually, before the designer there's the publisher, who has to agree to
 put up the money and distribute the final product. The publisher generally gets no respect and
 less recognition. While I've designed over a hundred games, I've published nearly four hundred.
@@ -605,15 +623,17 @@ tall buildings at a single bound, etc.
 
 ## 计算机兵棋开发团队
 
-首先，有一个设计师。当然在设计师前更有出版商，其同意付钱和出版最终产品。出版商通常不会得到什么
-尊重和知名度。我本人设计了100多个游戏的同时，还出版了将近400个。设计通常是快乐的，出版则通常是
-困难的。一旦设计师写出一个说明给程序员，程序员则将其转化为一个电脑程序，即你玩的那个游戏。
+首先，有一个设计师。当然在设计师前更有出版商，他同意付钱和出版最终产品。
+出版商通常不会得到什么尊重和知名度。如我本人设计了100多个游戏的同时，还出版了将近400个。
+设计通常是快乐的，出版则通常是困难的。一旦设计师写出一个说明给程序员，
+程序员则将其转化为一个电脑程序，即你玩的那个游戏。
 
-在我的经验中，使用一个程序员加一个支持人员是坠吼的。越多的程序员被使用，则越多的程序员时间被浪费
-在维持彼此的沟通上。模块化编程并不像这个方法一样具有实践意义，大多数设计设计是在代码实际开发过程中
-被确定的。程序员必须勤奋，有一周工作6-7周的意愿，能够克服困难等。
+在我的经验中，使用一个程序员加一个支持人员是坠吼的。一个项目上使用越多的程序员，
+则越多的程序员时间被浪费在维持彼此的沟通上。模块化编程并不像这个方法一样具有实践意义，
+大多数设计设计是在代码实际开发过程中被确定的。程序员必须勤奋，有一周工作6-7周的意愿，能够克服困难等。
 
 ### Support Staff
+
 * Designer- Whoever designed the manual game, or drew up the spec without a full blown
 manual game. The designers job is to insure that the programmer doesn't get lost while
 implementing the spec. It's best that the designer be kept in the process as the
@@ -632,14 +652,15 @@ pointing where they were and what the easiest solution was.
 
 ### 支持人员
 
-* 设计师- 可以是设计手工游戏的，也可以是没有完整的手工游戏下编写说明的人。设计师的职责是
-保证程序员不会在实现说明的过程中迷失方向。设计师应当在编程工作推进时紧跟进度。由于总是有可能
-程序员会尝试将游戏转变为他的设计思路（不管是有意还是无意的），当这发生时，基本不会做出好产品。
+* 设计师- 可以是设计手工游戏的，也可以是没有完整的手工游戏下编写说明的人。
+设计师的职责是保证程序员不会在实现说明的过程中迷失方向。设计师应当在编程工作推进时紧跟进度。
+由于总是有可能程序员会尝试将游戏转变为他的设计思路（不管是有意还是无意的），
+当这发生时，基本不会做出好产品。
 
 * 系统开发专家- 给予程序员编程技术问题上的快速解答。这些人在被咨询时做出答复，但他们自己不写代码。
 在百年战争中，这些人包括运行GEnie大型机和玩家互相通信用的联网系统的工作人员。在海上雄风中，
-首席专家是Gordon Walton,他曾领导之前的Harpoon项目，他为自己设计和编程了很多兵棋，也可以轻松点出
-问题所在和解决方法。
+首席专家是Gordon Walton,他曾领导之前的Harpoon项目，他为自己设计和编程了很多兵棋，
+也可以轻松点出问题所在和解决方法。
 
 * Chief Testing User- Keeps everyone honest by testing system every step of the way.
 Does nothing but test and make a general pest of himself. Sometimes the designer takes
@@ -658,11 +679,11 @@ tasks, system maintenance, order the pizza and jolt cola, do the paperwork, etc.
 
 * 首席测试用户（Chief Testing User）- 通过测试系统的每个步骤确保每个人尽忠职守。
 他专职测试和让自己变成团队里的讨厌鬼。有时设计师自己做这个工作，有时这个人来自出版商。
-一般来说，这个人负责测试，追踪BUG并检查它们是否被妥善的解决。当前对这个职务的一个流行的称谓是
-“质量控制经理”，这听上去比“首席讨厌鬼”（Chief Pest）强。
+一般来说，这个人负责测试，追踪BUG并检查它们是否被妥善的解决。
+当前对这个职务的一个流行的称谓是 “质量控制经理”，这听上去比“首席讨厌鬼”（Chief Pest）强。
 
-* 研究者- 挖掘在手工模型没有显示出现，但是隐含的数据。电脑兵棋可以处理更多的细节，从而利用上这些数据
-是有用的。在百年战争和海上雄风中，Al Nofi 是首席研究者。
+* 研究者- 挖掘在手工模型没有显示出现，但是隐含的数据。电脑兵棋可以处理更多的细节，
+从而利用上这些数据是有用的。在百年战争和海上雄风中，Al Nofi 是首席研究者。
 
 * 程序员助理- 处理程序员的日常事务（普通数据录入，系统维护，订购披萨和摇晃可乐，做文书工作等）。
 
@@ -683,7 +704,8 @@ does that leave the casting couch?
 他通常是直接向出版商汇报的管理代表。但也经常与出版商争论。由于某些原因，我喜欢这个工作。
 
 在商业电脑兵棋工业，现在有一个时尚，即借用电影产业的术语。大多数公司都在加利福尼亚，尽管大多数在
-北加利福尼亚。这是一种对其生活方式的向往吗？无论如何，电脑游戏项目的头头被称为“制片人”（producer），
+北加利福尼亚（译：好莱坞在南加利福尼亚，硅谷在北加利福尼亚）。
+这是一种对其生活方式的向往吗？无论如何，电脑游戏项目的头头被称为“制片人”（producer），
 而首席程序员被称为“导演”（director），我没有去验证这一点，但似乎音效专家被称作“Foley editor”(音效师)
 考虑到所有的“演员”都是电子的，该怎么实施“潜规则”（casting couch）？
  
@@ -707,11 +729,12 @@ times a year and still works.
 * IBM PC（与仿制机）。在1981年发布，这个机器没有提供最佳的功能，但倒也能用来干活。
 它使用Intel 16 bit 8088或8086处理器。大量的附加组件使得IBM PC系列得以成为使用最灵活的机器。
 它使用广泛，在全世界上已有高达六千万台。它是大多数公司和组织的标准机器，也是软件的目标市场，
-主流软件首先会发布IBM PC版，其中包括大量的游戏。原版（1981）IBM 速度两倍于
-老式八位机（Apple，CP/M，Commodore 64等）。这些现在被认为是低端机器的东西仍然可以被附加组件所
-加速。世界上近半数量的PC都属于此类。我现在仍有一台1983的Compaq（一种原版IBM PC的便携仿制机）
-作为备用机。我自己给它加上一个一个硬盘和一个高密度磁盘驱动器（high density disk drive）。
-过了九年时间仍然可以运行，事实上它一年会被开四到五次。
+主流软件首先会发布IBM PC版，其中包括大量的游戏。
+原版（1981）IBM 速度两倍于老式八位机（Apple，CP/M，Commodore 64等）。
+这些现在被认为是低端机器的东西仍然可以被附加组件所加速。
+世界上近半数量的PC都属于此类。我现在仍有一台1983的Compaq（一种原版IBM PC的便携仿制机）作为备用机。
+我自己给它加上一个一个硬盘和一个高密度磁盘驱动器（high density disk drive）。
+过了九年时间仍然可以运行，事实上它一年会被开机四到五次。
 
 * IBM AT type- Introduced in 1984. Also known as the ISA (Industry Standard
 Architecture) type. Three to ten times the throughput of the original PC. Can be boosted
@@ -726,8 +749,8 @@ PC. Plus this machine will have much more powerful video capabilities, enabling 
 create movies ("full action video") on the computer screen. Based on the Intel i586 32 bit
 microprocessor. Standard machine of the mid to late 1990s.
 * The Clones-Offer same capabilities as IBM models at lower prices. Some clone models
-also out perform IBM machines at lower price. Compaq was the first major clone, in
-1983. Others followed, pushing prices lower and performance higher each year. Major
+also out perform IBM machines at lower price. Compaq was the first major clone, in 1983. 
+Others followed, pushing prices lower and performance higher each year. Major
 clone maker PCs considered as reliable (if not more so) than IBM. 
 
 * IBM AT型- 1984年发布。也被称为ISA（Industry Standard Architecture，工业标准结构）。
@@ -754,11 +777,6 @@ IBM and Mac. Atari ST- Similar to the Amiga, but not as technically advanced. Al
 widely in Europe, but less and less in the US. The ST may survive not survive long in the
 US market. 
 
-Life at the Front
-
-To give you some more insight on how computer wargames are designed, I include here some
-material on the two computer wargames I was working on as this book was being written. 
-
 * Macintosh- Mac II 系列可等同于386和更高的AT机器，但要贵三分之一。图形能力类似于IBM EGA和VGA模式。
 原版MAC和MAC SE在速度上远高于XT，但更昂贵，且不支持很多流行的软件。后来的Mac与Intel微处理器机器
 （IBM与仿制机）兼容（match）。很多运行在IBM机上的游戏不能运行在MAC上。
@@ -767,11 +785,19 @@ material on the two computer wargames I was working on as this book was being wr
 在软件上有很多选项，但是在IBM和MAC后位居第三。Atari ST-类似于Amiga，但是技术上比其落后。
 同样在欧洲上销售很多，但在美国却卖的很差。ST也许不能在美国市场生存多久了。
 
-实战经验
+
+### Life at the Front
+
+To give you some more insight on how computer wargames are designed, I include here some
+material on the two computer wargames I was working on as this book was being written. 
+
+
+### 实战经验
 
 为了给你一些电脑兵棋是怎么被设计的一些直觉，我将我参与的两个电脑兵棋的材料放进这了。
 
 ## Victory at Sea
+
 This is a game on naval warfare in the Pacific during World War II. In effect, it's a strategic
 game of the entire war in the Pacific with the option to drop down at any time and fight it out
 ship to ship (or, more likely, aircraft to ship). It's the first of a series of games. Additional disks
@@ -781,7 +807,8 @@ Below is an extract from the introduction to the Victory at Sea spec, delivered 
 1991. 
 
 ## 海上雄风
-这是个关于二战太平洋海战的游戏。在这个游戏中，你可以在整场太平洋战争的任何时点进入打海空战。
+
+这是个关于二战太平洋海战的游戏。在这个游戏中，你可以在整场太平洋战争的任何时点介入打海战空战。
 这是这个系列的第一个游戏，增补内容将在之后出版以覆盖二战的其他海战情况。
 
 下面是从海上雄风说明的介绍部分选出的一部分内容，其在1991年10月15日写成。
@@ -811,14 +838,15 @@ will make some programmers life easier.
 当前，你有一个港口的列表，以及一些关于如何把太平洋区域扫描进你的绘图程序部分的指导文件。
 接下来你应该实现纬度坐标系以将港口映射到地图上。纬线的一度经度长度随着纬度的余弦而变化，如从
 赤道的69英里到南北极的0英里。我们的地图并不会覆盖到极点，但是会覆盖北半球的三分之二（到北纬60度处），
-这意味着在那里的一度长度将小于50英里(meaning the degree of latitude in under 50 miles that far up).。地图必须被修正。
-你将要把140个以经纬度表示的地点布置在地图上，如果有必要还会有更多，尽管我们并不像地图显得太拥挤。
-我们还统计了500个珊瑚岛（atolls），它们能够放置一些守备队（其中大多数在运输上都很昂贵，
-甚至水都要专门运输上去）。它们中一些被日军（Tarawa）守备。一旦你电子化地图完成，请把它发给我，
+这意味着在那里的一度长度将小于50英里(meaning the degree of latitude in under 50 miles that far up)。
+地图必须被修正。你将要把140个以经纬度表示的地点布置在地图上，如果有必要还会有更多，
+尽管我们并不像地图显得太拥挤。我们还统计了500个珊瑚岛（atolls），
+它们能够放置一些守备队（其中大多数在运输上都很昂贵，甚至水都要专门运输上去）。
+它们中一些被日军（Tarawa上）守备。一旦你电子化地图完成，请把它发给我，
 我们将标出“珊瑚岛群”（atoll clusters）。我觉得把这种麻烦事放到最后再做最好。
 这可以减轻程序员的工作量。
 
-###Interface
+### Interface
 
 The interface Gordon and I worked out was earlier keyed to routines in the game. This has to be
 updated and I will do this in the next week. There's more than enough stuff for each existing
@@ -830,17 +858,20 @@ Gordon和我设计的接口在之前已经被写入了游戏。我将在下一�
 
 
 ### Databases
+
 The databases are complete, although we'll update them right down to the wire as we uncover
 new stuff. Nothing radical, but there's always something. As all the databases are in spreadsheet
 files, we can put them in any form you want for uploading into the source. I do that a lot. I don't
 like it, but I've gotten pretty good at it. 
 
 ### 数据库
+
 数据库已经做完了，尽管如果我们想要挖掘新的东西的话会立即更新它。总会有些虽不十分重要，但可以加进去的东西。
 所有的数据库是以电子表格的方式存储，我们可以将它们转换成任何适合显示到屏幕上的形式。我经常做这个，
 尽管我并不喜欢，但是我的确十分擅长此道。
 
 ### Algorithms
+
 Over 95% of the needed algorithms are done. Some of the key ones have been tested and proofed
 using a monte carlo system I've developed. However, it requires a bit of coding and screwing
 around to get them into a format where the monte carlo testing will work. You know what monte
@@ -859,19 +890,21 @@ have x number of iterations of a situations with both sides on AI and loss stats
 file in tabular format for analysis. 
 
 ### 算法
+
 超过95%的算法已经被完成了。其中那些关键的部分已经被测试并以我开发的蒙特卡洛程序验证了其正确性。
-运行这些蒙特卡洛检验需要写一些代码将一些东西转换成恰当的格式。你知道蒙特卡洛是什么吗？
-如果不知道，在我经常处于的情况中，它是一个模型，其可以检验以数千次迭代来检验算法，并显出
-系统在这些迭代中工作状态。看到这些反馈后我可以再去调整数据直到达到我想要的效果。
+运行这些蒙特卡洛检验需要写一些代码将一些东西转换成恰当的格式。你知道蒙特卡洛算法是什么吗？
+如果不知道，在我经常要用到的情况中，它是一个模型，其可以检验以数千次迭代来检验算法，
+并表现出系统在这些迭代中工作状态。看到这些反馈后我可以再去调整数据直到达到我想要的效果。
 我将继续以这个方式调试游戏算法直到它们被编码为止，在那之前我们也需要最后蒙特卡洛验证一次。
 海战模块已经被以这样的方式迭代了6000次。但是大多数弄快并不能被这些测试直到它们被编码完成。
 我这有很多可以调整的参数，这些参数会被调成使得游戏处于恰当的平衡状态。一旦你开始编码，
-给我一个可执行程序以及外部表格保存的数据，以便让我可以调试。尽管我可以使用十六进制编辑器
-直接修改二进制可执行文件中的ASCII数据，但这么直接改二进制数据是令人恶心的。你也应当使用一些
-蒙特卡洛建模技术，其中特别有用的是对一个情景进行x次迭代，并将AI和损失数据存到一个表格形式的ASCII
-文件以便分析。
+给我一个可执行程序以及外部表格保存的数据，以便让我可以调试。
+尽管我可以使用十六进制编辑器直接修改二进制可执行文件中的ASCII数据，
+但这么直接改二进制数据是令人恶心的。你也应当使用一些蒙特卡洛建模技术，
+其中特别有用的是对一个情景进行x次迭代，并将AI和损失数据存到一个表格形式的ASCII文件以便分析。
 
 ### Artificial Intelligence
+
 The keys to realistic combat AI are hidden information and randomness. If you have that, you
 can employ quite simple routines. As Clauswitz and Sun Tzu point out, even simple plans are
 difficult to execute in combat. The Artificial Intelligence data is presented in narrative form with
@@ -879,11 +912,13 @@ the probabilities imbedded in the description of the routines. I'm still having 
 the strategic AI, but nothing that a little more application won't solve. 
 
 ### 人工智能
+
 实现看起来真实的战斗AI的关键是信息隐藏和随机性。如果你实现了这些，那么你就可以比较简单的实现AI。
-正如克劳塞维茨和孙子指出的，在战斗中，即使是非常简单的计划也难以执行。AI的数据以一些操作的概率
-所表示。在策略AI上我仍然有一些问题没有解决，但没有什么特别难对付的部分。
+正如克劳塞维茨和孙子指出的，在战斗中，即使是非常简单的计划也难以执行。
+AI的数据以一些操作的概率所表示。在策略AI上我仍然有一些问题没有解决，但没有什么特别难对付的部分。
 
 ### General Advisory
+
 This is the first time in nearly 20 years that I've had to deliver a spec to programmers I've never
 met. I usually do the programmer hiring, so I know what they are capable of and what they prefer
 to get in the form of a spec. It also helps that my programmers know I sign the payroll and bonus
@@ -893,12 +928,15 @@ whatever alternate format they might prefer. It won't take long to reformat it o
 preferred format.
 
 ### 全面咨询
-这是我二十多年第一次向从来没有见过的程序员写说明。一般来说我会亲自选择雇佣的程序员人选，所以我
-知道他们想要什么格式的说明。另一方面，程序员知道是由我亲自来发工资将近也是有帮助的。无论如何，
-我在传达AI相关的事宜时会使用一种相当宽泛的方式，从而程序员可以了解到他们大致上要做什么，然后
-向我要求以他们更喜欢的格式编写的说明。一旦我知道他们更喜欢什么格式，将现有说明改写成那个格式并不困难。
+
+这是我二十多年第一次向从来没有见过的程序员写说明。一般来说我会亲自选择雇佣的程序员人选，
+所以我知道他们想要什么格式的说明。另一方面，程序员知道是由我本人来发工资将近也是有帮助的。
+无论如何，我在传达AI相关的事宜时会使用一种相当宽泛的方式，从而程序员可以了解到他们大致上要做什么，
+然后向我要求以他们更喜欢的格式编写的说明。一旦我知道他们更喜欢什么格式，
+将现有说明改写成那个格式并不困难。
 
 ### Footnote feature
+
 We can cobble those together from notes, but for a full blown version we'll need a codicil on the
 contract to clarify the book contract Al and I are now negotiating with my publisher. The big
 version would, in effect, be a book on a disk and would be a great selling point that would add
@@ -907,9 +945,10 @@ going into the FootNote feature would simply be larger). Tom says he's amenable 
 agreement needed to protect the book copyright. 
 
 ### 笔记作为卖点
-我们可以把设计笔记汇总起来编本书，不过这需要在合约上加上关于这本书的条款，对此Al和我正在和出版商讨论此事。
-这个书将存在一个磁盘上，它将成为一个有意义的卖点而并不会太过增加生产成本（一个额外的磁盘），也不会
-增加开发成本（已经实现了这些笔记的要求）。Tom说他已经同意签署保护这个书的版权的协议。
+
+我们可以把设计笔记汇总起来编本书，不过这需要在合约上加上关于该书的条款，对此Al和我正在和出版商讨论此事。
+这个书将存在一个磁盘上，它将成为一个有意义的卖点而并不会太过增加生产成本（一个额外的磁盘），
+也不会增加开发成本（把笔记描述的功能出来的成本显然高得多）。Tom说他已经同意签署保护这个书的版权的协议。
 
 ### Communication
 
@@ -932,13 +971,13 @@ anything within seconds. One helluva organized sumbitch, ain't I?
 
 在你完全搞明白到底怎么编码这些东西之前，你必须进行大量的询问。由于商业和军事模型不应该混合起来，
 你不应当在我在（划掉）的地方（这里的内容被删掉了，以免当我想用这些时间办公时，太多人追踪我，）
-的时候联系我。其他时候，在电话应答机（answering machine）上留一条信息。我会发电子邮件确认
-所有关于说明内容改变的电话讨论，说明本身也应当尽可能以电子邮件的方式进行。通常一天中我会检查两次
-电子邮件：在东部时间上午4-8点与在下午4-7点（西部时间上午1-5点，下午1-4点）。如果你提示我你将会向我
-提很多问题，我可以在东部时间上午11点到下午2点（西部时间上午8-11点）也检查邮件。在大多数情况下，
-我会立即回复电子邮件询问（特别是当我在家里的时候，我家里有着全部的数据资料和研究资料）。
-在80%的情况中你可以在六小时内获得一个答复。在我不能立即回答的情况下，我会传给Al Nofi(ANOFI on GEnie)
-，他通常会在24小时内回来。我备份了所有发出和收到的邮件并进行了索引，所谓我可以立即找到我想找到的邮件。
+的时候联系我。其他时候，在电话应答机（answering machine）上留一条信息。
+我会发电子邮件确认所有关于说明内容改变的电话讨论，说明本身也应当尽可能以电子邮件的方式进行。
+通常一天中我会检查两次电子邮件：在东部时间上午4-8点与在下午4-7点（西部时间上午1-5点，下午1-4点）。
+如果你提示我你将会向我提很多问题，我可以在东部时间上午11点到下午2点（西部时间上午8-11点）也检查邮件。
+在大多数情况下，我会立即回复电子邮件询问（特别是当我在家里的时候，我家里有着全部的数据资料和研究资料）。
+在80%的情况中你可以在六小时内获得一个答复。在我不能立即回答的情况下，我会传给Al Nofi(ANOFI on GEnie)，
+他通常会在24小时内回来。我备份了所有发出和收到的邮件并进行了索引，所谓我可以立即找到我想找到的邮件。
 看起来我真是个一个热衷于整理的怪物。
 
 ### Spec Files
@@ -978,137 +1017,137 @@ year for each side.
 
 * Implementation Sequence (as I see it)
 
-...Strategic Display
+   Strategic Display
 
-...Unit List
+   Unit List
 
-...Strategic Movement
+   Strategic Movement
 
-...Tactical Display
+   Tactical Display
 
-...Tactical Movement and Combat
+   Tactical Movement and Combat
 
-...Strategic Combat
+   Strategic Combat
 
-...Strategic AI
+   Strategic AI
 
-...Tactical AI
+   Tactical AI
 
-...Leadership 
+   Leadership 
 
-...Other
+   Other
 
 * 实现顺序（在我看来）
 
-...战略展示
+   战略展示
 
-...单位列表
+   单位列表
 
-...战略移动
+   战略移动
 
-...战术显示
+   战术显示
 
-...战术移动和战斗
+   战术移动和战斗
 
-...战略战斗
+   战略战斗
 
-...战略AI
+   战略AI
 
-...战术AI
+   战术AI
 
-...指挥能力
+   指挥能力
 
-...其他
+   其他
 
 
 * Program Sequence
 
-...Load main executable
+   Load main executable
 
-...Player chooses scenario option
+   Player chooses scenario option
 
-...Program initializes scenario and begins play
+   Program initializes scenario and begins play
 
-...Player input
+   Player input
 
-...Change production
+   Change production
 
-...Reroute supply
+   Reroute supply
 
-...Movement orders
+   Movement orders
 
 * 程序执行顺序
 
-...载入主程序
+   载入主程序
 
-...玩家选择剧本
+   玩家选择剧本
 
-...程序初始化剧本
+   程序初始化剧本
 
-...玩家输入
+   玩家输入
 
-...生产变化
+   生产变化
 
-...补给线变动
+   补给线变动
 
-...移动命令
+   移动命令
 
 * Computer Procedures
 
-...Strategic Search
+   Strategic Search
 
-...Tactical Search
+   Tactical Search
 
-...Strategic Move
+   Strategic Move
 
-...Tactical Move
+   Tactical Move
 
-...Strategic (Aggregated) Combat
+   Strategic (Aggregated) Combat
 
-...Tactical (detailed) Combat
+   Tactical (detailed) Combat
 
-...Logistics
+   Logistics
 
-...Strategy Selection
+   Strategy Selection
 
-...Tactics Selection
+   Tactics Selection
 
-...Etc 
+   Etc 
 
 I used the above to guide my priorities in conditioning the enclosed material for delivery. Let me
 know how it's supposed to be so I can shift gears accordingly.
 
 * 电脑程序
 
-...战略搜索
+   战略搜索
 
-...战术搜索
+   战术搜索
 
-...战略移动
+   战略移动
 
-...战术移动
+   战术移动
 
-...战略（集成）战斗
+   战略（集成）战斗
 
-...战术（细节）战斗
+   战术（细节）战斗
 
-...后勤
+   后勤
 
-...战略选择
+   战略选择
 
-...战术选择
+   战术选择
 
-...等等
+   等等
 
 我使用上面的列表来指导我在资料传递上的优先级。让我知道你想要什么从而我可以做对应的调整。
 
 * Resolution
 
-...One day Strategic
+   One day Strategic
 
-...One Hour Operational
+   One Hour Operational
 
-...30 Sec tactical
+   30 Sec tactical
 
 A footnote on this project. While the official start date was July 15th, it was largely delayed for
 six weeks because a few days after signing the contract my co-pilot, Al Nofi, had to have
@@ -1117,15 +1156,16 @@ get into the research big time. You always have to make allowances for disasters
 
 * 战斗尺度
 
-...天级别战略
+   天级别战略
 
-...小时级别行动
+   小时级别行动
 
-...30秒战术
+   30秒战术
 
-关于这个项目的脚注。尽管官方的开始时间之前是7月15日，但是它已经被大幅延误了六周因为之前，在签署合约后
-我的合作伙伴，Al Nofi突然要做一个眼部手术。他的视力最终得以保留，但是在在九月前他不能再投入到
-大规模研究中。人的命运啊就是不可意料，你总要考虑到灾难的行程提前做好余量准备。
+关于这个项目的脚注。尽管官方的开始时间之前是7月15日，但是它已经被大幅延误了六周因为之前，
+在签署合约后我的合作伙伴，Al Nofi突然要做一个眼部手术。他的视力最终得以保留，
+但是在在九月前他不能再投入到大规模研究中。人的命运啊就是不可意料，
+你总要考虑到灾难的行程提前做好余量准备。
 
 
 ## 百年战争
@@ -1141,13 +1181,15 @@ comprise the rest of the team that will recreate 14th and 15th century England a
 Italy, Spain, parts of Germany, Scotland, Ireland and sundry other adjacent areas). The game will
 cover economics, religion and politics in addition to the purely military aspects. 
 
-在这本书正在写的时候，百年战争游戏正在进行alpha测试中。这个新式电脑兵棋使用了调制解调机来连结
-各个电脑以实现多人游戏。在近十年中，电脑网络，如Compuserve何GEnoie已经搞出了很多多人游戏，
-但是它们中没有一个是基于历史的（或者说，用好话讲，只有空洞的背景）。为了缓解这个形势，
-我与GE签订了合同去设计一个关于百年战争的多人（300玩家）游戏，基于GEnie系统。Al Nofi(研究)与
-Dan Masterson(编程)将构成团队的剩余部分。这个团队致力于重现14和15世纪的英格兰和法兰西（加上意大利，
-西班牙，一部分德国，苏格兰，爱尔兰以及其他近邻的区域）。除了主要的军事部分以外，这个游戏还覆盖了
-经济，宗教和政治部分。
+在这本书正在写的时候，百年战争游戏正在进行alpha测试中。
+这个新式电脑兵棋使用了调制解调机来连结各个电脑以实现多人游戏。
+在近十年中，电脑网络，如Compuserve何GEnoie已经搞出了很多多人游戏，
+但是它们中没有一个是基于历史的（或者说，用好话讲，只有空洞的背景）。
+为了逆转这个形势，我与GE签订了合同去设计一个关于百年战争的多人（300玩家）游戏，基于GEnie系统。
+Al Nofi(研究)与Dan Masterson(编程)将构成团队的剩余部分。
+这个团队致力于重现14和15世纪的英格兰和法兰西
+（加上意大利，西班牙，一部分德国，苏格兰，爱尔兰以及其他近邻的区域）。
+除了主要的军事部分以外，这个游戏还涉及了经济，宗教和政治部分。
 
 As a player, your objective is to insure the growth, prosperity and survival of your family line
 (each day of real time equals three months of game time). You may start out the game as
@@ -1160,12 +1202,14 @@ able administrator of his estates and participant in the affairs of state. The l
 rewarding in the long run, but the former can be more fun for the mash and bash set. There's a
 little of that it all of us. 
 
-作为玩家，你的目标是保证你家族的成长，繁荣和生存（现实世界一天对应游戏时间三个月）。你可以以一个
-贫穷的Gascon贵族或者强大的英格兰伯爵开始游戏。你的胜利程度取决于在这个世纪中你从你的初始地位提升了多少，
-或者造成了英格兰和法兰西多大的王朝，军事和经济差异。游戏允许玩家在两个层面上行动，作为一个到处游荡
-的冒险家，只为战斗，竞技赛和狩猎而生（在这个时代中很多人采用的行为方式），或者作为一个野心勃勃而
-富有能力的管理者，管理他的资产，并参与国家事务。后一种行为方式在长期来看受到的奖励更多，但前者
-也许更加有趣。我们中两类人都有一点。
+作为玩家，你的目标是保证你家族的成长，繁荣和生存（现实世界一天对应游戏时间三个月）。
+你可以以一个贫穷的Gascon贵族或者强大的英格兰伯爵开始游戏。
+你的胜利程度取决于在这个世纪中你从你的初始地位提升了多少，
+或者以一己之力造成了多大程度上英格兰和法兰西国力上的差异。
+游戏允许玩家在两个层面上行动，作为一个到处游荡的冒险家，只为战斗，竞技赛和狩猎而生
+（在这个时代中很多人采用的行为方式），或者作为一个野心勃勃而富有能力的管理者，
+管理他的资产，并参与国家事务。后一种行为方式在长期来看受到的奖励更多，但前者也许更加有趣。
+我们中两类人都有一点。
 
 In this game the computer is used in areas where it does the most good. The medieval economic
 system is run by the computer. Medieval economies were fairly complex. Although most of the
@@ -1181,10 +1225,11 @@ armies were demobilized,
 creating a constant state of conflict during several periods. As the game goes on, brigand bands
 (run by the computer) will become an increasing threat to your fiscal, and physical, well being. 
 
-在这个游戏中，电脑被用在被适合它的地方。中世纪经济系统被计算机运营。中世纪经济非常复杂，尽管
-大多数人口都在务农但越有10%的人口在贸易，生产手工艺品，并将这些产品带到世界的各个区域。很多钱
-流向了官僚和武装贵族。在任何时间，至少有1%-2%的人口处于武装状态。这些军事势力中的很多
-是雇佣兵，他们要么被你雇佣要么你将会被他们掠夺。大多数雇佣兵会在大军被解散时成为这样的盗匪。
+在这个游戏中，电脑被用在被适合它的地方。中世纪经济系统被计算机运营。中世纪经济非常复杂，
+尽管大多数人口都在务农但越有10%的人口在贸易，生产手工艺品，并将这些产品带到世界的各个区域。
+很多钱流向了官僚和武装贵族。在任何时间，至少有1%-2%的人口处于武装状态。
+这些军事势力中的很多是雇佣兵，他们要么被你雇佣要么你将会被他们掠夺。
+大多数雇佣兵会在大军被解散时成为这样的盗匪。
 
 [[vas illos]]
 
@@ -1203,9 +1248,9 @@ habits and, in general, your assets will waste away.
 税收以比较低效的方式收集，而且经常伴随着叛乱带来的影响。盗匪的掠夺也会让普通群众烦躁不安。
 当他们拒绝交税时，情况已经变得足够糟糕，但如果你是个真正差劲的演员，他们会来取你项上人头。
 
-如果你决定将你全部的时间用在战斗和骑士竞技上，你的领地将以较低的效率“自行运行”。换句话说，
-脱离了你个人的关注，你的总管的严格和诚实将有所下降，你的妻子和孩子将养成花销过高的生活习惯，
-一般来说，这将造成你财产的浪费。
+如果你决定将你全部的时间用在战斗和骑士竞技上，你的领地将以较低的效率“自行运行”。
+换句话说，脱离了你个人的关注，你的总管的严格和诚实将有所下降，
+你的妻子和孩子将养成花销过高的生活习惯，一般来说，这将造成你财产的浪费。
 
 You can borrow and lend money, or buy and sell fiefs. Fiefs are the basic economic unit of the
 game and there are about 800 of them. The "fief file" is itself an interesting historical document,
@@ -1221,14 +1266,15 @@ citizens within its walls. Less than five percent of the population lived in wal
 most of the remainder lived in small villages surrounded by farmland and pastures. 
 
 你可以借入，贷出资金或者购买或出售领地。“领地”是游戏中的基本经济单位，一共差不多有800个。
-“领地文件”本身就是一种令人感兴趣的历史文件，其包含了大量混淆来源扒出来的数据。传统的领地是
-农业区域，但也包含城镇和宗教设施（教堂中教士们控制的封地）。作为例子，法兰西有一个领地叫做
-Condom（避孕套），它的玩家控制者也许应该被称为Sire de Condom(避孕套爵士)。还有个在Gaelic的
-叫Welch（赖皮）的封地也许更糟。唉，我们这么叫它只是因为它们确实叫这个名字。也许你可以从这里看出
-法国人是从哪获得他们的一些历史传统的。
+“领地文件”本身就是一种令人感兴趣的历史文件，其包含了大量混淆来源扒出来的数据。
+传统的领地是农业区域，但也包含城镇和宗教设施（教堂中教士们控制的封地）
+。作为例子，法兰西有一个领地叫做Condom（避孕套），
+它的玩家控制者也许应该被称为Sire de Condom(避孕套爵士)。
+还有个在Gaelic的叫Welch（赖皮）的封地也许更糟。唉，我们这么叫它只是因为它们确实叫这个名字。
+也许你可以从这里看出法国人是从哪获得他们的一些历史传统的。
 
-玩这个游戏后你也许马上回发现甚至最大的城市都只有少于100000的市民。少于10%的人口生活在有墙的城镇，城市中。
-大多数其他人生活在被农田和牧场包围的小镇中。
+玩这个游戏后你也许马上会发现甚至最大的城市的居民都少于十万人。
+少于10%的人口生活在有墙的城镇，城市中。大多数其他人生活在被农田和牧场包围的小镇中。
 
 About two percent of the population belonged to the nobility or a nobles household. This group
 included many of the troops. Thus of the thirty million (pre-plague) population in the area
@@ -1246,15 +1292,17 @@ French (or were forced to be French if all the English slots were taken) are ran
 lesser nobles, magnates and king. This maximizes the chances of the wrong person getting into a
 key position. 
 
-大约有2%的人口属于贵族阶级或者贵族家庭。这个群体包含了很多团体。游戏涉及的区域有大概三千万人口（瘟疫前）
-，只有几十万男人是战斗人员。三百个玩家占据着三个等级。每个玩家至少是一个“小贵族”（“lesser noble”），
-其控制了一个或多个空地。36个玩家是“大贵族”（magnates），它们是一些小贵族的领主，本身也控制着
-比小贵族更多的领地。一个玩家是英格兰国王而另一个不幸的卑鄙之人则为法兰西国王。
+大约有2%的人口属于贵族阶级或者贵族家庭。这个群体包含了很多团体。
+游戏涉及的区域有大概三千万人口（瘟疫前），只有几十万男人是战斗人员。
+三百个玩家占据着三个等级。每个玩家至少是一个“小贵族”（“lesser noble”），其控制了一个或多个空地。
+36个玩家是“大贵族”（magnates），它们是一些小贵族的领主，本身也控制着比小贵族更多的领地。
+一个玩家是英格兰国王而另一个不幸的卑鄙之人则为法兰西国王。
 
-为了使得游戏以合适的精神开始，英国玩家（占总量中的三分之一）被允许在一周之内讨论并选举出他们认为最合适
-的大贵族和国王的人选。这表明了英国政府更高的凝聚力，尽管历史上并没有这样的选举。选择加入法国一方
-（或因为英国人选占满而被迫选择法国）的玩家则被随机指派其作为小贵族，大贵族和国王。这最大化了
-错误的人占据关键位置的概率。
+为了使得游戏以合适的精神开始，
+英国玩家（占总量中的三分之一）被允许在一周之内讨论并选举出他们认为最合适的大贵族和国王的人选。
+这表明了英国政府更高的凝聚力，尽管历史上并没有这样的选举。
+选择加入法国一方（或因为英国人选占满而被迫选择法国）的玩家则被随机指派其作为小贵族，大贵族和国王。
+这最大化了错误的人占据重要职位的概率。
 
 While combat is the final arbiter of events, there are other ways to get things done. After all,
 battles are only a forceful way of obtaining a treaty. The English king wants to become the
@@ -1264,9 +1312,10 @@ church matters. You can be declared an outlaw or excommunicated. You can even be
 executed. There's a Pope (actually, more than one during this period), heresy and the ever
 popular Black Death (which will ultimately destroy half the population over several outbreaks). 
 
-尽管战斗是很多事情的最终裁决者，也存在着一些其他的方式解决它们。基本上，战斗只是一种得到条约
-的强制手段。英国国王想要成为法国国王，所以他必须控制足够的发过领土来使得他对法国王位的宣称
-令人信服。游戏中有一个法律系统，包含民法和宗教法。有一个教皇（当然，在整段时间有不止一位），
+尽管战斗是很多事情的最终裁决者，也存在着一些其他的方式解决它们。
+基本上，战斗只是一种得到条约的强制手段。英国国王想要成为法国国王，
+所以他必须控制足够的发过领土来使得他对法国王位的宣称令人信服。
+游戏中有一个法律系统，包含民法和宗教法。有一个教皇（当然，在整段时间有不止一位），
 异端与黑死病（它最终在数次爆发中消灭了一半的人口）。
 
 Money plays a large role in the game. Although several currencies were used in this period, we
@@ -1288,15 +1337,18 @@ of taking your army into the field was not battle, but plunder. Sort of like a g
 with edged weapons. 
 
 钱在这个游戏中扮演了重要角色，尽管当时有多种不同的货币在被使用。我们炮制了一个新的，
-所谓的达克特（ducat，它曾经是意大利货币的名字），从而你不用去烦恼不同的换算率。作为例子，600达克特
-等于1英镑，135达克特等于1法国里弗（Livre）。1达克特也等于1美元（1992出产（vintage）
-（译：vintage这个词指葡萄酒的出产时间，如82年拉菲之类的））。钱在这个时间段很重要，军队开销是重要部分。
-封建征召兵（levy）仍然可以被召集，但只能用于地区局部防御且只能使用有限的时间。平均来说，
-一个雇佣军士兵每回合（一个季度）要消耗2000达克特。大多数这个时候的军团包含5000-10000人，这意味着
-1-2千万达克特每回合的支出。英格兰王每个回合也只有这个数目的收入（在他最好的时候），而同时他又有其他
-的开销（家庭支付，要塞维护，腐败与给官员的工资等）。国王亲自支付数千人的工资，而大贵族也要维护数百人的
-从者和士兵（他们每回合有数百万的收入）。你可以借钱。英国可以在战争中坚持那么长时间，因为他们拥有
-更强的战士，他们的船控制着英吉利海峡（大多数时间），他们还能持续的掠夺法国的领地。
+所谓的达克特（ducat，它曾经是意大利货币的名字），从而你不用去烦恼不同的换算率。
+作为例子，600达克特等于1英镑，135达克特等于1法国里弗（Livre）。
+1达克特也等于1美元（1992出产（vintage）（译：vintage这个词指葡萄酒的出产时间，如82年拉菲之类的））。
+钱在这个时间段很重要，军队开销是重要部分。封建征召兵（levy）仍然可以被召集，
+但只能用于地区局部防御且只能使用有限的时间。平均来说，
+一个雇佣军士兵每回合（一个季度）要消耗2000达克特。
+大多数这个时候的军团包含5000-10000人，这意味着1-2千万达克特每回合的支出。
+英格兰王每个回合也只有这个数目的收入（在他最好的时候），
+而同时他又有其他的开销（家庭支付，要塞维护，腐败与给官员的工资等）。
+国王亲自支付数千人的工资，而大贵族也要维护数百人的随从和士兵（他们每回合有数百万的收入）。
+你可以借钱。英国可以在战争中坚持那么长时间，因为他们拥有更强的战士，
+他们的船控制着英吉利海峡（大多数时间），他们还能持续的掠夺法国的领地。
 从而将你的军队开到战场的目标不是战斗，而是掠夺，看上去像是在玩流血版大富翁游戏（game of Monopoly）。
 
 Using a remote computer does not waste the capabilities of your PC. For players with IBM
@@ -1309,10 +1361,11 @@ to all the amenities in the GFE. The GFE costs nothing (except the connect time 
 few bucks). 
 
 使用远程计算机并不会浪费你的PC的配置。对于使用与IBM兼容的机器与Macintoshes电脑的玩家，
-你可以从GEnie下载一个程序，该程序（一个图形前端（Graphic Front End,GFE））可以使用一个datacomm
-程序去连接GEnie（更清楚地说，百年战争游戏），并且可以拥有一个对其他玩家写消息的编辑器，
-而图形方面则可以显示游戏种更多的细节。使用其他PC类型的玩家仍然可以通过连接GEnie来游玩，但是
-不能使用GFE的全部功能。GFE是免费的（除了连接并下载它的费用，几块钱吧）
+你可以从GEnie下载一个程序，
+该程序（一个图形前端（Graphic Front End,GFE））可以使用一个datacomm程序去连接GEnie
+（更清楚地说，百年战争游戏），并且可以拥有一个对其他玩家写消息的编辑器，
+而图形方面则可以显示游戏种更多的细节。使用其他PC类型的玩家仍然可以通过连接GEnie来游玩，
+但是不能使用GFE的全部功能。GFE是免费的（除了连接并下载它的费用，几块钱吧）。
 
 When you first connect with this game via GEnie you immediately know you're not in Kansas
 any more. If it's you first time, you're asked if you want to join the game. If you answer yes you
@@ -1324,11 +1377,11 @@ information (age, state of health, wife, kids, state of your fortifications, tro
 control, claims on other players fiefs, etc.). 
 
 当你首次通过GEnie连接游戏时，你就会理解知道你并不在Kansas之类的地方。如果这是你第一次进入，
-你会被询问是否想要加入游戏，如果回答是，你就会接到一屏幕信息，它告诉你你的角色是什么（“你是
-William de Clinton，Huntington in Cambridgeshire，England的男爵”，或者“你是Captal de Buch，
-守备Buch on Gascon海岸港口的要塞的领主，并拥有三块领地。”）以及你的资源有什么（“其他拥有的领地，
-年收入等”），以及个人信息（年龄，健康数值，妻子，孩子，你的要塞的状态，你控制的军队，对
-其他玩家领地的宣称等）。
+你会被询问是否想要加入游戏，如果回答是，你就会接到一屏幕信息，
+它告诉你你的角色是什么（“你是William de Clinton，Huntington in Cambridgeshire，England的男爵”，
+或者“你是Captal de Buch，守备Buch on Gascon海岸港口的要塞的领主，并拥有三块领地。”）
+以及你的资源有什么（“其他拥有的领地，年收入等”），以及个人信息
+（年龄，健康数值，妻子，孩子，你的要塞的状态，你控制的军队，对其他玩家领地的宣称权等）。
 
 You can sign on and do nothing and your character's life will go on. In this case you would be
 the medieval equivalent of a couch potato. Taxes are collected and spent in your estate, dishonest
@@ -1339,12 +1392,13 @@ available, the line dies and you're out of the game. Among other things, you hav
 the wife and kiddies (which involves some interesting and obvious activities not normally found
 in wargames, but essential to medieval military affairs). 
 
-你可以在注册后什么都不干，而你的角色依然会继续生活下去。在这个情况中，你的角色基本等价于现代的
-沙发土豆（couch potato，即除了躺在沙发上看电视什么都不干的人）。税收被征收上来并用在你的资产中，
-不诚实的执事将偷掉其中的大部分剩余而生活将继续，而你除了观察外什么都不干。注意你会扮演你家族中
-最年长者，当这位长者去世时，下一个长者将接替其位置。如果没有合适的长者连任，则家族系谱断绝，游戏结束。
-除此之外，你还必须关注你的妻子和孩子（这涉及一些在一般兵棋中很难见到的有趣而且重要的事情，但是
-在中世纪军事事务却是很重要的。）
+你可以在注册后什么都不干，而你的角色依然会继续生活下去。在这个情况中，
+你的角色基本等价于现代的沙发土豆（couch potato，即除了躺在沙发上看电视什么都不干的人）。
+税收被征收上来并用在你的资产中，不诚实的执事将偷掉其中的大部分剩余而生活将继续
+，而你除了观察外什么都不干。注意你会扮演你家族中最年长者，当这位长者去世时，
+下一个长者将接替其位置。如果没有合适的长者连任，则家族系谱断绝，游戏结束。
+除此之外，你还必须关注你的妻子和孩子（这涉及一些在一般兵棋中很难见到的有趣而且重要的事情，
+但是在中世纪军事事务却是很重要的。）
 
 However, there is much to do and this is the virtue of an online computer game. The key here is
 the multiple players and the ease of communication and interaction. Multiplayer games are
@@ -1364,14 +1418,16 @@ experience. Should some bloody minded sixteen year old find him (or her) self ki
 surrounded by a few equally rapacious nobles and faced with a thirty-five year old tax
 accountant, management consultant or college professor playing the king of England. 
 
-网上电脑游戏的优点之一就是易于玩家的交流和交互。多人游戏通常比双人游戏更有意思，但是在大多数情况下
-难以实现，因为很难集齐各个玩家。网上游戏解决了这个困难，无论你在哪，都可以接到和发送消息。
-你也可以与其他在线的玩家对话，并一同参与竞赛（骑马长枪比武，决斗之类的），狩猎，阴谋或者国家事务
-（这两者之间并没有很大的差别）。在一个从法兰西一端到另一端要花三周时间的时代，之所以存在这种即时沟通能力，
-可以被实际上一回合的时间长达三个月（对应一天真实时间）来解释。玩家也许会更有效的分配他的90天，
-如卖力地管理他的领地或者练习武艺。但实际上在这段时间，他们很可能花了大多数（如果不是全部）时间
-去用于狩猎和打仗。自然地，越有野心的玩家（也许同样越老的玩家）将倾向于构建他们的权势，通过管理和
-外交。重要的是300个在基于历史的游戏的玩家将创造一个有趣的体验。想想一个嗜血的十六岁少年（或少女）
+网上电脑游戏的优点之一就是易于玩家的交流和交互。多人游戏通常比双人游戏更有意思，
+但是在大多数情况下难以实现，因为很难集齐各个玩家。网上游戏解决了这个困难，无论你在哪，
+都可以接到和发送消息。你也可以与其他在线的玩家对话，
+并一同参与竞赛（骑马长枪比武，决斗之类的），狩猎，阴谋或者国家事务
+（这两者之间并没有很大的差别）。在一个从法兰西一端到另一端要花三周时间的时代，
+存在这种即时沟通能力看上去很奇怪，不过考虑到一回合的时间长达三个月（对应一天真实时间），也不算太不合理。
+玩家也许会更有效的分配他的90天，如卖力地管理他的领地或者练习武艺。
+但实际上在这段时间，他们很可能花了大多数（如果不是全部）时间去用于狩猎和打仗。
+自然地，越有野心的玩家（也许同样越老的玩家）将倾向于构建他们的权势，通过管理和外交。
+重要的是300个在基于历史的游戏的玩家将创造一个有趣的体验。想想一个嗜血的十六岁少年（或少女）
 也许会发现它作为法王，报一群同样贪婪的贵族所包围，同时还要面对扮演英王的三十五岁的税务顾问，
 管理咨询或者大学教授的情景。
 
@@ -1390,11 +1446,12 @@ weapons, no timeouts and no referees (and very few rules).
 当然，这个游戏仅仅是看上去就很有趣的样子。你也的确可以看看，通过以下口头描述当一会云玩家。
 
 战役在这个时间段并不是很频繁（也许一个现实月里有一两次，或者说每7个游戏年中有1,2次）。
-尽管你可以看到它们发生的进程（经费被收集，雇佣兵被召集，谈判等），所以我们将公告它们并且
-让感兴趣的GEnie用户可以在终端模式里看到他们的行动。“百年战争：见证Rouen战役，
-发生于1993年2月3日下午9点”。“传令官”（管理员）会给出详细的报告和评论，包括战斗地图（XO来表示），
-加上参与者的采访，战斗前和战斗后的评论之类的。有所有东西除了车尾聚会（taillgate parties）
-（译：指看外出看体育比赛的一种聚会）。有点像流血的足球比赛，只是没有时间限制和裁判（以及很少一点规则）。
+尽管你可以看到它们发生的进程（经费被收集，雇佣兵被召集，谈判等），
+所以我们将公告它们并且让感兴趣的GEnie用户可以在终端模式里看到他们的行动。
+“百年战争：见证Rouen战役，发生于1993年2月3日下午9点”。“传令官”（管理员）会给出详细的报告和评论，
+包括战斗地图（XO来表示），加上参与者的采访，战斗前和战斗后的评论之类的。
+会有所有东西除了车尾聚会（taillgate parties）（译：指看外出看体育比赛的一种聚会）。
+有点像流血版的足球赛，只是没有时间限制和裁判（以及很少一点规则）。
 
 "Here we are folks, outside the French city of Rouen in the year of our Lord 1376, where the
 Duke of Normandy and the Count of Artois have marshalled their forces to settle a dispute over
@@ -1407,10 +1464,10 @@ English longbowmen?" And so on...
 
 “这里是吃瓜群众，正在法兰西城市Rouen外，现在是自我们的主诞生以来的1376年。在这里，
 诺曼底公爵和Artois公爵统领着他们的军队准备解决一场关于谁将成为布列塔尼公爵的争端。
-诺曼人拥有一支由Bedford伯爵指挥的英格兰分遣队，是当前的种子选手。六千诺曼人和一万一千
-法兰西军队的战斗准备即将十五分钟后的东部时间下午9:40开始。我们将直播采访这位大人，
-法兰西治安官（Constable，译：法兰西五大官员头衔之一），Artois伯爵。告诉我们，伯爵大人，
-你将打算如何对付英国人的长弓兵？”之类的。。。
+诺曼人拥有一支由Bedford伯爵指挥的英格兰分遣队，是当前的种子选手。
+六千诺曼人和一万一千法兰西军队的战斗准备即将十五分钟后的东部时间下午9:40开始。
+我们将直播采访这位大人，法兰西治安官（Constable，译：法兰西五大官员头衔之一），Artois伯爵。
+告诉我们，伯爵大人，你将打算如何对付英国人的长弓兵？”之类的。。。
 
 More frequently, there will be tournaments. These involve all sorts of individual combat,
 including jousting. The joust will be handled like the familiar vehicle simulators computer games
@@ -1421,9 +1478,10 @@ make bets (with ducats only) on the action (another bit of historical realism). 
 were also a popular way to settle sieges. Real (not blunted) weapons were used and the fight was
 to the death. 
 
-出现的更多的是竞技赛。这包含各种类型的个体战斗，如骑马长枪比武（jousting）。这种决斗类似
-赛车模拟游戏。我们的版本将包含来自各地的十二个玩家，他们排在一排，为名声，荣誉，（游戏中的）金钱
-对对方发起冲锋。我们也在做一个系统，该系统可以为为其他玩家观看他们的装具，并提供一个赌博机制
+出现的更多的是竞技赛。这包含各种类型的个体战斗，如骑马长枪比武（jousting）。
+这种决斗类似赛车模拟游戏。我们的版本将包含来自各地的十二个玩家，
+他们排在一排，为名声，荣誉，（游戏中的）金钱对对方发起冲锋。
+我们也在做一个系统，该系统可以为为其他玩家观看他们的装具，并提供一个赌博机制
 （仅能使用杜卡特），赌比武的结果（又成功了反映了中世纪历史的一个方面）。注意骑马长枪比武
 也是解决城堡围攻的一个流行的方式。不过这里使用真正的长枪而非钝器，并战至一方战死为止。
 
@@ -1442,15 +1500,17 @@ Players can have a major impact while only incurring costs of no more than $20-$
 This way, we hope to get a lot more players involved. Online gaming looks to be one of the more
 interesting new areas for historical simulations in quite some time. 
 
-自然地，使用新技术将带来更高的花费。使用GEnie网络连接游戏的费用是每小时6美元（1992年物价，按分钟计费）。
-游戏被设计为，如果你使用GFE，你每个月只需用上线2-3小时。如果这个游戏运营了整个游戏百年（现实400天），它将会
-花掉你大约200美元以玩过整场游戏。这相当于每天50年美元。不算很便宜，不过也没有那么贵。你还能怎么参与
-这个游戏呢。线上游戏的一个问题就是它的话费。有些成瘾网上游戏玩家发现他们在游戏上每月花了数百美元，
-从而其中很多人因为负担不起而被迫中途退出。百年战争的独特之处在于它将成为第一个试图解决这个
-问题的线上游戏。游戏的设计方式使得每月在游戏中花掉数百美元并不会使你获得太大优势（除非你
-花费很多去试图精通骑马长枪比武，中世纪中倒也的确经常发生类似的事），玩家仅需花费20-30美元美元就可
-造成很大的影响。通过这个方式，我们希望使得更多玩家参与。网络游戏看起来是历史模拟游戏可以大展身手
-的崭新领域。
+自然地，使用新技术将带来更高的花费。使用GEnie网络连接游戏的费用是每小时6美元
+（1992年物价，按分钟计费）。游戏被设计为，如果你使用GFE，你每个月只需用上线2-3小时。
+如果这个游戏运营了整个游戏百年（现实400天），它将会花掉你大约200美元以玩过整场游戏。
+这相当于每天50美分。不算很便宜，不过也没有那么贵。你还能怎么参与这个游戏呢。
+线上游戏的一个问题就是它的费用。有些成瘾网上游戏玩家发现他们在游戏上每月花了数百美元，
+从而其中很多人因为负担不起而被迫中途退出。
+百年战争的独特之处在于它将成为第一个试图解决这个问题的线上游戏。
+游戏的设计方式使得每月在游戏中花掉数百美元并不会使你获得太大优势
+（除非你花费很多去试图精通骑马长枪比武，中世纪中倒也的确经常发生类似的事），
+玩家仅需花费20-30美元美元就可造成很大的影响。通过这个方式，我们希望使得更多玩家参与。
+网络游戏看起来是历史模拟游戏可以大展身手的崭新领域。
 
 But why just talk about it when we can walk you through a few activities of the actual game
 (alpha version) in late 1991. I was playing Louis II, Count of Flanders. What follows is what
@@ -1539,8 +1599,8 @@ GEnie公告 (免费)
 at that. I entered the command "Move 945" and that took me to the Hundred Years War (HYW)
 game. The GFE would take you there automatically.]
 
-[首先你会看到的东西是GEnie ID和这些广告内容。你不是必须看这些东西，我输入命令“Move 945”进入
-百年战争（HYM）游戏。GFE程序则会自动进入游戏。]
+[首先你会看到的东西是GEnie ID和这些广告内容。你不是必须看这些东西，
+我输入命令“Move 945”进入百年战争（HYM）游戏。GFE程序则会帮你自动进入游戏。]
 
 ```
 The game and its RT are a GEnie VALUE ($6 an hour) Service
@@ -1633,7 +1693,7 @@ GEnie 945页
 9. HYW圆桌会议
 10. 给DEMO反馈
 
-输入 #, <P>revious, 或 <H>elp?1
+输入 #, <P>(revious)跳到上一页, 或 <H>(elp)查看帮助 ? 1 (译：这个1表示输入了1，下同)
 
 ```
 
@@ -1655,7 +1715,7 @@ see how I'm doing.]
 10. Dump Vital Financial Information
 11. Dump Vital Family Information
 12. <I>nteractive Court
-Enter #, or <ENTER> To Exit: 2
+输入 #, or <ENTER> To Exit: 2
 ```
 
 ```
@@ -2627,13 +2687,6 @@ AFC05 Pesmes 1.0-          AFC04 Besancon   AFC03 Clerval 1.0-
 
 选择一个数字前往你想去的方向，或者
 
-2. <Exa>mine Fief             5. <V>isit Court and Enter Keep
-8. <Po>rt Movement            10. <A>rmies in Fief
-11. <Ent>er Keep              12. <Exi>t Keep
-13. <L>ist Those Outside Keep 14. <C>ombat\Dirty Deeds Menu
-15. <F>ief Management         16. <Pe>rsonal Affairs Menu
-17. Army <M>anagement         18. <O>nline Messages
-
 2. <Exa>(mine)检查领地        5. <V>(isit)进入城堡并访问宫廷
 8. <Po>(rt) 港口移动          10. <A>(rmies)领地里的军团
 11. <Ent>(er) Keep 进入城堡   14. <Exi>(t) 离开城堡
@@ -2991,12 +3044,13 @@ in a Valois heir that was not a Valois (the queen publicly admitted as much.) Fr
 the illegitimate Valois was a much smoother article than the genuine Valois and accepted the
 bastard heir. This did much to turn things around for the French.]
 
-[吼啊。骑士精神总是活在如此的阴影之下。游戏中包括做这样的苟且之事的功能因为这种事在14世纪的确常见。
+[吼啊。骑士精神总是在阴影之下才能发扬。游戏中包括做这样的苟且之事的功能因为这种事在14世纪的确常见。
 事实上，你不能在一个号称真实的百年战争游戏中不包含通奸内容。似乎法兰西最大的问题就是它的通知家族，
 Valois。这个时间点Valois是“基因上出现了偏差”，正如游戏设计使得父母的特性会遗传给子女，
 Valois家族也将会需要几代优秀的夫人来把劣等基因移除出去。法兰西不能等待那么久，
-一位法王在游戏时间的一半都处于精神错乱中，从而他的妻子就引起了各个贵族的注意。这导致了Valois的继承人
-其实并不是Valois的种（王后公开承认这一点），法兰西觉得这个非法的Valois比真正的Valois更合适，
+一位法王在游戏时间的一半都处于精神错乱中，从而他的妻子就引起了各个贵族的注意。
+这导致了Valois的继承人其实并不是Valois的种（王后公开承认这一点），
+法兰西觉得这个非法的Valois比真正的Valois更合适，
 并接受这个野种作为继承人。这个跟法兰西的命运有很大的关系。]
 
 [Back at the Travel Menu, I go to the Army Management Menu, I proceed to hire some troops by
@@ -3005,8 +3059,9 @@ follow my banner. This cannot gather many troops, but when you need some soldier
 this is the way to go. Gathering a large army, the "Call to Arms," takes several months and
 everyone knows about it.]
 
-[回到旅行菜单，进入军队管理菜单，我通过在当前领地征兵来组建军队。我可以通过给当地军事团体一些钱
-来让它们立即追随我的旗帜。这个方法并不能招到很多军队，但是当你需要迅速招到一些战士时是有用的。
+[回到旅行菜单，进入军队管理菜单，我通过在当前领地征兵来组建军队。
+我可以通过给当地军事团体一些钱来让它们立即追随我的旗帜。这个方法并不能招到很多军队，
+但是当你需要迅速招到一些战士时是有用的。
 召集大军需要使用“战斗动员”（Call to Arms）]，这将消耗几个月并且被所有人知道。
 
 ```
@@ -3041,3 +3096,145 @@ Year: 1340 Season: Fall Days Left: 76.0
 
 Press <ENTER> to continue.
 ```
+
+```
+军团管理
+
+1. <C>(all)战斗动员
+2. <R>(ecruit)在当前领地征兵
+3. <A>(rmy)军团状况
+4. <D>(isband)解散军团
+5. <M>(uster)解散(Muster out)
+6. <S>(tanding) 委托书(Standing order)
+7. <T>(ransfer) 移动军队
+8. <P>(ick)召集军队相应战斗动员
+9. 制造 <F>(leet)战舰
+999. 移动到百年战争主菜单
+
+输入 #, 或 回车 以 退出: r
+
+钱包: 877.00 K杜卡特
+
+每个战士每季消耗1K杜卡特，你也必须支付1K杜卡特作为征募费用。
+你想要征召多少战士: 200
+你征召了:
+ 16 骑士
+ 7 武装人员
+ 0 自由民
+ 177 步兵
+你的征募行动花费了3天时间。
+
+1340年 秋季 剩余 76.0 天
+
+按 回车 以 继续.
+```
+
+[I've got my troops, who will stay with me as long as I pay them.]
+
+[There's a lot more to the game. But you have to be there to appreciate it all.]
+
+[Back at the main menu, I leave the game, and GEnie.]
+
+[我已经组建了我的军队，他们将站在我一边只要我继续支付工资。]
+
+[尽管这个游戏还有很多内容，但你只能看到那么多了。]
+
+[回到主菜单，我退出了游戏与GEnie。]
+
+```
+Thank you for choosing GEnie.
+
+Have a nice day!
+
+Online: 9 minutes, 50 seconds.
+
+OFF AT 21:56EST 11/07/92
+
+NO CARRIER
+```
+
+```
+感谢您选择GEnie
+
+祝你有愉快的一天。
+
+上线时间：9分钟50秒。
+
+于 东部时间1992年7月11日 21:56 下线
+
+断开连接
+```
+
+## Computer Wargame Design Tips for the Military Designer
+
+There are several items that the military wargame designer has to consider. These are issues that
+the commercial wargame designer rarely, or never, encounters. To put it in the proper
+perspective, I call wargames "models" in this section. Especially in the military, "game" is a dirty
+word. 
+
+### Map or Not
+
+A key decision is whether your model needs a map display. Some don't, but nearly all can
+benefit. If not a tactical map display, then graphic displays to make data easier to absorb. 
+
+## 面向军事向设计师的电脑兵棋设计技巧
+
+有些军事兵棋设计师必须考虑，但商业兵棋设计师很少或从来不会遇上的东西。为了使用一种恰当的口吻，
+我将在这一节把兵棋称为“模型”，考虑到在军事上“游戏”是个肮脏的词汇。
+
+### 有没有地图
+
+模型是否显示地图是个关键的决策，有的模型确实不显示，不过对几乎所有模型而言，有地图的显示都是有好处的。
+即使不显示出战术地图，图形化显示也能使得数据变得更吸引人。
+
+### Visible or Black Box
+
+One easy way to cut costs and trim development time is to minimalist user access to what is
+going on in the model. Models with limited access are known as Black Box models. In the past,
+when computer resources were limited, or unavailable, Black Boxes were unavoidable. The
+downside was that Black Boxes are less credible to users, particularly if these results are striking
+and against the grain. The Visible Model allows the user ready access to what's going on in the
+model. The user can then, often interactively, query the model as to how a particular result was
+reached. 
+
+### 白箱与黑箱
+
+通过减少用户对于模型内部运行方式和状态的了解，可以极大地减少开发时间和成本。
+这个方式被称为黑箱模型，在电脑资源受限的过去，使用黑箱模型是不可避免的。
+黑箱的缺点在于用户对模型可能不太信任，特别是黑箱给出与现实不一致的结果时。
+白箱模型允许玩家看到模型的运作过程，从而用户与其交互，如查出一个特定结果是如何产生出来的。
+
+### Sanitized Basic Version
+
+Most defense community models are highly classified. A major shortcoming of this is the limited
+number of people who can review the model. The greater the number of reviewers, the more
+likely errors and problems in the model will be detected and corrected. This problem can be
+corrected by developing a version of the model that is unclassified (sanitized). 
+
+### Intelligent User Access
+
+It's not enough to give the user access to the inner workings of the model, it must be efficient,
+thorough, in other words intelligent access. Makes both the model and the user much more
+efficient and effective. 
+
+### 被审查的简单版本
+
+很多防务界模型被过度分类，这么做的一个缺点就是只有很少的人能审阅这些模型。而显然审阅人越多，
+模型被发现出错而修改的概率就越大。问题可以通过开发一个不被分类（审查）的模型版本来解决。
+
+### 智能用户访问
+
+仅仅是让用户能看到模型的内部工作方式是不够的，显示的方式必须是易读的，或者说是“智能的”。
+这可让模型和用户都能高效工作。
+
+### Inexpensive Workstations
+
+What was an engineering workstation five years ago is today a high end, 32 bit Personal
+Computer costing less than $5,000 a unit with hard disk and high resolution graphics. This
+provides the opportunity to create a model that can be used very widely. This is an asset that
+must be considered. 
+
+### 实惠的工作站
+
+五年前的工程工作站今天只是一台高配置的32bit个人电脑，其价格低于5000美元，且拥有硬盘和高分辨率画面显示。
+这使得我们可以创建可以运用的十分广泛的模型，这是一个必须被考虑的好处。
